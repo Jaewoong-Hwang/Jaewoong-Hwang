@@ -35,7 +35,7 @@ gantt
     React           :done,  P4, 2023-01-01, 75d
     Node.js         :done,  P5, 2023-01-01, 85d
     Docker          :done,  P6, 2023-01-01, 65d
-
+```
 
 ---
 

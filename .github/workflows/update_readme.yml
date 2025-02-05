@@ -20,12 +20,13 @@ jobs:
         run: |
           sed -i "/## 📊 Today’s Commits/c\## 📊 Today’s Commits: $TODAY_COMMITS" README.md
 
-      - name: Commit and Push
+            - name: Commit and Push
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}  # Secrets 확인 필요!
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+          git pull origin main  # 🔹 최신 코드 가져오기 추가
           git add README.md
           git commit -m "자동 업데이트: 오늘의 커밋 수 추가" || exit 0
-          git push https://x-access-token:${GH_PAT}@github.com/Jaewoong-Hwang/Jaewoong-Hwang.git
+          git push https://x-access-token:${GH_PAT}@github.com/Jaewoong-Hwang/Jaewoong-Hwang.git main

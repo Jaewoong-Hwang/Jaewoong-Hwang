@@ -1,8 +1,9 @@
-name: Update README
-
 on:
+  push:
+    branches:
+      - main
   schedule:
-    - cron: "0 0 * * *" # 매일 자정(UTC 기준)에 실행
+    - cron: "0 0 * * *" # 매일 자정 실행
   workflow_dispatch:
 
 jobs:

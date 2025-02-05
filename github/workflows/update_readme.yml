@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  update_readme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3

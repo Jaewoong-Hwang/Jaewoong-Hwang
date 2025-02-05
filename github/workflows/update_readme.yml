@@ -10,17 +10,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
       - name: Fetch today's commit count
         run: |
-          TODAY_COMMITS=$(curl -s "https://api.github.com/users/YOUR_GITHUB_USERNAME/events" | jq '[.[] | select(.type=="PushEvent") | .created_at | select(startswith("'$(date -u +%Y-%m-%d)'"))] | length')
+          TODAY_COMMITS=$(curl -s "https://api.github.com/users/Jaewoong-Hwang/events" | jq '[.[] | select(.type=="PushEvent") | .created_at | select(startswith("'$(date -u +%Y-%m-%d)'"))] | length')
           echo "TODAY_COMMITS=$TODAY_COMMITS" >> $GITHUB_ENV
+
       - name: Update README
         run: |
           sed -i "/## 📊 Today’s Commits/c\## 📊 Today’s Commits: $TODAY_COMMITS" README.md
+
       - name: Commit and Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add README.md
-          git commit -m "자동 업데이트: 오늘의 커밋 수 추가"
-          git push
+          git commit -m "자동 업데이트: 오늘의 커밋 수 추가" || exit 0
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/Jaewonng_HWang/Jaewoong_Hwang.git

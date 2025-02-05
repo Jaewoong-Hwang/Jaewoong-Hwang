@@ -32,7 +32,7 @@ bar
     "TypeScript" : 70
     "React" : 75
     "Node.js" : 85
-```
+
 ---
 
 ## 📊 Today’s Commits: 0 

@@ -23,14 +23,15 @@
 
 ---
 
-## 🏆 Skill Proficiency
-
+mermaid
 bar
     title 기술 숙련도
     "Python" : 90
     "JavaScript" : 80
     "TypeScript" : 70
     "React" : 75
+    "Node.js" : 85
+    "Docker" : 65
 
 ---
 

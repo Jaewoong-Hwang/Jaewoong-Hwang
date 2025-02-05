@@ -33,4 +33,4 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git add README.md
           git commit -m "자동 업데이트: 오늘의 커밋 수 추가" || exit 0
-          git push https://x-access-token:${GH_PAT}@github.com/Jaewonng-Hwang/Jaewoong Hwang.git
+          git push https://x-access-token:${GH_PAT}@github.com/Jaewonng-Hwang/Jaewoong-Hwang.git

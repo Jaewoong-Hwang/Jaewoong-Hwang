@@ -26,15 +26,14 @@
 ## 🏆 Skill Proficiency
 
 ```mermaid
-gantt
+bar
     title 기술 숙련도
-    section Skills
-    Python           :done,  P1, 2023-01-01, 90d
-    JavaScript       :done,  P2, 2023-01-01, 80d
-    TypeScript       :done,  P3, 2023-01-01, 70d
-    React           :done,  P4, 2023-01-01, 75d
-    Node.js         :done,  P5, 2023-01-01, 85d
-    Docker          :done,  P6, 2023-01-01, 65d
+    "Python" : 90
+    "JavaScript" : 80
+    "TypeScript" : 70
+    "React" : 75
+    "Node.js" : 85
+    "Docker" : 65
 ```
 
 ---

@@ -11,11 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
-
       - name: Fetch today's commit count
         run: |
           TODAY_COMMITS=$(curl -s "https://api.github.com/users/Jaewoong-Hwang/events" | jq '[.[] | select(.type=="PushEvent") | .created_at | select(startswith("'$(date -u +%Y-%m-%d)'"))] | length')
@@ -27,10 +22,10 @@ jobs:
 
       - name: Commit and Push
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GH_PAT: ${{ secrets.GH_PAT }}  # Secret 이름 확인 필요
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add README.md
           git commit -m "자동 업데이트: 오늘의 커밋 수 추가" || exit 0
-          git push https://x-access-token:${GH_PAT}@github.com/Jaewonng-Hwang/Jaewoong-Hwang.git
+          git push https://x-access-token:${GH_PAT}@github.com/Jaewoong-Hwang/Jaewoong-Hwang.git

@@ -1,4 +1,4 @@
-<h2><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hello, I'm [Your Name]! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
+<h2><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hello, I'm Jaewoong! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
 
 <img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
 
@@ -35,7 +35,7 @@ bar
 ```
 ---
 
-## 📊 Today’s Commits: 0 (자동 업데이트됨)
+## 📊 Today’s Commits: 0 
 
 ---
 
@@ -49,7 +49,7 @@ bar
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Jaewoong-Hwang&show_icons=true&theme=tokyonight"/>
 </p>
 
 ---

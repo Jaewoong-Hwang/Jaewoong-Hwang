@@ -25,26 +25,34 @@ def fetch_recent_posts():
     soup = BeautifulSoup(driver.page_source, "html.parser")
     driver.quit()  
 
-    # 최신 블로그 포스트 찾기 (h2 태그가 포함된 글만 선택)
+    # 블로그 포스트 컨테이너 선택
+    post_elements = soup.select("div.FlatPostCard_block__a1qM7")
+
     posts = []
-    for h2 in soup.find_all("h2"):
-        a_tag = h2.find_parent("a")  # <h2> 태그가 포함된 <a> 태그 찾기
-        if not a_tag:
+    
+    for post in post_elements:
+        a_tag = post.find("a", class_="VLink_block__Uwj4P")
+        h2_tag = post.find("h2")
+        date_span = post.find("span")
+
+        if not a_tag or not h2_tag or not date_span:
             continue
 
-        title = h2.text.strip()
+        title = h2_tag.text.strip()
         link = a_tag["href"]
+        date = date_span.text.strip()
+
+        # 상대 경로를 절대 경로로 변환
         if not link.startswith("https://"):
             link = "https://velog.io" + link
 
+        # URL에 '#' 포함된 경우 제외 (해시태그 링크 필터링)
         if "#" in link:
             continue
         
-        date_element = h2.find_parent("div").find_next("span")  
-        date = date_element.text.strip() if date_element else "Unknown Date"
-
         posts.append((title, date, link))
         
+        # 최신 5개 글까지만 가져오기
         if len(posts) == 5:
             break
     

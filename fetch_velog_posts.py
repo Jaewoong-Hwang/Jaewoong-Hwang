@@ -5,19 +5,23 @@ from bs4 import BeautifulSoup
 BLOG_URL = "https://velog.io/@mypalebluedot29"
 
 def fetch_recent_posts():
-    response = requests.get(BLOG_URL)
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+    }
+    response = requests.get(BLOG_URL, headers=headers)
+    
     if response.status_code != 200:
         print("Failed to fetch the blog page.")
         return []
     
     soup = BeautifulSoup(response.text, "html.parser")
     
-    # 벨로그에서 최신 블로그 포스트 찾기
-    post_elements = soup.select("div.sc-1db29b6-0.kmaMnt a")
+    # 벨로그 최신 글 목록을 올바르게 찾기
+    post_elements = soup.select("a.article-list-item")  # 최신 블로그 포스트 링크 가져오기
     
     posts = []
     for post in post_elements[:5]:  # 최신 5개 글 가져오기
-        title = post.text.strip()
+        title = post.select_one("h2").text.strip() if post.select_one("h2") else "Untitled"
         link = "https://velog.io" + post["href"]
         posts.append(f"- [{title}]({link})")
     
@@ -41,4 +45,4 @@ if __name__ == "__main__":
     if recent_posts:
         update_readme(recent_posts)
     else:
-        print("No new posts found.")
+        print("❌ No new posts found. Check the blog URL or structure.")

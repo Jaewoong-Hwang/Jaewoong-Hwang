@@ -2,7 +2,7 @@ name: Update Blog Posts
 
 on:
   schedule:
-    - cron: "0 15 * * *" # 매일 자정 실행 (UTC 기준)
+    - cron: "0 15 * * *"  # 매일 자정(00:00) KST(UTC+9) 실행
   workflow_dispatch:
 
 jobs:
@@ -11,10 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
+      - name: Install dependencies
+        run: pip install beautifulsoup4 requests
+
       - name: Fetch latest blog posts
-        uses: gautamkrishnar/blog-post-workflow@master
-        with:
-          feed_list: "https://velog.io/rss/@mypalebluedot29"  # 🔹 벨로그 RSS 피드 주소 추가
+        run: python fetch_velog_posts.py
 
       - name: Commit and Push
         env:

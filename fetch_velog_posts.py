@@ -28,12 +28,13 @@ def fetch_recent_posts():
     driver.quit()  # 브라우저 종료
 
     # 최신 블로그 포스트 찾기
-    post_elements = soup.select("a.article-card")  # 최신 블로그 글 찾기
+    post_elements = soup.select("a.VLink_block__Uwj4P")  # 최신 블로그 글 찾기
     posts = []
     
     for post in post_elements[:5]:  # 최신 5개 글 가져오기
-        title = post.select_one("h2").text.strip() if post.select_one("h2") else "Untitled"
-        link = "https://velog.io" + post["href"]
+        title_element = post.find("h2")
+        title = title_element.text.strip() if title_element else "Untitled"
+        link = post["href"]
         posts.append(f"- [{title}]({link})")
     
     return posts

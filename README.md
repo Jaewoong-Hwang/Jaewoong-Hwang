@@ -57,3 +57,21 @@
 ## 📫 Contact Me
 - 📧 Email: your.email@example.com
 - 🔗 Blog: [yourblog.com](https://yourblog.com)
+
+## 📝 Latest Blog Posts
+> 벨로그에서 최신 블로그 글을 자동 업데이트합니다! 🚀
+
+<!-- BLOG-POST-LIST:START -->
+## 📝 Latest Blog Posts
+> 벨로그에서 최신 블로그 글을 자동 업데이트합니다! 🚀
+
+| 📝 제목 | 📅 작성일 | 🔗 링크 |
+|---------|------------|---------|
+| **ㅎ2ㅎ2** | 8분 전 | [바로가기](https://velog.io/@mypalebluedot29/ㅎ2ㅎ2) |
+| **🖧 네트워크관리사 2급 기출문제 오답 정리 (2022년 5월 22일)** | 약 2시간 전 | [바로가기](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리-2022년-5월-22일) |
+| **CSS Transition, Transform, 그리고 Animation 학습** | 약 9시간 전 | [바로가기](https://velog.io/@mypalebluedot29/CSS-Transition-Transform-그리고-Animation-학습) |
+| **😎 Flexbox의 flex-grow, flex-shrink, flex-basis 이해하기** | 어제 | [바로가기](https://velog.io/@mypalebluedot29/Flexbox의-flex-grow-flex-shrink-flex-basis-이해하기) |
+| **😎Flexbox 기본 개념 정리** | 1일 전 | [바로가기](https://velog.io/@mypalebluedot29/Flexbox-기본-개념-정리) |
+
+🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
+<!-- BLOG-POST-LIST:END -->

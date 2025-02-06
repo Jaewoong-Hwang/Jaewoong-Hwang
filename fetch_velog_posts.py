@@ -32,16 +32,29 @@ def fetch_recent_posts():
 
     posts = []
     
-    for post in post_elements[:5]:  # 최신 5개 글 가져오기
+    for post in post_elements:
         title_element = post.find("h2")
-        title = title_element.text.strip() if title_element else "Untitled"
+
+        # 제목이 없으면 제외
+        if not title_element:
+            continue
+        
+        title = title_element.text.strip()
         link = post["href"]
         
         # 상대 경로를 절대 경로로 변환
         if not link.startswith("https://"):
             link = "https://velog.io" + link
+
+        # URL에 '#' 포함된 경우 제외 (해시태그 링크 필터링)
+        if "#" in link:
+            continue
         
         posts.append(f"- [{title}]({link})")
+        
+        # 최신 5개 글까지만 가져오기
+        if len(posts) == 5:
+            break
     
     return posts
 

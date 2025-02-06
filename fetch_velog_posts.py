@@ -19,28 +19,28 @@ def fetch_recent_posts():
     
     driver.get(BLOG_URL)
     time.sleep(5)  
-    
+    driver.refresh()  # 강제 새로고침 (최신 데이터 로드)
+    time.sleep(5)  
+
     soup = BeautifulSoup(driver.page_source, "html.parser")
     driver.quit()  
 
-    post_elements = soup.select("div.FlatPostCard_block__a1qM7 > a.VLink_block__Uwj4P")  
-
+    # 최신 블로그 포스트 찾기 (h2 태그가 포함된 글만 선택)
     posts = []
-    
-    for post in post_elements:
-        title_element = post.find("h2")
-        if not title_element:
+    for h2 in soup.find_all("h2"):
+        a_tag = h2.find_parent("a")  # <h2> 태그가 포함된 <a> 태그 찾기
+        if not a_tag:
             continue
-        
-        title = title_element.text.strip()
-        link = post["href"]
+
+        title = h2.text.strip()
+        link = a_tag["href"]
         if not link.startswith("https://"):
             link = "https://velog.io" + link
 
         if "#" in link:
             continue
         
-        date_element = post.find_next("span")  
+        date_element = h2.find_parent("div").find_next("span")  
         date = date_element.text.strip() if date_element else "Unknown Date"
 
         posts.append((title, date, link))
@@ -68,7 +68,6 @@ def update_readme(posts):
     with open("README.md", "r", encoding="utf-8") as f:
         content = f.readlines()
     
-    # 주석이 없을 경우 자동 추가
     if "<!-- BLOG-POST-LIST:START -->\n" not in content:
         content.append("\n## 📝 Latest Blog Posts\n")
         content.append("> 벨로그에서 최신 블로그 글을 자동 업데이트합니다! 🚀\n\n")
@@ -82,3 +81,11 @@ def update_readme(posts):
     
     with open("README.md", "w", encoding="utf-8") as f:
         f.writelines(new_content)
+
+if __name__ == "__main__":
+    recent_posts = fetch_recent_posts()
+    if recent_posts:
+        update_readme(recent_posts)
+        print("✅ 최신 블로그 포스트 업데이트 완료!")
+    else:
+        print("❌ No new posts found. Check the blog URL or structure.")

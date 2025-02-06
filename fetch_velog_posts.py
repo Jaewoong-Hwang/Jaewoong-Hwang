@@ -17,12 +17,12 @@ def fetch_recent_posts():
     soup = BeautifulSoup(response.text, "html.parser")
 
     # 최신 블로그 글 요소 선택
-    post_elements = soup.select("a.VLink_block__Uwj4P.FlatPostCard_postThumbnail__s7Hld")
+    post_elements = soup.select("a.VLink_block__Uwj4P")
 
     posts = []
     for post in post_elements[:5]:  # 최신 5개 글 가져오기
-        link = "https://velog.io" + post["href"]
-        title_element = post.find_next("h2")  # 제목을 포함하는 태그 찾기
+        link = post["href"]
+        title_element = post.find("h2")  # 제목 찾기
         title = title_element.text.strip() if title_element else "Untitled"
         posts.append(f"- [{title}]({link})")
     

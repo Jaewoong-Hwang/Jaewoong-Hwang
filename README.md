@@ -32,6 +32,7 @@
 
 ## 📝 Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Untitled](https://velog.io/search?username=mypalebluedot29)- [Untitled](https://velog.io/search?username=mypalebluedot29)- [🖧 네트워크관리사 2급 기출문제 오답 정리 (2022년 5월 22일)](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리-2022년-5월-22일)- [Untitled](https://velog.io/tags/linux)- [Untitled](https://velog.io/tags/네트워크관리사)
 <!-- BLOG-POST-LIST:END -->
 (매일 자동 업데이트됨)
 

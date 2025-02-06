@@ -107,31 +107,50 @@ def parse_relative_date(date_str, return_sort_key=False):
     return (formatted_date, sort_key) if return_sort_key else formatted_date
 
     
+from datetime import datetime, timezone, timedelta
+
 def update_readme(posts):
-    with open("README.md", "r", encoding="utf-8") as f:
-        content = f.readlines()
-    
-    start_index = content.index("<!-- BLOG-POST-LIST:START -->\n") + 1
-    end_index = content.index("<!-- BLOG-POST-LIST:END -->\n")
+    try:
+        with open("README.md", "r", encoding="utf-8") as f:
+            content = f.readlines()
 
-    new_content = content[:start_index] + [
-        "| 📝 제목 | 📅 작성일 (상대/변환) | 🔗 링크 |\n",
-        "|---------|------------------|---------|\n",
-    ] + [
-        f"| **{title}** | {original_date} ({converted_date}) | [바로가기]({link}) |\n"
-        if original_date != converted_date else f"| **{title}** | {converted_date} | [바로가기]({link}) |\n"
-        for title, original_date, converted_date, link, _ in posts
-    ] + [
-        "\n📅 **Last Updated:** " + datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " (KST)\n",
-        "🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**\n"
-    ] + content[end_index:]
+        # ✅ `<!-- BLOG-POST-LIST:START -->`가 없을 경우 자동 추가
+        try:
+            start_index = content.index("<!-- BLOG-POST-LIST:START -->\n") + 1
+            end_index = content.index("<!-- BLOG-POST-LIST:END -->\n")
+        except ValueError:
+            print("⚠️ README.md에 자동 업데이트 영역이 없어 새로 추가합니다.")
+            content.append("\n## 📝 Latest Blog Posts\n")
+            content.append("<!-- BLOG-POST-LIST:START -->\n")
+            content.append("<!-- BLOG-POST-LIST:END -->\n")
+            start_index = content.index("<!-- BLOG-POST-LIST:START -->\n") + 1
+            end_index = content.index("<!-- BLOG-POST-LIST:END -->\n")
 
-    with open("README.md", "w", encoding="utf-8") as f:
-        f.writelines(new_content)
+        # ✅ 최신 블로그 글을 표 형식으로 업데이트
+        new_content = content[:start_index] + [
+            "| 📝 제목 | 📅 작성일 (상대/변환) | 🔗 링크 |\n",
+            "|---------|------------------|---------|\n",
+        ] + [
+            f"| **{title}** | {original_date} ({converted_date}) | [바로가기]({link}) |\n"
+            if original_date != converted_date else f"| **{title}** | {converted_date} | [바로가기]({link}) |\n"
+            for title, original_date, converted_date, link, _ in posts
+        ] + [
+            "\n📅 **Last Updated:** " + datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d %H:%M:%S") + " (KST)\n",
+            "🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**\n"
+        ] + content[end_index:]
+
+        # ✅ 변경된 내용이 있는지 확인 후 업데이트
+        if "".join(content) != "".join(new_content):
+            with open("README.md", "w", encoding="utf-8") as f:
+                f.writelines(new_content)
+            print("✅ README.md 업데이트 완료!")
+        else:
+            print("ℹ️ 변경 사항이 없어 업데이트하지 않음.")
+
+    except Exception as e:
+        print(f"❌ README 업데이트 중 오류 발생: {e}")
 
 if __name__ == "__main__":
     recent_posts = fetch_recent_posts()
     if recent_posts:
         update_readme(recent_posts)
-    else:
-        print("❌ No new posts found. Check the blog URL or structure.")

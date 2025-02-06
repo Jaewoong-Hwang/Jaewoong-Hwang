@@ -1,4 +1,14 @@
 from datetime import datetime, timedelta
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+from bs4 import BeautifulSoup
+import time
+import re
+
+# 벨로그 블로그 주소
+BLOG_URL = "https://velog.io/@mypalebluedot29"
 
 def fetch_recent_posts():
     options = Options()
@@ -24,7 +34,7 @@ def fetch_recent_posts():
     for post in post_elements:
         a_tag = post.find("a", class_="VLink_block__Uwj4P")  
         h2_tag = post.find("h2")  
-        date_spans = post.find_all("span")  
+        date_spans = post.find_all("span") + post.find_all("p")  # ✅ <p> 태그도 확인
 
         if not a_tag or not h2_tag or not date_spans:
             continue  
@@ -33,12 +43,12 @@ def fetch_recent_posts():
         link = a_tag["href"]
 
         # ✅ 상대 URL을 절대 URL로 변환
-        if link.startswith("/"):
+        if not link.startswith("https://"):
             link = "https://velog.io" + link
 
         raw_date = ""
-        for span in date_spans:
-            span_text = span.text.strip()
+        for element in date_spans:
+            span_text = element.text.strip()
             if "전" in span_text or "어제" in span_text or re.match(r"\d{4}-\d{2}-\d{2}", span_text):
                 raw_date = span_text
                 break
@@ -60,33 +70,32 @@ def fetch_recent_posts():
 
     return posts[:5]
 
-
 def parse_relative_date(date_str, return_sort_key=False):
     now = datetime.now()
     
     if "초 전" in date_str:
         seconds = int(date_str.replace("초 전", "").strip())
         result_date = now - timedelta(seconds=seconds)
-        sort_key = 1000000 - seconds  # 높은 숫자가 최신 순
+        sort_key = 1000000 - seconds  
 
     elif "분 전" in date_str:
         minutes = int(date_str.replace("분 전", "").strip())
         result_date = now - timedelta(minutes=minutes)
-        sort_key = 900000 - minutes  # 초보다 작은 값
+        sort_key = 900000 - minutes  
 
     elif "시간 전" in date_str:
         hours = int(date_str.replace("시간 전", "").strip())
         result_date = now - timedelta(hours=hours)
-        sort_key = 800000 - hours  # 분보다 작은 값
+        sort_key = 800000 - hours  
 
     elif "어제" in date_str:
         result_date = now - timedelta(days=1)
-        sort_key = 700000  # "어제"는 상대적으로 낮은 값
+        sort_key = 700000  
 
     else:
         try:
             result_date = datetime.strptime(date_str, "%Y-%m-%d")
-            sort_key = int(result_date.strftime("%Y%m%d"))  # 날짜 값 자체를 정렬 기준으로 사용
+            sort_key = int(result_date.strftime("%Y%m%d"))
         except ValueError:
             return None if not return_sort_key else (None, None)
 
@@ -94,3 +103,31 @@ def parse_relative_date(date_str, return_sort_key=False):
 
     return (formatted_date, sort_key) if return_sort_key else formatted_date
 
+def update_readme(posts):
+    with open("README.md", "r", encoding="utf-8") as f:
+        content = f.readlines()
+    
+    start_index = content.index("<!-- BLOG-POST-LIST:START -->\n") + 1
+    end_index = content.index("<!-- BLOG-POST-LIST:END -->\n")
+
+    new_content = content[:start_index] + [
+        "| 📝 제목 | 📅 작성일 (상대/변환) | 🔗 링크 |\n",
+        "|---------|------------------|---------|\n",
+    ] + [
+        f"| **{title}** | {original_date} ({converted_date}) | [바로가기]({link}) |\n"
+        if original_date != converted_date else f"| **{title}** | {converted_date} | [바로가기]({link}) |\n"
+        for title, original_date, converted_date, link, _ in posts
+    ] + [
+        "\n📅 **Last Updated:** " + datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " (KST)\n",
+        "🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**\n"
+    ] + content[end_index:]
+
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.writelines(new_content)
+
+if __name__ == "__main__":
+    recent_posts = fetch_recent_posts()
+    if recent_posts:
+        update_readme(recent_posts)
+    else:
+        print("❌ No new posts found. Check the blog URL or structure.")

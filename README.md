@@ -35,13 +35,14 @@
 
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------|---------|
-| **CSS Transition, Transform, 그리고 Animation 학습** | 2025-02-05 | [바로가기](https://velog.io/@mypalebluedot29/CSS-Transition-Transform-그리고-Animation-학습) |
-| **네트워크관리사 2급 기출문제 정리** | 2025-02-04 | [바로가기](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리-2022년-5월-22일) |
-| **🐧 리눅스 공부 3일차** | 2025-02-03 | [바로가기](https://velog.io/@mypalebluedot29/리눅스-공부-3일차-사용자-및-그룹-관리) |
-| **Flexbox 속성 이해하기** | 2025-02-02 | [바로가기](https://velog.io/@mypalebluedot29/Flexbox의-flex-grow-flex-shrink-flex-basis-이해하기) |
-| **🐧 리눅스 기본 명령어 정리** | 2025-02-01 | [바로가기](https://velog.io/@mypalebluedot29/리눅스-공부-2일차-리눅스-기본-명령어) |
+| **CSS Transition, Transform, 그리고 Animation 학습** | 2025-02-06 | [바로가기](https://velog.io/@mypalebluedot29/CSS-Transition-Transform-그리고-Animation-학습) |
+| **ㅎ2ㅎ2** | 2025-02-06 | [바로가기](https://velog.io/@mypalebluedot29/ㅎ2ㅎ2) |
+| **네트워크관리사 2급 기출문제 오답 정리** | 2025-02-05 | [바로가기](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리) |
 
-🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**  
+📅 **Last Updated:** 2025-02-06 14:30:00 (KST)
+
+🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
+
 
 
 

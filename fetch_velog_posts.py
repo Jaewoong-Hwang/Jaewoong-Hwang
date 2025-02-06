@@ -68,6 +68,13 @@ def update_readme(posts):
     with open("README.md", "r", encoding="utf-8") as f:
         content = f.readlines()
     
+    # 주석이 없을 경우 자동 추가
+    if "<!-- BLOG-POST-LIST:START -->\n" not in content:
+        content.append("\n## 📝 Latest Blog Posts\n")
+        content.append("> 벨로그에서 최신 블로그 글을 자동 업데이트합니다! 🚀\n\n")
+        content.append("<!-- BLOG-POST-LIST:START -->\n")
+        content.append("<!-- BLOG-POST-LIST:END -->\n")
+
     start_index = content.index("<!-- BLOG-POST-LIST:START -->\n") + 1
     end_index = content.index("<!-- BLOG-POST-LIST:END -->\n")
     
@@ -75,11 +82,3 @@ def update_readme(posts):
     
     with open("README.md", "w", encoding="utf-8") as f:
         f.writelines(new_content)
-
-if __name__ == "__main__":
-    recent_posts = fetch_recent_posts()
-    if recent_posts:
-        update_readme(recent_posts)
-        print("✅ 최신 블로그 포스트 업데이트 완료!")
-    else:
-        print("❌ No new posts found. Check the blog URL or structure.")

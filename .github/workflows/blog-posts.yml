@@ -1,0 +1,28 @@
+name: Update Blog Posts
+
+on:
+  schedule:
+    - cron: "0 15 * * *" # 매일 자정 실행 (UTC 기준)
+  workflow_dispatch:
+
+jobs:
+  update-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Fetch latest blog posts
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://velog.io/rss/@mypalebluedot29"  # 🔹 벨로그 RSS 피드 주소 추가
+
+      - name: Commit and Push
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git pull origin main
+          git add README.md
+          git commit -m "🔄 자동 업데이트: 최신 블로그 포스트 추가" || exit 0
+          git push https://x-access-token:${GH_PAT}@github.com/Jaewoong-Hwang/Jaewoong-Hwang.git main

@@ -67,9 +67,9 @@
 
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------|---------|
-| **ㅎ2ㅎ2** | 8분 전 | [바로가기](https://velog.io/@mypalebluedot29/ㅎ2ㅎ2) |
-| **🖧 네트워크관리사 2급 기출문제 오답 정리 (2022년 5월 22일)** | 약 2시간 전 | [바로가기](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리-2022년-5월-22일) |
-| **CSS Transition, Transform, 그리고 Animation 학습** | 약 9시간 전 | [바로가기](https://velog.io/@mypalebluedot29/CSS-Transition-Transform-그리고-Animation-학습) |
+| **ㅎ2ㅎ2** | 22분 전 | [바로가기](https://velog.io/@mypalebluedot29/ㅎ2ㅎ2) |
+| **🖧 네트워크관리사 2급 기출문제 오답 정리 (2022년 5월 22일)** | 약 3시간 전 | [바로가기](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리-2022년-5월-22일) |
+| **CSS Transition, Transform, 그리고 Animation 학습** | 약 10시간 전 | [바로가기](https://velog.io/@mypalebluedot29/CSS-Transition-Transform-그리고-Animation-학습) |
 | **😎 Flexbox의 flex-grow, flex-shrink, flex-basis 이해하기** | 어제 | [바로가기](https://velog.io/@mypalebluedot29/Flexbox의-flex-grow-flex-shrink-flex-basis-이해하기) |
 | **😎Flexbox 기본 개념 정리** | 1일 전 | [바로가기](https://velog.io/@mypalebluedot29/Flexbox-기본-개념-정리) |
 

@@ -36,11 +36,11 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 (상대/변환) | 🔗 링크 |
 |---------|------------------|---------|
-| **ㅎ2ㅎ2** | 약 2시간 전 (2025-02-06 17:40) | [바로가기](https://velog.io/@mypalebluedot29/ㅎ2ㅎ2) |
-| **🖧 네트워크관리사 2급 기출문제 오답 정리** | 약 4시간 전 (2025-02-06 15:40) | [바로가기](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리-2022년-5월-22일) |
-| **CSS Transition, Transform, 그리고 Animation 학습** | 약 11시간 전 (2025-02-06 08:40) | [바로가기](https://velog.io/@mypalebluedot29/CSS-Transition-Transform-그리고-Animation-학습) |
+| **ㅎ2ㅎ2** | 약 2시간 전 (2025-02-06 17:45) | [바로가기](https://velog.io/@mypalebluedot29/ㅎ2ㅎ2) |
+| **🖧 네트워크관리사 2급 기출문제 오답 정리** | 약 4시간 전 (2025-02-06 15:45) | [바로가기](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리-2022년-5월-22일) |
+| **CSS Transition, Transform, 그리고 Animation 학습** | 약 11시간 전 (2025-02-06 08:45) | [바로가기](https://velog.io/@mypalebluedot29/CSS-Transition-Transform-그리고-Animation-학습) |
 
-📅 **Last Updated:** 2025-02-06 19:40:53 (KST)
+📅 **Last Updated:** 2025-02-06 19:45:51 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

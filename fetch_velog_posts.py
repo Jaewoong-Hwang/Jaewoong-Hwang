@@ -31,7 +31,11 @@ def fetch_recent_posts():
 
         title = h2_tag.text.strip()
         link = a_tag["href"]
-        
+
+        # ✅ 상대 URL을 절대 URL로 변환
+        if link.startswith("/"):
+            link = "https://velog.io" + link
+
         raw_date = ""
         for span in date_spans:
             span_text = span.text.strip()
@@ -42,23 +46,20 @@ def fetch_recent_posts():
         if not raw_date:
             continue  
 
-        # ✅ 상대 시간을 정렬할 수 있도록 숫자로 변환
         converted_date, sort_key = parse_relative_date(raw_date, return_sort_key=True)
         
-        print(f"✅ 변환된 날짜: {converted_date}, 정렬 값: {sort_key} ({title})")  
+        print(f"✅ 변환된 날짜: {converted_date}, 링크: {link} ({title})")  
 
         if not converted_date:
             continue
 
-        if not link.startswith("https://"):
-            link = "https://velog.io" + link
-
         posts.append((title, raw_date, converted_date, link, sort_key))
     
-    # ✅ 초 → 분 → 시간 → 어제 → 날짜 순으로 정렬
+    # ✅ 최신순 정렬 (초 → 분 → 시간 → 어제 → 날짜)
     posts.sort(key=lambda x: x[4], reverse=True)
 
     return posts[:5]
+
 
 def parse_relative_date(date_str, return_sort_key=False):
     now = datetime.now()

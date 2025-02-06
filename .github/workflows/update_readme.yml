@@ -10,16 +10,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - name: Fetch today's commit count
+      
+      - name: Fetch today's commit count (GraphQL API)
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          KST_DATE=$(date -u -d '9 hours' '+%Y-%m-%dT')  # KST 시간 변환 (ISO 형식)
-          TODAY_COMMITS=$(curl -s -H "Authorization: token $GH_PAT" "https://api.github.com/users/Jaewoong-Hwang/events?per_page=100" \
-            | jq "[.[] | select(.type==\"PushEvent\") | select(.created_at | startswith(\"$KST_DATE\"))] | length")
+          KST_DATE=$(TZ=Asia/Seoul date '+%Y-%m-%d')  # 한국 시간으로 날짜 가져오기
+          TODAY_COMMITS=$(curl -s -H "Authorization: bearer $GH_PAT" -X POST -d '{
+            "query": "query { viewer { contributionsCollection(from: \"'$KST_DATE'T00:00:00Z\", to: \"'$KST_DATE'T23:59:59Z\") { contributionCalendar { totalContributions } } } }"
+          }' https://api.github.com/graphql | jq '.data.viewer.contributionsCollection.contributionCalendar.totalContributions')
           echo "TODAY_COMMITS=$TODAY_COMMITS" >> $GITHUB_ENV
           echo "✅ Today’s commits: $TODAY_COMMITS"
+
 
       - name: Update README
         run: |

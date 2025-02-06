@@ -33,17 +33,8 @@
 ## 📝 Latest Blog Posts
 > 벨로그에서 최신 블로그 글을 자동 업데이트합니다! 🚀
 
-| 📝 제목 | 📅 작성일 (상대/변환) | 🔗 링크 |
-|---------|------------------|---------|
-| **ㅎ2ㅎ2** | 11분 전 (2025-02-06) | [바로가기](https://velog.io/@mypalebluedot29/ㅎ2ㅎ2) |
-| **CSS Transition, Transform, 그리고 Animation 학습** | 1시간 전 (2025-02-06) | [바로가기](https://velog.io/@mypalebluedot29/CSS-Transition-Transform-그리고-Animation-학습) |
-| **Flexbox의 flex-grow, flex-shrink, flex-basis 이해하기** | 어제 (2025-02-05) | [바로가기](https://velog.io/@mypalebluedot29/Flexbox의-flex-grow-flex-shrink-flex-basis-이해하기) |
-| **네트워크관리사 2급 기출문제 오답 정리** | 2025-02-05 | [바로가기](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리) |
-| **리눅스 공부 3일차: 사용자 및 그룹 관리** | 2025-02-03 | [바로가기](https://velog.io/@mypalebluedot29/리눅스-공부-3일차-사용자-및-그룹-관리) |
-
-📅 **Last Updated:** 2025-02-06 14:30:00 (KST)
-
-🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 
 

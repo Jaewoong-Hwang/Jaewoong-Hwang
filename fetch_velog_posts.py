@@ -45,28 +45,26 @@ def fetch_recent_posts():
         if not link.startswith("https://"):
             link = "https://velog.io" + link
 
-        # ✅ 기본값을 현재 날짜로 설정 (날짜가 없는 경우 대비)
-        raw_date = datetime.now().strftime("%Y-%m-%d %H:%M")
-        sort_key = int(datetime.now().strftime("%Y%m%d%H%M"))
-
+        # ✅ 날짜 추출
+        raw_date, sort_key = None, None
         for element in date_spans:
             span_text = element.text.strip()
             if "전" in span_text or "어제" in span_text or re.match(r"\d{4}-\d{2}-\d{2}", span_text):
                 raw_date, sort_key = parse_relative_date(span_text, return_sort_key=True)
                 break  
 
+        if not raw_date:  
+            continue  
+
         print(f"✅ 변환된 날짜: {raw_date}, 링크: {link} ({title})")  
 
         posts.append((title, raw_date, raw_date, link, sort_key))
     
-    # ✅ 최신순 정렬 (초 → 분 → 시간 → 어제 → 날짜)
     posts.sort(key=lambda x: x[4], reverse=True)
 
-    return posts[:5]  # 항상 5개 게시물이 유지되도록 설정
+    return posts[:5]
 
 
-import re
-from datetime import datetime, timedelta
 
 import re
 from datetime import datetime, timedelta
@@ -75,9 +73,9 @@ def parse_relative_date(date_str, return_sort_key=False):
     now = datetime.now()
     
     # ✅ "약 2시간 전", "대략 3분 전" 같은 표현에서 숫자만 추출
-    numeric_value = re.sub(r"[^\d]", "", date_str)  # 숫자 이외의 모든 문자 제거
+    numeric_value = re.sub(r"[^\d]", "", date_str)  
     if not numeric_value.isdigit():
-        return now.strftime("%Y-%m-%d %H:%M"), int(now.strftime("%Y%m%d%H%M"))
+        return None if not return_sort_key else (None, None)
 
     numeric_value = int(numeric_value)  
 
@@ -102,11 +100,12 @@ def parse_relative_date(date_str, return_sort_key=False):
             result_date = datetime.strptime(date_str, "%Y-%m-%d")
             sort_key = int(result_date.strftime("%Y%m%d"))
         except ValueError:
-            return now.strftime("%Y-%m-%d %H:%M"), int(now.strftime("%Y%m%d%H%M"))
+            return None if not return_sort_key else (None, None)
 
     formatted_date = result_date.strftime("%Y-%m-%d %H:%M")
 
     return (formatted_date, sort_key) if return_sort_key else formatted_date
+
     
 def update_readme(posts):
     with open("README.md", "r", encoding="utf-8") as f:

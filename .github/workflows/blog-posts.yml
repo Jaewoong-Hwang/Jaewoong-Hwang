@@ -13,7 +13,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install beautifulsoup4 requests selenium webdriver-manager
+          pip install --no-cache-dir beautifulsoup4 requests selenium webdriver-manager
 
       - name: Fetch latest blog posts
         run: python fetch_velog_posts.py

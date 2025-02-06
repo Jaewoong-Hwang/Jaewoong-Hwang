@@ -11,18 +11,19 @@ def fetch_recent_posts():
     response = requests.get(BLOG_URL, headers=headers)
     
     if response.status_code != 200:
-        print("Failed to fetch the blog page.")
+        print("❌ Failed to fetch the blog page.")
         return []
     
     soup = BeautifulSoup(response.text, "html.parser")
-    
-    # 벨로그 최신 글 목록을 올바르게 찾기
-    post_elements = soup.select("a.article-list-item")  # 최신 블로그 포스트 링크 가져오기
-    
+
+    # 최신 블로그 글 요소 선택
+    post_elements = soup.select("a.VLink_block__Uwj4P.FlatPostCard_postThumbnail__s7Hld")
+
     posts = []
     for post in post_elements[:5]:  # 최신 5개 글 가져오기
-        title = post.select_one("h2").text.strip() if post.select_one("h2") else "Untitled"
         link = "https://velog.io" + post["href"]
+        title_element = post.find_next("h2")  # 제목을 포함하는 태그 찾기
+        title = title_element.text.strip() if title_element else "Untitled"
         posts.append(f"- [{title}]({link})")
     
     return posts

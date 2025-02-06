@@ -12,10 +12,14 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Fetch today's commit count
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          KST_DATE=$(date -u -d '9 hours' +%Y-%m-%d)  # 한국 시간 기준 날짜 가져오기
-          TODAY_COMMITS=$(curl -s "https://api.github.com/users/Jaewoong-Hwang/events?per_page=100" | jq '[.[] | select(.type=="PushEvent") | .created_at | select(startswith("'$(date -u +%Y-%m-%d)'"))] | length')
+          KST_DATE=$(date -u -d '9 hours' '+%Y-%m-%dT')  # KST 시간 변환 (ISO 형식)
+          TODAY_COMMITS=$(curl -s -H "Authorization: token $GH_PAT" "https://api.github.com/users/Jaewoong-Hwang/events?per_page=100" \
+            | jq "[.[] | select(.type==\"PushEvent\") | select(.created_at | startswith(\"$KST_DATE\"))] | length")
           echo "TODAY_COMMITS=$TODAY_COMMITS" >> $GITHUB_ENV
+          echo "✅ Today’s commits: $TODAY_COMMITS"
 
       - name: Update README
         run: |

@@ -70,23 +70,30 @@ def fetch_recent_posts():
 
     return posts[:5]
 
+import re
+from datetime import datetime, timedelta
+
 def parse_relative_date(date_str, return_sort_key=False):
     now = datetime.now()
     
+    # ✅ "약 2시간 전", "대략 3분 전" 같은 표현에서 숫자만 추출
+    numeric_value = re.sub(r"[^\d]", "", date_str)  # 숫자 이외의 모든 문자 제거
+    if not numeric_value.isdigit():  # 숫자가 없으면 변환 실패
+        return None if not return_sort_key else (None, None)
+    
+    numeric_value = int(numeric_value)  # 정수로 변환
+
     if "초 전" in date_str:
-        seconds = int(date_str.replace("초 전", "").strip())
-        result_date = now - timedelta(seconds=seconds)
-        sort_key = 1000000 - seconds  
+        result_date = now - timedelta(seconds=numeric_value)
+        sort_key = 1000000 - numeric_value  
 
     elif "분 전" in date_str:
-        minutes = int(date_str.replace("분 전", "").strip())
-        result_date = now - timedelta(minutes=minutes)
-        sort_key = 900000 - minutes  
+        result_date = now - timedelta(minutes=numeric_value)
+        sort_key = 900000 - numeric_value  
 
     elif "시간 전" in date_str:
-        hours = int(date_str.replace("시간 전", "").strip())
-        result_date = now - timedelta(hours=hours)
-        sort_key = 800000 - hours  
+        result_date = now - timedelta(hours=numeric_value)
+        sort_key = 800000 - numeric_value  
 
     elif "어제" in date_str:
         result_date = now - timedelta(days=1)
@@ -102,7 +109,7 @@ def parse_relative_date(date_str, return_sort_key=False):
     formatted_date = result_date.strftime("%Y-%m-%d %H:%M")
 
     return (formatted_date, sort_key) if return_sort_key else formatted_date
-
+    
 def update_readme(posts):
     with open("README.md", "r", encoding="utf-8") as f:
         content = f.readlines()

@@ -32,7 +32,7 @@
 
 ## 📝 Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
-- [🖧 네트워크관리사 2급 기출문제 오답 정리 (2022년 5월 22일)](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리-2022년-5월-22일)- [Untitled](https://velog.io/@mypalebluedot29/CSS-Transition-Transform-그리고-Animation-학습)- [CSS Transition, Transform, 그리고 Animation 학습](https://velog.io/@mypalebluedot29/CSS-Transition-Transform-그리고-Animation-학습)- [Untitled](https://velog.io/@mypalebluedot29/Flexbox의-flex-grow-flex-shrink-flex-basis-이해하기)- [😎 Flexbox의 flex-grow, flex-shrink, flex-basis 이해하기](https://velog.io/@mypalebluedot29/Flexbox의-flex-grow-flex-shrink-flex-basis-이해하기)
+- [🖧 네트워크관리사 2급 기출문제 오답 정리 (2022년 5월 22일)](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리-2022년-5월-22일)- [CSS Transition, Transform, 그리고 Animation 학습](https://velog.io/@mypalebluedot29/CSS-Transition-Transform-그리고-Animation-학습)- [😎 Flexbox의 flex-grow, flex-shrink, flex-basis 이해하기](https://velog.io/@mypalebluedot29/Flexbox의-flex-grow-flex-shrink-flex-basis-이해하기)- [😎Flexbox 기본 개념 정리](https://velog.io/@mypalebluedot29/Flexbox-기본-개념-정리)- [🖧 네트워크관리사 2급 기출문제 오답 정리 (2021년 11월 14일)](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리-2021년-11월-14일)
 <!-- BLOG-POST-LIST:END -->
 (매일 자동 업데이트됨)
 

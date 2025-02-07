@@ -22,9 +22,13 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
+          if [ -z "$GH_PAT" ]; then
+            echo "❌ GitHub Personal Access Token이 설정되지 않음. 푸시하지 않음."
+            exit 0
+          fi
+          
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git pull origin main
           git add README.md
-          git commit -m "🔄 자동 업데이트: 최신 블로그 포스트 추가" || exit 0
-          git push https://x-access-token:${GH_PAT}@github.com/Jaewoong-Hwang/Jaewoong-Hwang.git main
+          git diff --cached --quiet || (git commit -m "🔄 자동 업데이트: 최신 블로그 포스트 추가" && git push https://x-access-token:${GH_PAT}@github.com/Jaewoong-Hwang/Jaewoong-Hwang.git main)

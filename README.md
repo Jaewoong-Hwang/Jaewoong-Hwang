@@ -34,7 +34,7 @@
 > 벨로그에서 최신 블로그 글을 자동 업데이트합니다! 🚀
 
 <!-- BLOG-POST-LIST:START -->
-| 📝 제목 | 📅 작성일 (상대/변환) | 🔗 링크 |
+| 📝 제목 | 📅 작성일 (변환된 날짜) | 🔗 링크 |
 |---------|------------------|---------|
 | **🖧 네트워크관리사 2급 기출문제 오답 정리** | 2025-02-07 | [바로가기](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리-2022년-5월-22일) |
 | **CSS Transition, Transform, 그리고 Animation 학습** | 2025-02-07 | [바로가기](https://velog.io/@mypalebluedot29/CSS-Transition-Transform-그리고-Animation-학습) |
@@ -42,7 +42,7 @@
 | **😎Flexbox 기본 개념 정리** | 2025-02-07 | [바로가기](https://velog.io/@mypalebluedot29/Flexbox-기본-개념-정리) |
 | **🖧 네트워크관리사 2급 기출문제 오답 정리 (2021년 11월 14일)** | 2025-02-07 | [바로가기](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리-2021년-11월-14일) |
 
-📅 **Last Updated:** 2025-02-07 09:54:58 (KST)
+📅 **Last Updated:** 2025-02-07 10:02:28 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

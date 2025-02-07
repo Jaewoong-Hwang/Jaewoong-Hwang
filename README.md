@@ -34,8 +34,7 @@
 
 
 ## 📊 오늘의 커밋 현황
-> <img src='https://cdn.pixabay.com/animation/2022/11/17/00/47/00-47-21-570_512.gif' width='30'>  
-> **총 커밋 수:** 🎯 <span style="font-size:22 px; font-weight:bold; color:#FF4500;">`50`</span> 🔥  
+> <img src='https://cdn.pixabay.com/animation/2022/11/17/00/47/00-47-21-570_512.gif' width='30'> **총 커밋 수:** `50`
 > 📅 **업데이트 시간:** `2025-02-07 12:47 KST`
 
 

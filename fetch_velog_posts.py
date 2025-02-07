@@ -12,42 +12,26 @@ import os
 BLOG_URL = "https://velog.io/@mypalebluedot29"
 
 # ✅ 상대 날짜 변환 함수
-def parse_relative_date(date_str, return_sort_key=False):
+def parse_relative_date(date_str, return_sort_key=False, for_readme=False):
     now = datetime.now()
 
-    # ✅ "약 2시간 전" 같은 표현에서 숫자만 추출
-    numeric_value = re.sub(r"[^\d]", "", date_str)
-    if not numeric_value.isdigit():
-        return now.strftime("%Y-%m-%d %H:%M"), int(now.strftime("%Y%m%d%H%M"))
-
-    numeric_value = int(numeric_value)
-
-    if "초 전" in date_str:
-        result_date = now - timedelta(seconds=numeric_value)
-        sort_key = 1000000 - numeric_value
-
-    elif "분 전" in date_str:
-        result_date = now - timedelta(minutes=numeric_value)
-        sort_key = 900000 - numeric_value
-
-    elif "시간 전" in date_str:
-        result_date = now - timedelta(hours=numeric_value)
-        sort_key = 800000 - numeric_value
+    if "분 전" in date_str or "시간 전" in date_str:
+        result_date = now.strftime("%Y-%m-%d") if for_readme else date_str
+        sort_key = int(now.strftime("%Y%m%d%H%M"))  # 최신순 정렬 키
 
     elif "어제" in date_str:
-        result_date = now - timedelta(days=1)
-        sort_key = 700000
+        result_date = (now - timedelta(days=1)).strftime("%Y-%m-%d")
+        sort_key = int((now - timedelta(days=1)).strftime("%Y%m%d%H%M"))
 
     else:
         try:
-            result_date = datetime.strptime(date_str, "%Y-%m-%d")
-            sort_key = int(result_date.strftime("%Y%m%d"))
+            result_date = datetime.strptime(date_str, "%Y-%m-%d").strftime("%Y-%m-%d")
+            sort_key = int(datetime.strptime(date_str, "%Y-%m-%d").strftime("%Y%m%d%H%M"))
         except ValueError:
-            return now.strftime("%Y-%m-%d %H:%M"), int(now.strftime("%Y%m%d%H%M"))
+            result_date = now.strftime("%Y-%m-%d")
+            sort_key = int(now.strftime("%Y%m%d%H%M"))
 
-    formatted_date = result_date.strftime("%Y-%m-%d %H:%M")
-    return (formatted_date, sort_key) if return_sort_key else formatted_date
-
+    return (result_date, sort_key) if return_sort_key else result_date
 
 # ✅ 블로그 크롤링 함수
 def fetch_recent_posts():
@@ -82,7 +66,7 @@ def fetch_recent_posts():
         link = a_tag["href"]
 
         # ✅ 상대 URL을 절대 URL로 변환
-        if not link.startswith("https://"):
+        if link.startswith("/@"):
             link = "https://velog.io" + link
 
         # ✅ 기본값 설정 (날짜가 없을 경우 대비)
@@ -103,19 +87,11 @@ def fetch_recent_posts():
     # ✅ 최신순 정렬 (초 → 분 → 시간 → 어제 → 날짜)
     posts.sort(key=lambda x: x[4], reverse=True)
 
-    # ✅ 항상 5개 유지
-    return posts[:5] if len(posts) >= 5 else posts
-
+    return posts[:5]  # ✅ 항상 5개 유지
 
 # ✅ README 업데이트 함수
 def update_readme(posts):
     try:
-        # ✅ README.md 파일이 없을 경우 생성
-        if not os.path.exists("README.md"):
-            print("⚠️ README.md 파일이 없어 새로 생성합니다.")
-            with open("README.md", "w", encoding="utf-8") as f:
-                f.write("# 📌 My GitHub Profile\n\n")
-
         with open("README.md", "r", encoding="utf-8") as f:
             content = f.readlines()
 
@@ -130,13 +106,14 @@ def update_readme(posts):
             start_index = content.index("<!-- BLOG-POST-LIST:START -->\n") + 1
             end_index = content.index("<!-- BLOG-POST-LIST:END -->\n")
 
+        # ✅ 최신 블로그 글을 표 형식으로 업데이트
         new_content = content[:start_index] + [
             "| 📝 제목 | 📅 작성일 (상대/변환) | 🔗 링크 |\n",
             "|---------|------------------|---------|\n",
         ] + [
-            f"| **{title}** | {original_date} ({converted_date}) | [바로가기]({link}) |\n"
-            if original_date != converted_date else f"| **{title}** | {converted_date} | [바로가기]({link}) |\n"
-            for title, original_date, converted_date, link, _ in posts
+            f"| **{title}** | {original_date} ({parse_relative_date(original_date, for_readme=True)}) | [바로가기]({link}) |\n"
+            if original_date != parse_relative_date(original_date, for_readme=True) else f"| **{title}** | {parse_relative_date(original_date, for_readme=True)} | [바로가기]({link}) |\n"
+            for title, original_date, _, link, _ in posts
         ] + [
             "\n📅 **Last Updated:** " + datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d %H:%M:%S") + " (KST)\n",
             "🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**\n"
@@ -152,7 +129,17 @@ def update_readme(posts):
     except Exception as e:
         print(f"❌ README 업데이트 중 오류 발생: {e}")
 
+# ✅ 자동 커밋 & 푸시 함수
+def commit_and_push():
+    os.system("git config --global user.name 'github-actions'")
+    os.system("git config --global user.email 'github-actions@github.com'")
+    os.system("git add README.md")
+    os.system("git commit -m '자동 업데이트: 최신 블로그 포스트 반영' || exit 0")
+    os.system("git push")
+
+# ✅ 실행 로직: 크롤링 → README 업데이트 → Git 커밋 & 푸시
 if __name__ == "__main__":
     recent_posts = fetch_recent_posts()
     if recent_posts:
         update_readme(recent_posts)
+        commit_and_push()

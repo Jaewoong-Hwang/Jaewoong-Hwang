@@ -1,6 +1,8 @@
-<h2><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hello, I'm Jaewoong! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
-
-<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
+<h2>
+  <img src="https://cdn.pixabay.com/animation/2022/11/17/00/47/00-47-21-570_512.gif" width="30"/> 
+  Hello, I'm Jaewoong! 
+  <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50">
+</h2>
 
 <p><em>Software Developer | Tech Enthusiast | Open Source Contributor</em></p>
 
@@ -13,13 +15,20 @@
 ---
 
 ## 🚀 Tech Stack
-
-### 💻 Programming Languages
+### 💻 Languages & Frameworks
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
 </p>
+
+### 🛠 Tools & Platforms
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+</p>
+
 
 
 
@@ -27,7 +36,7 @@
 
 
 ## 📊 오늘의 커밋 현황
-> <img src='https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif' width='30'> **총 커밋 수:** `50`
+> <img src='https://cdn.pixabay.com/animation/2022/11/17/00/47/00-47-21-570_512.gif' width='30'> **총 커밋 수:** `50`
 > 📅 **업데이트 시간:** `2025-02-07 12:47 KST`
 
 
@@ -58,7 +67,9 @@
 ## 📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Jaewoong-Hwang&show_icons=true&theme=tokyonight"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jaewoong-Hwang&theme=tokyonight"/>
 </p>
+
 
 ---
 

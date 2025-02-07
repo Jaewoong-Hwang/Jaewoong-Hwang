@@ -77,8 +77,8 @@
 ---
 
 ## 📫 Contact Me
-- 📧 Email: your.email@example.com
-- 🔗 Blog: [yourblog.com](https://yourblog.com)
+- 📧 Email: boogiewoong2@egmail.com
+- 🔗 Blog: [yourblog.com]([https://yourblog.com](https://velog.io/@mypalebluedot29/posts))
 
 
 

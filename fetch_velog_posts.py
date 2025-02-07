@@ -15,24 +15,43 @@ BLOG_URL = "https://velog.io/@mypalebluedot29"
 def parse_relative_date(date_str, return_sort_key=False):
     """ 상대적인 날짜(예: '11분 전', '어제')를 변환하여 YYYY-MM-DD 형식으로 반환 """
     now = datetime.now()
+    sort_key = int(now.strftime("%Y%m%d%H%M"))  # 기본값: 현재 시간
 
-    if "분 전" in date_str or "시간 전" in date_str:
-        result_date = now.strftime("%Y-%m-%d")  # 오늘 날짜로 변환
-        sort_key = int(now.strftime("%Y%m%d%H%M"))  # 최신순 정렬 키
+    # "몇 분 전" 또는 "몇 시간 전"을 처리
+    match = re.search(r"(\d+) (초|분|시간) 전", date_str)
+    if match:
+        amount, unit = int(match.group(1)), match.group(2)
 
-    elif "어제" in date_str:
-        result_date = (now - timedelta(days=1)).strftime("%Y-%m-%d")  
-        sort_key = int((now - timedelta(days=1)).strftime("%Y%m%d%H%M"))  
+        if unit == "초":
+            result_date = now - timedelta(seconds=amount)
+        elif unit == "분":
+            result_date = now - timedelta(minutes=amount)
+        elif unit == "시간":
+            result_date = now - timedelta(hours=amount)
 
-    else:
-        try:
-            result_date = datetime.strptime(date_str, "%Y-%m-%d").strftime("%Y-%m-%d")
-            sort_key = int(datetime.strptime(date_str, "%Y-%m-%d").strftime("%Y%m%d%H%M"))
-        except ValueError:
-            result_date = now.strftime("%Y-%m-%d")
-            sort_key = int(now.strftime("%Y%m%d%H%M"))
+        sort_key = int(result_date.strftime("%Y%m%d%H%M"))
+        formatted_date = result_date.strftime("%Y-%m-%d")
+        print(f"📌 [DEBUG] 상대 날짜 변환: '{date_str}' → '{formatted_date}'")
+        return (formatted_date, sort_key) if return_sort_key else formatted_date
 
-    return (result_date, sort_key) if return_sort_key else result_date
+    # "어제"를 처리
+    if "어제" in date_str:
+        result_date = now - timedelta(days=1)
+        sort_key = int(result_date.strftime("%Y%m%d%H%M"))
+        formatted_date = result_date.strftime("%Y-%m-%d")
+        print(f"📌 [DEBUG] '어제' 변환: '{date_str}' → '{formatted_date}'")
+        return (formatted_date, sort_key) if return_sort_key else formatted_date
+
+    # YYYY-MM-DD 형식인지 확인
+    if re.match(r"\d{4}-\d{2}-\d{2}", date_str):
+        formatted_date = datetime.strptime(date_str, "%Y-%m-%d").strftime("%Y-%m-%d")
+        sort_key = int(datetime.strptime(date_str, "%Y-%m-%d").strftime("%Y%m%d%H%M"))
+        print(f"📌 [DEBUG] 명확한 날짜: '{date_str}' → '{formatted_date}'")
+        return (formatted_date, sort_key) if return_sort_key else formatted_date
+
+    # 기본값 반환
+    print(f"⚠️ [DEBUG] 예상치 못한 날짜 형식: '{date_str}' → 기본값 '{now.strftime('%Y-%m-%d')}'")
+    return (now.strftime("%Y-%m-%d"), sort_key) if return_sort_key else now.strftime("%Y-%m-%d")
 
 
 def fetch_recent_posts():

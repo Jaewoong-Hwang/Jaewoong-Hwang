@@ -1,8 +1,5 @@
 <h2>
-  <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="30">
-
-  Hello, I'm Jaewoong! 
-  
+ <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="30"> Hello, I'm Jaewoong! 
 </h2>
 
 <p><em>Software Developer | Tech Enthusiast | Open Source Contributor</em></p>

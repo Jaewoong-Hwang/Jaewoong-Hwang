@@ -34,7 +34,7 @@
 > 벨로그에서 최신 블로그 글을 자동 업데이트합니다! 🚀
 
 <!-- BLOG-POST-LIST:START -->
-| 📝 제목 | 📅 작성일 (변환된 날짜) | 🔗 링크 |
+| 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
 | **JDK 설치 및 톰캣 설정 for Window 📥** | 2025-02-07 | [바로가기](https://velog.io/@mypalebluedot29/JDK-설치-및-톰캣-설정-for-Window) |
 | **라우터(ROUTER)🚏** | 2025-02-07 | [바로가기](https://velog.io/@mypalebluedot29/라우터ROUTER) |
@@ -42,7 +42,7 @@
 | **MAC 주소 vs IP 주소 🖥️** | 2025-02-07 | [바로가기](https://velog.io/@mypalebluedot29/MAC-주소-vs-IP-주소) |
 | **TCP/IP 4LAYERS ⚙️** | 2025-02-07 | [바로가기](https://velog.io/@mypalebluedot29/TCPIP-4LAYERS) |
 
-📅 **Last Updated:** 2025-02-07 11:27:00 (KST)
+📅 **Last Updated:** 2025-02-07 03:05:02 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

@@ -42,7 +42,7 @@
 | **😎Flexbox 기본 개념 정리** | 2025-02-07 | [바로가기](https://velog.io/@mypalebluedot29/Flexbox-기본-개념-정리) |
 | **🖧 네트워크관리사 2급 기출문제 오답 정리 (2021년 11월 14일)** | 2025-02-07 | [바로가기](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리-2021년-11월-14일) |
 
-📅 **Last Updated:** 2025-02-07 10:56:44 (KST)
+📅 **Last Updated:** 2025-02-07 11:05:08 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -6,55 +6,40 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import time
 import re
-import os
 
 # 벨로그 블로그 주소
 BLOG_URL = "https://velog.io/@mypalebluedot29"
 
 def parse_relative_date(date_str, return_sort_key=False):
-    """ 상대적인 날짜(예: '11분 전', '어제', '3일 전')를 변환하여 YYYY-MM-DD 형식으로 반환 """
-    now = datetime.now()
+    """ 상대적인 날짜('10시간 전', '1일 전', '2025-01-30')를 YYYY-MM-DD 형식으로 변환 """
+    now = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)  # 🔹 기준시간: 00:00:00
 
-    # "n분 전" → 오늘 날짜 유지
-    if "분 전" in date_str:
-        result_date = now.strftime("%Y-%m-%d")
-        sort_key = int(now.strftime("%Y%m%d%H%M"))
-
-    # "n시간 전" → 현재 시각에서 n시간을 빼서 날짜를 계산
+    if "초 전" in date_str:
+        seconds = int(re.search(r"\d+", date_str).group())
+        result_date = now - timedelta(seconds=seconds)
+    elif "분 전" in date_str:
+        minutes = int(re.search(r"\d+", date_str).group())
+        result_date = now - timedelta(minutes=minutes)
     elif "시간 전" in date_str:
-        hours_ago = int(re.sub(r"\D", "", date_str))  # 숫자만 추출
-        result_datetime = now - timedelta(hours=hours_ago)
-        
-        # 날짜 비교하여 '오늘'인지 '어제'인지 결정
-        if result_datetime.date() == now.date():
-            result_date = now.strftime("%Y-%m-%d")  # 오늘 날짜
-        else:
-            result_date = (now - timedelta(days=1)).strftime("%Y-%m-%d")  # 어제 날짜
-        
-        sort_key = int(result_datetime.strftime("%Y%m%d%H%M"))
-
-    # "어제" → 어제 날짜로 변환
-    elif "어제" in date_str:
-        result_date = (now - timedelta(days=1)).strftime("%Y-%m-%d")
-        sort_key = int((now - timedelta(days=1)).strftime("%Y%m%d%H%M"))
-
-    # "n일 전" → 오늘 날짜에서 n일을 뺌
+        hours = int(re.search(r"\d+", date_str).group())
+        result_date = now - timedelta(hours=hours)
     elif "일 전" in date_str:
-        days_ago = int(re.sub(r"\D", "", date_str))  # 숫자만 추출
-        result_date = (now - timedelta(days=days_ago)).strftime("%Y-%m-%d")
-        sort_key = int((now - timedelta(days=days_ago)).strftime("%Y%m%d%H%M"))
-
-    # YYYY-MM-DD 형식의 날짜 처리
+        days = int(re.search(r"\d+", date_str).group())
+        if days > 6:  # 🔹 6일 이후의 경우 원본 날짜를 그대로 사용
+            return (date_str, int(datetime.strptime(date_str, "%Y-%m-%d").strftime("%Y%m%d")))
+        result_date = now - timedelta(days=days)
+    elif "어제" in date_str:
+        result_date = now - timedelta(days=1)
     else:
         try:
-            result_date = datetime.strptime(date_str, "%Y-%m-%d").strftime("%Y-%m-%d")
-            sort_key = int(datetime.strptime(date_str, "%Y-%m-%d").strftime("%Y%m%d%H%M"))
+            result_date = datetime.strptime(date_str, "%Y-%m-%d")  # 🔹 YYYY-MM-DD 형식 그대로 유지
         except ValueError:
-            result_date = now.strftime("%Y-%m-%d")
-            sort_key = int(now.strftime("%Y%m%d%H%M"))
+            result_date = now  # 기본값: 오늘 날짜
 
-    return (result_date, sort_key) if return_sort_key else result_date
+    formatted_date = result_date.strftime("%Y-%m-%d")
+    sort_key = int(result_date.strftime("%Y%m%d%H%M"))
 
+    return (formatted_date, sort_key) if return_sort_key else formatted_date
 
 def fetch_recent_posts():
     """ 벨로그에서 최신 블로그 게시물을 크롤링하여 반환 """
@@ -67,7 +52,7 @@ def fetch_recent_posts():
     driver = webdriver.Chrome(service=service, options=options)
 
     driver.get(BLOG_URL)
-    time.sleep(5)
+    time.sleep(3)
     driver.refresh()
     time.sleep(5)
 
@@ -106,12 +91,16 @@ def fetch_recent_posts():
 
         posts.append((title, raw_date, raw_date, link, sort_key))
 
-    # ✅ 최신순 정렬 (초 → 분 → 시간 → 어제 → 날짜)
+    # ✅ 최신순 정렬 (내림차순)
     posts.sort(key=lambda x: x[4], reverse=True)
 
-    # ✅ 항상 5개 유지
-    return posts[:5] if len(posts) >= 5 else posts
+    # ✅ 최종 정렬된 결과 확인
+    print("\n=== 최종 정렬된 게시물 ===")
+    for post in posts[:5]:
+        print(f"{post[0]} | {post[1]} | {post[3]}")
 
+    # ✅ 항상 최신 5개 유지
+    return posts[:5] if len(posts) >= 5 else posts
 
 def update_readme(posts):
     """ README.md 파일을 업데이트하여 최신 블로그 포스트를 반영 """
@@ -132,26 +121,23 @@ def update_readme(posts):
 
         # ✅ 최신 블로그 글을 표 형식으로 업데이트
         new_content = content[:start_index] + [
-            "| 📝 제목 | 📅 작성일 (변환된 날짜) | 🔗 링크 |\n",
+            "| 📝 제목 | 📅 작성일 | 🔗 링크 |\n",
             "|---------|------------------|---------|\n",
         ] + [
             f"| **{title}** | {converted_date} | [바로가기]({link}) |\n"
             for title, _, converted_date, link, _ in posts
         ] + [
-            "\n📅 **Last Updated:** " + datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d %H:%M:%S") + " (KST)\n",
+            "\n📅 **Last Updated:** " + datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " (KST)\n",
             "🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**\n"
         ] + content[end_index:]
 
-        if "".join(content) != "".join(new_content):
-            with open("README.md", "w", encoding="utf-8") as f:
-                f.writelines(new_content)
-            print("✅ README.md 업데이트 완료!")
-        else:
-            print("ℹ️ 변경 사항이 없어 업데이트하지 않음.")
+        with open("README.md", "w", encoding="utf-8") as f:
+            f.writelines(new_content)
+
+        print("✅ README.md 업데이트 완료!")
 
     except Exception as e:
         print(f"❌ README 업데이트 중 오류 발생: {e}")
-
 
 if __name__ == "__main__":
     recent_posts = fetch_recent_posts()

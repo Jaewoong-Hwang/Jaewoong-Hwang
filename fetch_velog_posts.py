@@ -71,21 +71,20 @@ def fetch_recent_posts():
             link = "https://velog.io" + link
 
         # ✅ 기본값 설정 (날짜가 없을 경우 대비)
-        raw_date, sort_key = datetime.now().strftime("%Y-%m-%d"), int(datetime.now().strftime("%Y%m%d%H%M"))
+        converted_date, sort_key = datetime.now().strftime("%Y-%m-%d"), int(datetime.now().strftime("%Y%m%d%H%M"))
 
         for element in date_spans:
             span_text = element.text.strip()
             if "전" in span_text or "어제" in span_text or re.match(r"\d{4}-\d{2}-\d{2}", span_text):
-                parsed_date, parsed_sort_key = parse_relative_date(span_text, return_sort_key=True)
-                raw_date, sort_key = parsed_date, parsed_sort_key
+                converted_date, sort_key = parse_relative_date(span_text, return_sort_key=True)
                 break
 
-        print(f"✅ 변환된 날짜: {raw_date}, 링크: {link} ({title})")
+        print(f"✅ 변환된 날짜: {converted_date}, 링크: {link} ({title})")
 
-        posts.append((title, raw_date, raw_date, link, sort_key))
+        posts.append((title, converted_date, link, sort_key))
 
     # ✅ 최신순 정렬 (초 → 분 → 시간 → 어제 → 날짜)
-    posts.sort(key=lambda x: x[4], reverse=True)
+    posts.sort(key=lambda x: x[3], reverse=True)
 
     # ✅ 항상 5개 유지
     return posts[:5] if len(posts) >= 5 else posts
@@ -110,11 +109,11 @@ def update_readme(posts):
 
         # ✅ 최신 블로그 글을 표 형식으로 업데이트
         new_content = content[:start_index] + [
-            "| 📝 제목 | 📅 작성일 (변환된 날짜) | 🔗 링크 |\n",
-            "|---------|------------------|---------|\n",
+            "| 📝 제목 | 📅 작성일 | 🔗 링크 |\n",
+            "|---------|------------|---------|\n",
         ] + [
             f"| **{title}** | {converted_date} | [바로가기]({link}) |\n"
-            for title, _, converted_date, link, _ in posts
+            for title, converted_date, link, _ in posts
         ] + [
             "\n📅 **Last Updated:** " + datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d %H:%M:%S") + " (KST)\n",
             "🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**\n"

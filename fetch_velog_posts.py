@@ -12,57 +12,48 @@ import os
 BLOG_URL = "https://velog.io/@mypalebluedot29"
 
 def parse_relative_date(date_str, return_sort_key=False):
-    """ 상대적인 날짜(예: '11분 전', '어제', '1일 전')를 변환하여 YYYY-MM-DD 형식으로 반환 """
+    """ 상대적인 날짜(예: '11분 전', '어제', '3일 전')를 변환하여 YYYY-MM-DD 형식으로 반환 """
     now = datetime.now()
-    sort_key = int(now.strftime("%Y%m%d%H%M"))  # 기본값: 현재 시간
 
-    # "약" 같은 단어 제거 후 처리
-    date_str = date_str.replace("약 ", "").strip()
+    # "n분 전" → 오늘 날짜 유지
+    if "분 전" in date_str:
+        result_date = now.strftime("%Y-%m-%d")
+        sort_key = int(now.strftime("%Y%m%d%H%M"))
 
-    # "몇 초 전", "몇 분 전", "몇 시간 전", "몇 일 전" 처리
-    match = re.search(r"(\d+) (초|분|시간|일) 전", date_str)
-    if match:
-        amount, unit = int(match.group(1)), match.group(2)
+    # "n시간 전" → 현재 시각에서 n시간을 빼서 날짜를 계산
+    elif "시간 전" in date_str:
+        hours_ago = int(re.sub(r"\D", "", date_str))  # 숫자만 추출
+        result_datetime = now - timedelta(hours=hours_ago)
+        
+        # 날짜 비교하여 '오늘'인지 '어제'인지 결정
+        if result_datetime.date() == now.date():
+            result_date = now.strftime("%Y-%m-%d")  # 오늘 날짜
+        else:
+            result_date = (now - timedelta(days=1)).strftime("%Y-%m-%d")  # 어제 날짜
+        
+        sort_key = int(result_datetime.strftime("%Y%m%d%H%M"))
 
-        if unit == "초":
-            result_date = now - timedelta(seconds=amount)
-        elif unit == "분":
-            result_date = now - timedelta(minutes=amount)
-        elif unit == "시간":
-            result_date = now - timedelta(hours=amount)
+    # "어제" → 어제 날짜로 변환
+    elif "어제" in date_str:
+        result_date = (now - timedelta(days=1)).strftime("%Y-%m-%d")
+        sort_key = int((now - timedelta(days=1)).strftime("%Y%m%d%H%M"))
 
-            # ✅ 오늘 날짜인지 확인
-            if result_date.date() == now.date():
-                formatted_date = now.strftime("%Y-%m-%d")  # 오늘 날짜 유지
-            else:
-                formatted_date = (now - timedelta(days=1)).strftime("%Y-%m-%d")  # 어제 날짜로 변환
+    # "n일 전" → 오늘 날짜에서 n일을 뺌
+    elif "일 전" in date_str:
+        days_ago = int(re.sub(r"\D", "", date_str))  # 숫자만 추출
+        result_date = (now - timedelta(days=days_ago)).strftime("%Y-%m-%d")
+        sort_key = int((now - timedelta(days=days_ago)).strftime("%Y%m%d%H%M"))
 
-        elif unit == "일":
-            result_date = now - timedelta(days=amount)  # "1일 전", "2일 전" → 어제처럼 처리
-            formatted_date = result_date.strftime("%Y-%m-%d")
+    # YYYY-MM-DD 형식의 날짜 처리
+    else:
+        try:
+            result_date = datetime.strptime(date_str, "%Y-%m-%d").strftime("%Y-%m-%d")
+            sort_key = int(datetime.strptime(date_str, "%Y-%m-%d").strftime("%Y%m%d%H%M"))
+        except ValueError:
+            result_date = now.strftime("%Y-%m-%d")
+            sort_key = int(now.strftime("%Y%m%d%H%M"))
 
-        sort_key = int(result_date.strftime("%Y%m%d%H%M"))
-        print(f"📌 [DEBUG] 상대 날짜 변환: '{date_str}' → '{formatted_date}'")
-        return (formatted_date, sort_key) if return_sort_key else formatted_date
-
-    # "어제"를 처리
-    if "어제" in date_str:
-        result_date = now - timedelta(days=1)
-        sort_key = int(result_date.strftime("%Y%m%d%H%M"))
-        formatted_date = result_date.strftime("%Y-%m-%d")
-        print(f"📌 [DEBUG] '어제' 변환: '{date_str}' → '{formatted_date}'")
-        return (formatted_date, sort_key) if return_sort_key else formatted_date
-
-    # YYYY-MM-DD 형식인지 확인
-    if re.match(r"\d{4}-\d{2}-\d{2}", date_str):
-        formatted_date = datetime.strptime(date_str, "%Y-%m-%d").strftime("%Y-%m-%d")
-        sort_key = int(datetime.strptime(date_str, "%Y-%m-%d").strftime("%Y%m%d%H%M"))
-        print(f"📌 [DEBUG] 명확한 날짜: '{date_str}' → '{formatted_date}'")
-        return (formatted_date, sort_key) if return_sort_key else formatted_date
-
-    # 기본값 반환 (예상치 못한 형식)
-    print(f"⚠️ [DEBUG] 예상치 못한 날짜 형식: '{date_str}' → 기본값 '{now.strftime('%Y-%m-%d')}'")
-    return (now.strftime("%Y-%m-%d"), sort_key) if return_sort_key else now.strftime("%Y-%m-%d")
+    return (result_date, sort_key) if return_sort_key else result_date
 
 
 def fetch_recent_posts():
@@ -113,10 +104,10 @@ def fetch_recent_posts():
 
         print(f"✅ 변환된 날짜: {raw_date}, 링크: {link} ({title})")
 
-        posts.append((title, raw_date, link, sort_key))
+        posts.append((title, raw_date, raw_date, link, sort_key))
 
     # ✅ 최신순 정렬 (초 → 분 → 시간 → 어제 → 날짜)
-    posts.sort(key=lambda x: x[3], reverse=True)
+    posts.sort(key=lambda x: x[4], reverse=True)
 
     # ✅ 항상 5개 유지
     return posts[:5] if len(posts) >= 5 else posts
@@ -144,8 +135,8 @@ def update_readme(posts):
             "| 📝 제목 | 📅 작성일 (변환된 날짜) | 🔗 링크 |\n",
             "|---------|------------------|---------|\n",
         ] + [
-            f"| **{title}** | {date} | [바로가기]({link}) |\n"
-            for title, date, link, _ in posts
+            f"| **{title}** | {converted_date} | [바로가기]({link}) |\n"
+            for title, _, converted_date, link, _ in posts
         ] + [
             "\n📅 **Last Updated:** " + datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d %H:%M:%S") + " (KST)\n",
             "🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**\n"

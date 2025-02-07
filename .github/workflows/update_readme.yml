@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 15 * * *" # 매일 자정(UTC 기준)에 실행
+    - cron: "0 15 * * *" # 매일 자정(UTC 기준)에 실행 (KST 00:00)
   workflow_dispatch:
 
 jobs:
@@ -22,10 +22,11 @@ jobs:
           echo "TODAY_COMMITS=$TODAY_COMMITS" >> $GITHUB_ENV
           echo "✅ Today’s commits: $TODAY_COMMITS"
 
-
       - name: Update README
         run: |
-          sed -i "/## 📊 Today’s Commits/c\## 📊 Today’s Commits: $TODAY_COMMITS" README.md
+          echo -e "## 📊 오늘의 커밋 현황\n> <img src='https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif' width='30'> **총 커밋 수:** \`$TODAY_COMMITS\`\n> 📅 **업데이트 시간:** \`$(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST')\`\n" > commit_summary.md
+          sed -i "/## 📊 Today’s Commits/ r commit_summary.md" README.md
+          rm commit_summary.md
 
       - name: Commit and Push
         env:
@@ -33,7 +34,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git pull origin main  # 최신 코드 가져오기 추가
+          git pull origin main  # 최신 코드 가져오기
           git add README.md
-          git commit -m "자동 업데이트: 오늘의 커밋 수 추가" || exit 0
+          git commit -m "🔄 자동 업데이트: 오늘의 커밋 수 & 최신 블로그 포스트 추가" || exit 0
           git push https://x-access-token:${GH_PAT}@github.com/Jaewoong-Hwang/Jaewoong-Hwang.git main

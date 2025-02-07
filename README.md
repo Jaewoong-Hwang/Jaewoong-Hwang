@@ -78,7 +78,7 @@
 
 ## 📫 Contact Me
 - 📧 Email: boogiewoong2@egmail.com
-- 🔗 Blog: [https://velog.io/@mypalebluedot29/posts]([https://yourblog.com](https://velog.io/@mypalebluedot29/posts))
+- 🔗 Blog: [벨로그]([https://yourblog.com](https://velog.io/@mypalebluedot29/posts)
 
 
 

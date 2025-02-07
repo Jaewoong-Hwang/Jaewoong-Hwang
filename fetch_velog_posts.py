@@ -11,14 +11,16 @@ import os
 # 벨로그 블로그 주소
 BLOG_URL = "https://velog.io/@mypalebluedot29"
 
-
 def parse_relative_date(date_str, return_sort_key=False):
-    """ 상대적인 날짜(예: '11분 전', '어제')를 변환하여 YYYY-MM-DD 형식으로 반환 """
+    """ 상대적인 날짜(예: '11분 전', '어제', '1일 전')를 변환하여 YYYY-MM-DD 형식으로 반환 """
     now = datetime.now()
     sort_key = int(now.strftime("%Y%m%d%H%M"))  # 기본값: 현재 시간
 
-    # "몇 분 전" 또는 "몇 시간 전"을 처리
-    match = re.search(r"(\d+) (초|분|시간) 전", date_str)
+    # "약" 같은 단어 제거 후 처리
+    date_str = date_str.replace("약 ", "").strip()
+
+    # "몇 초 전", "몇 분 전", "몇 시간 전", "몇 일 전" 처리
+    match = re.search(r"(\d+) (초|분|시간|일) 전", date_str)
     if match:
         amount, unit = int(match.group(1)), match.group(2)
 
@@ -29,8 +31,17 @@ def parse_relative_date(date_str, return_sort_key=False):
         elif unit == "시간":
             result_date = now - timedelta(hours=amount)
 
+            # ✅ 오늘 날짜인지 확인
+            if result_date.date() == now.date():
+                formatted_date = now.strftime("%Y-%m-%d")  # 오늘 날짜 유지
+            else:
+                formatted_date = (now - timedelta(days=1)).strftime("%Y-%m-%d")  # 어제 날짜로 변환
+
+        elif unit == "일":
+            result_date = now - timedelta(days=amount)  # "1일 전", "2일 전" → 어제처럼 처리
+            formatted_date = result_date.strftime("%Y-%m-%d")
+
         sort_key = int(result_date.strftime("%Y%m%d%H%M"))
-        formatted_date = result_date.strftime("%Y-%m-%d")
         print(f"📌 [DEBUG] 상대 날짜 변환: '{date_str}' → '{formatted_date}'")
         return (formatted_date, sort_key) if return_sort_key else formatted_date
 
@@ -49,7 +60,7 @@ def parse_relative_date(date_str, return_sort_key=False):
         print(f"📌 [DEBUG] 명확한 날짜: '{date_str}' → '{formatted_date}'")
         return (formatted_date, sort_key) if return_sort_key else formatted_date
 
-    # 기본값 반환
+    # 기본값 반환 (예상치 못한 형식)
     print(f"⚠️ [DEBUG] 예상치 못한 날짜 형식: '{date_str}' → 기본값 '{now.strftime('%Y-%m-%d')}'")
     return (now.strftime("%Y-%m-%d"), sort_key) if return_sort_key else now.strftime("%Y-%m-%d")
 

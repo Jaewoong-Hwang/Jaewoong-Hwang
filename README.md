@@ -1,7 +1,8 @@
 <h2>
-  <img src="https://cdn.pixabay.com/animation/2022/11/17/00/47/00-47-21-570_512.gif" width="30"/> 
+  <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="30">
+
   Hello, I'm Jaewoong! 
-  <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50">
+  
 </h2>
 
 <p><em>Software Developer | Tech Enthusiast | Open Source Contributor</em></p>

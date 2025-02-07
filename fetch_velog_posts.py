@@ -11,17 +11,17 @@ import os
 # 벨로그 블로그 주소
 BLOG_URL = "https://velog.io/@mypalebluedot29"
 
-# ✅ 상대 날짜 변환 함수
 def parse_relative_date(date_str, return_sort_key=False, for_readme=False):
+    """ 상대적인 날짜(예: '11분 전', '어제')를 변환하여 YYYY-MM-DD 형식으로 반환 """
     now = datetime.now()
 
     if "분 전" in date_str or "시간 전" in date_str:
-        result_date = now.strftime("%Y-%m-%d") if for_readme else date_str
+        result_date = now.strftime("%Y-%m-%d")  # 오늘 날짜로 변환
         sort_key = int(now.strftime("%Y%m%d%H%M"))  # 최신순 정렬 키
 
     elif "어제" in date_str:
-        result_date = (now - timedelta(days=1)).strftime("%Y-%m-%d")
-        sort_key = int((now - timedelta(days=1)).strftime("%Y%m%d%H%M"))
+        result_date = (now - timedelta(days=1)).strftime("%Y-%m-%d")  
+        sort_key = int((now - timedelta(days=1)).strftime("%Y%m%d%H%M"))  
 
     else:
         try:
@@ -33,8 +33,9 @@ def parse_relative_date(date_str, return_sort_key=False, for_readme=False):
 
     return (result_date, sort_key) if return_sort_key else result_date
 
-# ✅ 블로그 크롤링 함수
+
 def fetch_recent_posts():
+    """ 벨로그에서 최신 블로그 게시물을 크롤링하여 반환 """
     options = Options()
     options.add_argument("--headless")
     options.add_argument("--disable-gpu")
@@ -66,7 +67,7 @@ def fetch_recent_posts():
         link = a_tag["href"]
 
         # ✅ 상대 URL을 절대 URL로 변환
-        if link.startswith("/@"):
+        if not link.startswith("https://"):
             link = "https://velog.io" + link
 
         # ✅ 기본값 설정 (날짜가 없을 경우 대비)
@@ -82,15 +83,20 @@ def fetch_recent_posts():
 
         print(f"✅ 변환된 날짜: {raw_date}, 링크: {link} ({title})")
 
-        posts.append((title, raw_date, raw_date, link, sort_key))
+        # ✅ 리드미 업데이트용 오늘 날짜 변환 (for_readme=True 추가)
+        readme_date = parse_relative_date(raw_date, for_readme=True)
+
+        posts.append((title, raw_date, readme_date, link, sort_key))
 
     # ✅ 최신순 정렬 (초 → 분 → 시간 → 어제 → 날짜)
     posts.sort(key=lambda x: x[4], reverse=True)
 
-    return posts[:5]  # ✅ 항상 5개 유지
+    # ✅ 항상 5개 유지
+    return posts[:5] if len(posts) >= 5 else posts
 
-# ✅ README 업데이트 함수
+
 def update_readme(posts):
+    """ README.md 파일을 업데이트하여 최신 블로그 포스트를 반영 """
     try:
         with open("README.md", "r", encoding="utf-8") as f:
             content = f.readlines()
@@ -111,9 +117,9 @@ def update_readme(posts):
             "| 📝 제목 | 📅 작성일 (상대/변환) | 🔗 링크 |\n",
             "|---------|------------------|---------|\n",
         ] + [
-            f"| **{title}** | {original_date} ({parse_relative_date(original_date, for_readme=True)}) | [바로가기]({link}) |\n"
-            if original_date != parse_relative_date(original_date, for_readme=True) else f"| **{title}** | {parse_relative_date(original_date, for_readme=True)} | [바로가기]({link}) |\n"
-            for title, original_date, _, link, _ in posts
+            f"| **{title}** | {original_date} ({readme_date}) | [바로가기]({link}) |\n"
+            if original_date != readme_date else f"| **{title}** | {readme_date} | [바로가기]({link}) |\n"
+            for title, original_date, readme_date, link, _ in posts
         ] + [
             "\n📅 **Last Updated:** " + datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d %H:%M:%S") + " (KST)\n",
             "🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**\n"
@@ -129,17 +135,8 @@ def update_readme(posts):
     except Exception as e:
         print(f"❌ README 업데이트 중 오류 발생: {e}")
 
-# ✅ 자동 커밋 & 푸시 함수
-def commit_and_push():
-    os.system("git config --global user.name 'github-actions'")
-    os.system("git config --global user.email 'github-actions@github.com'")
-    os.system("git add README.md")
-    os.system("git commit -m '자동 업데이트: 최신 블로그 포스트 반영' || exit 0")
-    os.system("git push")
 
-# ✅ 실행 로직: 크롤링 → README 업데이트 → Git 커밋 & 푸시
 if __name__ == "__main__":
     recent_posts = fetch_recent_posts()
     if recent_posts:
         update_readme(recent_posts)
-        commit_and_push()

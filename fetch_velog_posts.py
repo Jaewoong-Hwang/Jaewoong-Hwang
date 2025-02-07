@@ -11,7 +11,7 @@ import os
 # 벨로그 블로그 주소
 BLOG_URL = "https://velog.io/@mypalebluedot29"
 
-def parse_relative_date(date_str, return_sort_key=False, for_readme=False):
+def parse_relative_date(date_str, return_sort_key=False):
     """ 상대적인 날짜(예: '11분 전', '어제')를 변환하여 YYYY-MM-DD 형식으로 반환 """
     now = datetime.now()
 
@@ -71,22 +71,18 @@ def fetch_recent_posts():
             link = "https://velog.io" + link
 
         # ✅ 기본값 설정 (날짜가 없을 경우 대비)
-        raw_date, sort_key = datetime.now().strftime("%Y-%m-%d %H:%M"), int(datetime.now().strftime("%Y%m%d%H%M"))
+        raw_date, sort_key = datetime.now().strftime("%Y-%m-%d"), int(datetime.now().strftime("%Y%m%d%H%M"))
 
         for element in date_spans:
             span_text = element.text.strip()
             if "전" in span_text or "어제" in span_text or re.match(r"\d{4}-\d{2}-\d{2}", span_text):
-                parsed_date = parse_relative_date(span_text, return_sort_key=True)
-                if parsed_date:
-                    raw_date, sort_key = parsed_date
+                parsed_date, parsed_sort_key = parse_relative_date(span_text, return_sort_key=True)
+                raw_date, sort_key = parsed_date, parsed_sort_key
                 break
 
         print(f"✅ 변환된 날짜: {raw_date}, 링크: {link} ({title})")
 
-        # ✅ 리드미 업데이트용 오늘 날짜 변환 (for_readme=True 추가)
-        readme_date = parse_relative_date(raw_date, for_readme=True)
-
-        posts.append((title, raw_date, readme_date, link, sort_key))
+        posts.append((title, raw_date, raw_date, link, sort_key))
 
     # ✅ 최신순 정렬 (초 → 분 → 시간 → 어제 → 날짜)
     posts.sort(key=lambda x: x[4], reverse=True)
@@ -114,12 +110,11 @@ def update_readme(posts):
 
         # ✅ 최신 블로그 글을 표 형식으로 업데이트
         new_content = content[:start_index] + [
-            "| 📝 제목 | 📅 작성일 (상대/변환) | 🔗 링크 |\n",
+            "| 📝 제목 | 📅 작성일 (변환된 날짜) | 🔗 링크 |\n",
             "|---------|------------------|---------|\n",
         ] + [
-            f"| **{title}** | {original_date} ({readme_date}) | [바로가기]({link}) |\n"
-            if original_date != readme_date else f"| **{title}** | {readme_date} | [바로가기]({link}) |\n"
-            for title, original_date, readme_date, link, _ in posts
+            f"| **{title}** | {converted_date} | [바로가기]({link}) |\n"
+            for title, _, converted_date, link, _ in posts
         ] + [
             "\n📅 **Last Updated:** " + datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d %H:%M:%S") + " (KST)\n",
             "🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**\n"

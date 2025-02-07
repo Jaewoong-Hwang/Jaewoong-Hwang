@@ -26,6 +26,10 @@
 ---
 
 ## 📊 Today’s Commits: 47
+## 📊 오늘의 커밋 현황
+> <img src='https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif' width='30'> **총 커밋 수:** `50`
+> 📅 **업데이트 시간:** `2025-02-07 12:47 KST`
+
 
 
 ---

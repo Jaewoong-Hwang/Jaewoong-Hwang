@@ -50,8 +50,7 @@ jobs:
           # 새로운 "오늘의 커밋 현황" 생성
           cat > commit_summary.md <<EOF
           ## 📊 오늘의 커밋 현황
-          > <img src="https://cdn.pixabay.com/animation/2022/11/17/00/47/00-47-21-570_512.gif" width="20">  **총 커밋 수:** 🔥 **$TODAY_COMMITS** 🔥  
-          > 📅 **업데이트 시간:** **$UPDATE_TIME**
+          > <img src="https://cdn.pixabay.com/animation/2022/11/17/00/47/00-47-21-570_512.gif" width="20">  **총 커밋 수:** 🔥 **$TODAY_COMMITS** 🔥 📅 **업데이트 시간:** **$UPDATE_TIME**
           EOF
 
           # README.md에서 기존 내용을 삭제한 후 "GitHub Stats" 위에 삽입

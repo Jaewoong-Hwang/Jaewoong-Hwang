@@ -39,7 +39,7 @@
 
 
 ## 📝 Latest Blog Posts
-> 벨로그에서 최신 블로그 글을 자동 업데이트합니다! 🚀
+ 벨로그에서 최신 블로그 글을 자동 업데이트합니다! 🚀
 
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
@@ -67,7 +67,7 @@
 
 
 ## 📊 오늘의 커밋 현황
-> <img src="https://cdn.pixabay.com/animation/2022/11/17/00/47/00-47-21-570_512.gif" width="20">  **총 커밋 수:** 🔥 **14** 🔥 📅 **업데이트 시간:** **2025-02-08 12:09 KST**
+<img src="https://cdn.pixabay.com/animation/2022/11/17/00/47/00-47-21-570_512.gif" width="20">  **총 커밋 수:** 🔥 **14** 🔥 📅 **업데이트 시간:** **2025-02-08 12:09 KST**
 
 ## 📊 GitHub Stats
 <p align="center">
@@ -79,8 +79,8 @@
 ---
 
 ## 📫 Contact Me
-> 📧 Email: boogiewoong2@egmail.com 
-> <p>🧑🏻‍💻 Blog: [BELOG: MYPALEBLUEDOT](https://velog.io/@mypalebluedot29/posts)</p>
+ 📧 Email: boogiewoong2@egmail.com 
+<p>🧑🏻‍💻 Blog: [BELOG: MYPALEBLUEDOT](https://velog.io/@mypalebluedot29/posts)</p>
 </div>
 
 

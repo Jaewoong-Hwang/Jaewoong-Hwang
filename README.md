@@ -66,6 +66,11 @@
 
 ---
 
+
+## 📊 오늘의 커밋 현황
+> ![불꽃](https://cdn.pixabay.com/animation/2022/11/17/00/47/00-47-21-570_512.gif)  **총 커밋 수:** 🔥 **5** 🔥  
+> 📅 **업데이트 시간:** **2025-02-08 11:09 KST**
+
 ## 📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Jaewoong-Hwang&show_icons=true&theme=tokyonight"/>

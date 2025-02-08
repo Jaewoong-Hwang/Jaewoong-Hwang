@@ -1,5 +1,5 @@
 
-<div align=:center">
+<div align="center">
 <img src="https://github.com/Jaewoong-Hwang/Jaewoong-Hwang/blob/main/20250208_1308_Loop%20Video_loop_01jkhvwe4jetnr5zdp2wdm4qab.gif" width="100">
 </div>
 <h2>

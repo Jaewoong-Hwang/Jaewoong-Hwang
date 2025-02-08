@@ -67,7 +67,7 @@
 
 
 ## 📊 오늘의 커밋 현황
-<h2><img src="https://cdn.pixabay.com/animation/2022/11/17/00/47/00-47-21-570_512.gif" width="20">  총 커밋 수: 🔥 14 🔥 </h2>
+##<img src="https://cdn.pixabay.com/animation/2022/11/17/00/47/00-47-21-570_512.gif" width="20">  총 커밋 수: 🔥 14 🔥 
 
 ## 📊 GitHub Stats
 <p align="center">

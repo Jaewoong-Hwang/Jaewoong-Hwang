@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 15 * * *" # 매일 자정(UTC 기준)에 실행 (KST 00:00)
+    - cron: "0 */3 * * *" # 6시간마다 실행 (UTC 기준, KST 기준으로 6시간마다 업데이트)
   workflow_dispatch:
 
 jobs:
@@ -35,15 +35,15 @@ jobs:
 
       - name: Update README
         run: |
+          # 기존 "## 📊 오늘의 커밋 현황" 섹션을 삭제
+          sed -i '/## 📊 오늘의 커밋 현황/,/## /{//!d}' README.md
+          sed -i '/## 📊 오늘의 커밋 현황/d' README.md
+
+          # 새롭게 "## 📊 오늘의 커밋 현황"을 추가
           echo -e "## 📊 오늘의 커밋 현황\n> <img src='https://cdn.pixabay.com/animation/2022/11/17/00/47/00-47-21-570_512.gif' width='20'>  **총 커밋 수:** 🔥 **$TODAY_COMMITS** 🔥\n> 📅 **업데이트 시간:** **$(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST')**\n" > commit_summary.md
-          
-          # README.md에 "## 📊 오늘의 커밋 현황" 부분을 찾아서 업데이트
-          if grep -q "## 📊 오늘의 커밋 현황" README.md; then
-            sed -i "/## 📊 오늘의 커밋 현황/ r commit_summary.md" README.md
-          else
-            echo -e "\n## 📊 오늘의 커밋 현황\n" >> README.md
-            cat commit_summary.md >> README.md
-          fi
+
+          # README.md에 추가
+          sed -i '/## 📊 GitHub Stats/i '"$(cat commit_summary.md)" README.md
 
           rm commit_summary.md
 
@@ -60,4 +60,4 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git pull origin main  # 최신 코드 가져오기
           git add README.md
-          git diff --cached --quiet || (git commit -m "🔄 자동 업데이트: 오늘의 커밋 수 & 최신 블로그 포스트 추가" && git push https://x-access-token:${GH_PAT}@github.com/Jaewoong-Hwang/Jaewoong-Hwang.git main)
+          git diff --cached --quiet || (git commit -m "🔄 자동 업데이트: 오늘의 커밋 수" && git push https://x-access-token:${GH_PAT}@github.com/Jaewoong-Hwang/Jaewoong-Hwang.git main)

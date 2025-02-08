@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 */3 * * *" # 6시간마다 실행 (UTC 기준, KST 기준으로 6시간마다 업데이트)
+    - cron: "0 */3 * * *" # 3시간마다 실행 (UTC 기준, KST 기준으로 3시간마다 업데이트)
   workflow_dispatch:
 
 jobs:
@@ -20,7 +20,7 @@ jobs:
             exit 0
           fi
 
-          # 한국 시간(KST) 기준으로 UTC 변환
+          # 한국 시간(KST) 기준으로 날짜 계산
           KST_DATE=$(TZ=Asia/Seoul date '+%Y-%m-%d')
           UTC_START_DATE=$(date -u -d "$KST_DATE 00:00:00" '+%Y-%m-%dT%H:%M:%SZ')
           UTC_END_DATE=$(date -u -d "$KST_DATE 23:59:59" '+%Y-%m-%dT%H:%M:%SZ')
@@ -30,27 +30,34 @@ jobs:
             "query": "query { viewer { contributionsCollection(from: \"'$UTC_START_DATE'\", to: \"'$UTC_END_DATE'\") { contributionCalendar { totalContributions } } } }"
           }' https://api.github.com/graphql | jq '.data.viewer.contributionsCollection.contributionCalendar.totalContributions')
 
+          # 만약 API 요청 실패 시 기본값 0 처리
+          if [ -z "$TODAY_COMMITS" ] || [ "$TODAY_COMMITS" == "null" ]; then
+            TODAY_COMMITS=0
+          fi
+
           echo "TODAY_COMMITS=$TODAY_COMMITS" >> $GITHUB_ENV
           echo "✅ 오늘의 커밋 수: $TODAY_COMMITS"
 
       - name: Update README
         run: |
-         # 기존 "## 📊 오늘의 커밋 현황" 섹션을 삭제
+          # 현재 한국 시간(KST) 가져오기
+          UPDATE_TIME=$(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST')
+
+          # 기존 "## 📊 오늘의 커밋 현황" 섹션 삭제
           sed -i '/## 📊 오늘의 커밋 현황/,/## /{//!d}' README.md
           sed -i '/## 📊 오늘의 커밋 현황/d' README.md
 
-          # 새롭게 "## 📊 오늘의 커밋 현황"을 추가
+          # 새로운 "오늘의 커밋 현황" 생성
           cat > commit_summary.md <<EOF
           ## 📊 오늘의 커밋 현황
           > ![불꽃](https://cdn.pixabay.com/animation/2022/11/17/00/47/00-47-21-570_512.gif)  **총 커밋 수:** 🔥 **$TODAY_COMMITS** 🔥  
-          > 📅 **업데이트 시간:** **$(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST')**
+          > 📅 **업데이트 시간:** **$UPDATE_TIME**
           EOF
 
           # README.md에서 기존 내용을 삭제한 후 "GitHub Stats" 위에 삽입
           awk '/## 📊 GitHub Stats/ {print ""; while ((getline line < "commit_summary.md") > 0) print line; print ""; print $0; next} 1' README.md > temp.md && mv temp.md README.md
 
           rm commit_summary.md
-
 
       - name: Commit and Push
         env:
@@ -65,4 +72,6 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git pull origin main  # 최신 코드 가져오기
           git add README.md
+          
+          # 변경사항이 있을 때만 커밋 & 푸시 수행
           git diff --cached --quiet || (git commit -m "🔄 자동 업데이트: 오늘의 커밋 수" && git push https://x-access-token:${GH_PAT}@github.com/Jaewoong-Hwang/Jaewoong-Hwang.git main)

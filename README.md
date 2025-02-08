@@ -2,10 +2,6 @@
 
 
 
-| GIF | 텍스트 |
-|---|---|
-| <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230"> | **🔥 GIF와 텍스트 함께 배치하기 🔥** |
-
 <img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
 
 <p><em>Software Developer | Tech Enthusiast | Open Source Contributor</em></p>

@@ -1,9 +1,9 @@
 
 <div align="center">
-<img src="https://github.com/Jaewoong-Hwang/Jaewoong-Hwang/blob/main/20250208_1308_Loop%20Video_loop_01jkhvwe4jetnr5zdp2wdm4qab.gif" width="100">
+<img src="https://github.com/Jaewoong-Hwang/Jaewoong-Hwang/blob/main/20250208_1308_Loop%20Video_loop_01jkhvwe4jetnr5zdp2wdm4qab.gif" width="300">
 
 <h2>
- <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="40"> Hello, I'm Jaewoong! 
+ Hello, I'm Jaewoong! 
 </h2>
 
 <p><em>Software Developer | Tech Enthusiast | Open Source Contributor</em></p>

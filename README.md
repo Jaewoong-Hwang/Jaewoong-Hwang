@@ -44,13 +44,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **🛠️  벨로그 클론 코딩 및 GitHub README 자동 업데이트 방법** | 2025-02-08 | [바로가기](https://velog.io/@mypalebluedot29/벨로그-클론-코딩-및-GitHub-README-자동-업데이트-방법) |
 | **🖥️ CSS 반응형 디자인과 애니메이션 학습** | 2025-02-07 | [바로가기](https://velog.io/@mypalebluedot29/CSS-반응형-디자인과-애니메이션-학습) |
 | **🖧 네트워크관리사 2급 기출문제 오답 정리(2022년 5월 22일)** | 2025-02-06 | [바로가기](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리-2022년-5월-22일) |
 | **CSS Transition, Transform, 그리고 Animation 학습** | 2025-02-06 | [바로가기](https://velog.io/@mypalebluedot29/CSS-Transition-Transform-그리고-Animation-학습) |
 | **😎 Flexbox의 flex-grow, flex-shrink, flex-basis 이해하기** | 2025-02-05 | [바로가기](https://velog.io/@mypalebluedot29/Flexbox의-flex-grow-flex-shrink-flex-basis-이해하기) |
-| **😎Flexbox 기본 개념 정리** | 2025-02-04 | [바로가기](https://velog.io/@mypalebluedot29/Flexbox-기본-개념-정리) |
 
-📅 **Last Updated:** 2025-02-08 00:23:20 (KST)
+📅 **Last Updated:** 2025-02-09 00:20:23 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

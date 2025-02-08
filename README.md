@@ -1,5 +1,11 @@
 <h2><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hello, I'm Jaewoong! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
 
+
+
+| GIF | 텍스트 |
+|---|---|
+| <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230"> | **🔥 GIF와 텍스트 함께 배치하기 🔥** |
+
 <img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
 
 <p><em>Software Developer | Tech Enthusiast | Open Source Contributor</em></p>

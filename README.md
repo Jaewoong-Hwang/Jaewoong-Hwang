@@ -44,13 +44,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **Mac에서 MySQL Connector/J를 사용해 MariaDB와 Eclipse 연결하기** | 2025-02-09 | [바로가기](https://velog.io/@mypalebluedot29/Mac에서-MySQL-ConnectorJ를-사용해-MariaDB와-Eclipse-연결하기) |
+| **Mac에서 MariaDB 설치 및 MySQL Workbench 연결 과정 정리** | 2025-02-09 | [바로가기](https://velog.io/@mypalebluedot29/Mac에서-MariaDB-설치-및-MySQL-Workbench-연결-과정-정리) |
 | **🛠️  벨로그 클론 코딩 및 GitHub README 자동 업데이트 방법** | 2025-02-08 | [바로가기](https://velog.io/@mypalebluedot29/벨로그-클론-코딩-및-GitHub-README-자동-업데이트-방법) |
 | **🖥️ CSS 반응형 디자인과 애니메이션 학습** | 2025-02-07 | [바로가기](https://velog.io/@mypalebluedot29/CSS-반응형-디자인과-애니메이션-학습) |
 | **🖧 네트워크관리사 2급 기출문제 오답 정리(2022년 5월 22일)** | 2025-02-06 | [바로가기](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리-2022년-5월-22일) |
-| **CSS Transition, Transform, 그리고 Animation 학습** | 2025-02-06 | [바로가기](https://velog.io/@mypalebluedot29/CSS-Transition-Transform-그리고-Animation-학습) |
-| **😎 Flexbox의 flex-grow, flex-shrink, flex-basis 이해하기** | 2025-02-05 | [바로가기](https://velog.io/@mypalebluedot29/Flexbox의-flex-grow-flex-shrink-flex-basis-이해하기) |
 
-📅 **Last Updated:** 2025-02-09 00:20:23 (KST)
+📅 **Last Updated:** 2025-02-10 00:22:43 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

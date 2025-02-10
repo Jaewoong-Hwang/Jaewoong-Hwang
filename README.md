@@ -1,6 +1,6 @@
 
 <div align="center">
-<img src="https://github.com/Jaewoong-Hwang/Jaewoong-Hwang/blob/main/Character.gif" width="800">
+<img src="https://github.com/Jaewoong-Hwang/Jaewoong-Hwang/blob/main/Character.gif" width="500">
 
 <h1>
  Hello, I'm Jaewoong! 

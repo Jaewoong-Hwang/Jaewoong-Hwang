@@ -22,8 +22,8 @@ jobs:
 
           # 한국 시간(KST) 기준으로 날짜 계산
           KST_DATE=$(TZ=Asia/Seoul date '+%Y-%m-%d')
-          UTC_START_DATE=$(date -u -d "$KST_DATE 00:00:00" '+%Y-%m-%dT%H:%M:%SZ')
-          UTC_END_DATE=$(date -u -d "$KST_DATE 23:59:59" '+%Y-%m-%dT%H:%M:%SZ')
+          UTC_START_DATE=$(date --utc -d "$KST_DATE 00:00:00" '+%Y-%m-%dT%H:%M:%SZ')
+          UTC_END_DATE=$(date --utc -d "$KST_DATE 23:59:59" '+%Y-%m-%dT%H:%M:%SZ')
 
           # GitHub GraphQL API를 사용하여 오늘의 커밋 수 가져오기
           TODAY_COMMITS=$(curl -s -H "Authorization: bearer $GH_PAT" -X POST -d '{
@@ -44,8 +44,8 @@ jobs:
           UPDATE_TIME=$(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST')
 
           # 기존 "## 📊 오늘의 커밋 현황" 섹션 삭제
-          sed -i '/## 📊 오늘의 커밋 현황/,/## /{//!d}' README.md
-          sed -i '/## 📊 오늘의 커밋 현황/d' README.md
+          sed -i'' -e '/## 📊 오늘의 커밋 현황/,/## /{//!d}' README.md
+          sed -i'' -e '/## 📊 오늘의 커밋 현황/d' README.md
 
           # 새로운 "오늘의 커밋 현황" 생성
           cat > commit_summary.md <<EOF
@@ -53,24 +53,16 @@ jobs:
           > <img src="https://cdn.pixabay.com/animation/2022/11/17/00/47/00-47-21-570_512.gif" width="20">  **총 커밋 수:** 🔥 **$TODAY_COMMITS** 🔥 📅 **업데이트 시간:** **$UPDATE_TIME**
           EOF
 
-          # README.md에서 기존 내용을 삭제한 후 "GitHub Stats" 위에 삽입
+          # README.md 업데이트
           awk '/## 📊 GitHub Stats/ {print ""; while ((getline line < "commit_summary.md") > 0) print line; print ""; print $0; next} 1' README.md > temp.md && mv temp.md README.md
-
           rm commit_summary.md
 
       - name: Commit and Push
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          if [ -z "$GH_PAT" ]; then
-            echo "❌ GitHub Personal Access Token이 설정되지 않음. 푸시하지 않음."
-            exit 0
-          fi
-          
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git pull origin main  # 최신 코드 가져오기
+          git pull origin main
           git add README.md
-          
-          # 변경사항이 있을 때만 커밋 & 푸시 수행
           git diff --cached --quiet || (git commit -m "🔄 자동 업데이트: 오늘의 커밋 수" && git push https://x-access-token:${GH_PAT}@github.com/Jaewoong-Hwang/Jaewoong-Hwang.git main)

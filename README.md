@@ -44,13 +44,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
-| **JavaScript 학습 정리** | 2025-02-10 | [바로가기](https://velog.io/@mypalebluedot29/JavaScript-학습-정리-yl5s993v) |
-| **JavaScript 학습 정리** | 2025-02-10 | [바로가기](https://velog.io/@mypalebluedot29/JavaScript-학습-정리) |
+| **JavaScript 학습 정리_03** | 2025-02-11 | [바로가기](https://velog.io/@mypalebluedot29/JavaScript-객체-및-배열-조작) |
+| **JavaScript 학습 정리_02** | 2025-02-10 | [바로가기](https://velog.io/@mypalebluedot29/JavaScript-학습-정리-yl5s993v) |
+| **JavaScript 학습 정리_01** | 2025-02-10 | [바로가기](https://velog.io/@mypalebluedot29/JavaScript-학습-정리) |
 | **Mac에서 MySQL Connector/J를 사용해 MariaDB와 Eclipse 연결하기** | 2025-02-09 | [바로가기](https://velog.io/@mypalebluedot29/Mac에서-MySQL-ConnectorJ를-사용해-MariaDB와-Eclipse-연결하기) |
 | **Mac에서 MariaDB 설치 및 MySQL Workbench 연결 과정 정리** | 2025-02-09 | [바로가기](https://velog.io/@mypalebluedot29/Mac에서-MariaDB-설치-및-MySQL-Workbench-연결-과정-정리) |
-| **🛠️  벨로그 클론 코딩 및 GitHub README 자동 업데이트 방법** | 2025-02-08 | [바로가기](https://velog.io/@mypalebluedot29/벨로그-클론-코딩-및-GitHub-README-자동-업데이트-방법) |
 
-📅 **Last Updated:** 2025-02-11 00:24:58 (KST)
+📅 **Last Updated:** 2025-02-12 00:25:41 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

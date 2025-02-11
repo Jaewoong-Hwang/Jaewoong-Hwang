@@ -20,28 +20,21 @@ jobs:
             exit 0
           fi
 
-          # 한국 시간(KST) 기준으로 날짜 변환
+          # 한국 시간(KST) 기준으로 날짜 계산
           KST_DATE=$(TZ=Asia/Seoul date '+%Y-%m-%d')
-          UTC_START_DATE=$(date -d "$KST_DATE 00:00:00" --utc '+%Y-%m-%dT%H:%M:%SZ')
-          UTC_END_DATE=$(date -d "$KST_DATE 23:59:59" --utc '+%Y-%m-%dT%H:%M:%SZ')
+          UTC_START_DATE=$(date --utc -d "$KST_DATE 00:00:00" '+%Y-%m-%dT%H:%M:%SZ')
+          UTC_END_DATE=$(date --utc -d "$KST_DATE 23:59:59" '+%Y-%m-%dT%H:%M:%SZ')
 
           echo "📅 KST 기준 날짜: $KST_DATE"
           echo "🌎 UTC 변환 시작 시간: $UTC_START_DATE"
           echo "🌎 UTC 변환 종료 시간: $UTC_END_DATE"
 
-          # GitHub GraphQL API를 사용하여 오늘의 커밋 수 가져오기
-          API_RESPONSE=$(curl -s -H "Authorization: bearer $GH_PAT" -X POST -d '{
-            "query": "query { viewer { contributionsCollection(from: \"'$UTC_START_DATE'\", to: \"'$UTC_END_DATE'\") { contributionCalendar { totalContributions } } } }"
-          }' https://api.github.com/graphql)
+          # GraphQL API를 사용하여 오늘의 커밋 수 가져오기
+          TODAY_COMMITS=$(curl -s -H "Authorization: bearer $GH_PAT" -X POST -d '{
+            "query": "query { viewer { contributionsCollection(from: \"'$UTC_START_DATE'\", to: \"'$UTC_END_DATE'\") { commitContributionsByRepository { contributions { totalCount } } } } }"
+          }' https://api.github.com/graphql | jq '[.data.viewer.contributionsCollection.commitContributionsByRepository[].contributions.totalCount] | add')
 
-          # API 응답 확인 (디버깅용)
-          echo "🔍 API 응답 데이터: $API_RESPONSE"
-
-          TODAY_COMMITS=$(echo "$API_RESPONSE" | jq '.data.viewer.contributionsCollection.contributionCalendar.totalContributions')
-
-          # 만약 API 요청 실패 시 기본값 0 처리
           if [ -z "$TODAY_COMMITS" ] || [ "$TODAY_COMMITS" == "null" ]; then
-            echo "⚠️ API 요청 실패 또는 데이터 없음, 기본값 0 설정"
             TODAY_COMMITS=0
           fi
 

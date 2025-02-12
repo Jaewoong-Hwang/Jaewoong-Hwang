@@ -1,5 +1,11 @@
+
+
+
+
+
+
 <div align="center">
-<h1 align="center">Hello, I'm Jaewoong! 🎵</h1>
+<h1 align="center">Hello, I'm Jaewoong! </h1>
 
 <p align="center"><em>Student Developer | Bridging Art & Tech</em></p>
 
@@ -20,10 +26,10 @@
 
 ---
 
-## 🎶 About Me
-- 🔥 I'm currently learning **JavaScript, CSS, HTML, and Java** to become a developer.
-- 🎨 Originally a **music composition major**, now passionate about integrating **art and programming**.
-- 🛠 My goal is to **help artists easily incorporate technology into their creative work**.
+## About Me
+ 🔥 I'm currently learning **JavaScript, CSS, HTML, and Java** to become a developer.
+ 🎨 Originally a **music composition major**, now passionate about integrating **art and programming**.
+🛠 My goal is to **help artists easily incorporate technology into their creative work**.
 
 ---
 

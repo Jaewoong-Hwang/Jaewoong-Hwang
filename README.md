@@ -10,7 +10,7 @@
 
 
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/YOUR_LINKEDIN/)](https://www.linkedin.com/in/YOUR_LINKEDIN/)
-![GitHub followers](https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?label=Follow&style=social)
+![GitHub followers](https://img.shields.io/github/followers/Jaewoong-Hwang?label=Follow&style=social)
 [![website](https://img.shields.io/badge/Website-46a2f1.svg?&style=flat-square&logo=Google-Chrome&logoColor=white&link=https://yourwebsite.com/)](https://yourwebsite.com/)
 ![](https://visitor-badge.glitch.me/badge?page_id=YOUR_GITHUB_USERNAME.YOUR_GITHUB_USERNAME)
 

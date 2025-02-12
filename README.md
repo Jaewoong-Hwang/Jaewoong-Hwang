@@ -7,13 +7,13 @@
   <a href="https://github.com/Jaewoong-Hwang">
     <img src="https://img.shields.io/github/followers/Jaewoong-Hwang?label=Follow&style=social" />
   </a>
-  <a href="https://velog.io/@YOUR_VELOG">
+  <a href="https://velog.io/@mypalebluedot29/posts">
     <img src="https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=velog&logoColor=white"/>
   </a>
-  <a href="https://www.youtube.com/@YOUR_YOUTUBE">
+  <a href="https://www.youtube.com/@boogiewoong2819">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white"/>
   </a>
-  <a href="https://www.instagram.com/YOUR_INSTAGRAM">
+  <a href="https://www.instagram.com/boogie_woong2">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white"/>
   </a>
 </p>
@@ -72,17 +72,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ## 📊 오늘의 커밋 현황
 > 🔥 **총 커밋 수:** **8** 🔥  
 > 🕒 **업데이트 시간:** **2025-02-12 21:13 KST**
@@ -98,9 +87,6 @@
 
 ## 📫 Contact Me
  📧 Email: boogiewoong2@egmail.com 
-<p>🧑🏻‍💻 Blog: [BELOG: MYPALEBLUEDOT](https://velog.io/@mypalebluedot29/posts)</p>
-YouTube: [My Channel](https://www.youtube.com/@YOUR_YOUTUBE)
-Instagram: [My Instagram](https://www.instagram.com/YOUR_INSTAGRAM)
 
 </div>
 

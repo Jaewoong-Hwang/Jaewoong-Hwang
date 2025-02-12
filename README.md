@@ -27,9 +27,9 @@
 ---
 
 ## About Me
- 🔥 I'm currently learning **JavaScript, CSS, HTML, and Java** to become a developer.
- 🎨 Originally a **music composition major**, now passionate about integrating **art and programming**.
-🛠 My goal is to **help artists easily incorporate technology into their creative work**.
+ <p>🔥 I'm currently learning **JavaScript, CSS, HTML, and Java** to become a developer.</p>
+ <p>🎨 Originally a **music composition major**, now passionate about integrating **art and programming**.</p>
+ <p>🛠 My goal is to **help artists easily incorporate technology into their creative work**.</p>
 
 ---
 

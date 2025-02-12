@@ -53,13 +53,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
-| **JavaScript 학습 정리_03** | 2025-02-11 | [바로가기](https://velog.io/@mypalebluedot29/JavaScript-객체-및-배열-조작) |
-| **JavaScript 학습 정리_02** | 2025-02-10 | [바로가기](https://velog.io/@mypalebluedot29/JavaScript-학습-정리-yl5s993v) |
-| **JavaScript 학습 정리_01** | 2025-02-10 | [바로가기](https://velog.io/@mypalebluedot29/JavaScript-학습-정리) |
-| **Mac에서 MySQL Connector/J를 사용해 MariaDB와 Eclipse 연결하기** | 2025-02-09 | [바로가기](https://velog.io/@mypalebluedot29/Mac에서-MySQL-ConnectorJ를-사용해-MariaDB와-Eclipse-연결하기) |
-| **Mac에서 MariaDB 설치 및 MySQL Workbench 연결 과정 정리** | 2025-02-09 | [바로가기](https://velog.io/@mypalebluedot29/Mac에서-MariaDB-설치-및-MySQL-Workbench-연결-과정-정리) |
+| **반복문 (`while`, `for`)의 동작 방식과 차이점** | 2025-02-12 | [바로가기](https://velog.io/@mypalebluedot29/반복문-while-for의-동작-방식과-차이점) |
+| **if 조건문을 활용한 사용자 입력값 기반 스타일 변경** | 2025-02-12 | [바로가기](https://velog.io/@mypalebluedot29/if-조건문을-활용한-사용자-입력값-기반-스타일-변경) |
+| **if-else 조건문을 활용한 짝수와 홀수 판별** | 2025-02-12 | [바로가기](https://velog.io/@mypalebluedot29/if-else-조건문을-활용한-짝수와-홀수-판별) |
+| **절차 지향 프로그래밍과 연결 지향 프로그래밍** | 2025-02-12 | [바로가기](https://velog.io/@mypalebluedot29/절차-지향-프로그래밍과-연결-지향-프로그래밍) |
+| **삼항 조건 연산자 (`? :`)와 타입 연산자 (`typeof`)** | 2025-02-12 | [바로가기](https://velog.io/@mypalebluedot29/삼항-조건-연산자-와-타입-연산자-typeof) |
 
-📅 **Last Updated:** 2025-02-12 00:25:41 (KST)
+📅 **Last Updated:** 2025-02-13 00:25:16 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

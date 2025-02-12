@@ -43,16 +43,6 @@
   <img src="https://github-readme-stats.vercel.app/api?username=Jaewoong-Hwang&show_icons=true&theme=dark" />
 </p>
 
----
-
-## 📫 Contact
-- 📌 GitHub: [Jaewoong-Hwang](https://github.com/Jaewoong-Hwang)
-- 📌 Velog: [My Velog](https://velog.io/@YOUR_VELOG)
-- 📌 YouTube: [My Channel](https://www.youtube.com/@YOUR_YOUTUBE)
-- 📌 Instagram: [My Instagram](https://www.instagram.com/YOUR_INSTAGRAM)
-
-
-
 
 
 ---
@@ -109,7 +99,11 @@
 ## 📫 Contact Me
  📧 Email: boogiewoong2@egmail.com 
 <p>🧑🏻‍💻 Blog: [BELOG: MYPALEBLUEDOT](https://velog.io/@mypalebluedot29/posts)</p>
+YouTube: [My Channel](https://www.youtube.com/@YOUR_YOUTUBE)
+Instagram: [My Instagram](https://www.instagram.com/YOUR_INSTAGRAM)
+
 </div>
+
 
 
 

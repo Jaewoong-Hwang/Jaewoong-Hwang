@@ -1,35 +1,56 @@
 
-<div align="center">
-<img src="https://github.com/Jaewoong-Hwang/Jaewoong-Hwang/blob/main/Character.gif" width="500">
+<h1 align="center">Hello, I'm Jaewoong! 🎵</h1>
 
-<h1>
- Hello, I'm Jaewoong! 
-</h1>
+<p align="center"><em>Student Developer | Bridging Art & Tech</em></p>
 
-<p><em>Software Developer | Tech Enthusiast | Open Source Contributor</em></p>
+<p align="center">
+  <a href="https://github.com/Jaewoong-Hwang">
+    <img src="https://img.shields.io/github/followers/Jaewoong-Hwang?label=Follow&style=social" />
+  </a>
+  <a href="https://velog.io/@YOUR_VELOG">
+    <img src="https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=velog&logoColor=white"/>
+  </a>
+  <a href="https://www.youtube.com/@YOUR_YOUTUBE">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white"/>
+  </a>
+  <a href="https://www.instagram.com/YOUR_INSTAGRAM">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white"/>
+  </a>
+</p>
 
+---
 
-[![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/YOUR_LINKEDIN/)](https://www.linkedin.com/in/YOUR_LINKEDIN/)
-![GitHub followers](https://img.shields.io/github/followers/Jaewoong-Hwang?label=Follow&style=social)
-[![website](https://img.shields.io/badge/Website-46a2f1.svg?&style=flat-square&logo=Google-Chrome&logoColor=white&link=https://yourwebsite.com/)](https://yourwebsite.com/)
-![](https://visitor-badge.glitch.me/badge?page_id=YOUR_GITHUB_USERNAME.YOUR_GITHUB_USERNAME)
+## 🎶 About Me
+- 🔥 I'm currently learning **JavaScript, CSS, HTML, and Java** to become a developer.
+- 🎨 Originally a **music composition major**, now passionate about integrating **art and programming**.
+- 🛠 My goal is to **help artists easily incorporate technology into their creative work**.
 
 ---
 
 ## 🚀 Tech Stack
 ### 💻 Languages & Frameworks
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/>
 </p>
 
-### 🛠 Tools & Platforms
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+---
+
+## 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Jaewoong-Hwang&show_icons=true&theme=dark" />
 </p>
+
+---
+
+## 📫 Contact
+- 📌 GitHub: [Jaewoong-Hwang](https://github.com/Jaewoong-Hwang)
+- 📌 Velog: [My Velog](https://velog.io/@YOUR_VELOG)
+- 📌 YouTube: [My Channel](https://www.youtube.com/@YOUR_YOUTUBE)
+- 📌 Instagram: [My Instagram](https://www.instagram.com/YOUR_INSTAGRAM)
+
 
 
 

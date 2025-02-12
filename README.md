@@ -44,15 +44,6 @@
 
 ---
 
-## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Jaewoong-Hwang&show_icons=true&theme=dark" />
-</p>
-
-
-
----
-
 
 
 ## 📝 Latest Blog Posts

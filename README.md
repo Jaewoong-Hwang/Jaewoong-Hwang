@@ -1,10 +1,11 @@
 
 
-<img src="https://github.com/Jaewoong-Hwang/Jaewoong-Hwang/blob/main/Character.gif" width="300">
+
 
 
 
 <div align="center">
+  <img src="https://github.com/Jaewoong-Hwang/Jaewoong-Hwang/blob/main/Character.gif" width="300">
 <h1 align="center" font-weight="bold">Hello, I'm Jaewoong! </h1>
 
 <p align="center"><em>Student Developer | Bridging Art & Tech</em></p>

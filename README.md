@@ -1,6 +1,6 @@
 
 
-
+<img src="https://github.com/Jaewoong-Hwang/Jaewoong-Hwang/blob/main/Character.gif" width="300">
 
 
 

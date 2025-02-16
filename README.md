@@ -59,7 +59,7 @@
 | **if 조건문을 활용한 사용자 입력값 기반 스타일 변경** | 2025-02-12 | [바로가기](https://velog.io/@mypalebluedot29/if-조건문을-활용한-사용자-입력값-기반-스타일-변경) |
 | **if-else 조건문을 활용한 짝수와 홀수 판별** | 2025-02-12 | [바로가기](https://velog.io/@mypalebluedot29/if-else-조건문을-활용한-짝수와-홀수-판별) |
 
-📅 **Last Updated:** 2025-02-16 00:21:44 (KST)
+📅 **Last Updated:** 2025-02-17 00:21:03 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

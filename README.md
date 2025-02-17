@@ -53,13 +53,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **드래그 앤 드롭(Drag & Drop) 기능 학습** | 2025-02-17 | [바로가기](https://velog.io/@mypalebluedot29/드래그-앤-드롭Drag-Drop-기능-학습) |
 | **JavaScript 콜백 함수, 클로저, 이벤트 리스너 학습** | 2025-02-14 | [바로가기](https://velog.io/@mypalebluedot29/JavaScript-콜백-함수-클로저-이벤트-리스너-학습) |
 | **JavaScript 함수와 클로저, 네비게이션 메뉴 동적 생성** | 2025-02-13 | [바로가기](https://velog.io/@mypalebluedot29/JavaScript-함수와-클로저-네비게이션-메뉴-동적-생성) |
 | **반복문 (`while`, `for`)의 동작 방식과 차이점** | 2025-02-12 | [바로가기](https://velog.io/@mypalebluedot29/반복문-while-for의-동작-방식과-차이점) |
 | **if 조건문을 활용한 사용자 입력값 기반 스타일 변경** | 2025-02-12 | [바로가기](https://velog.io/@mypalebluedot29/if-조건문을-활용한-사용자-입력값-기반-스타일-변경) |
-| **if-else 조건문을 활용한 짝수와 홀수 판별** | 2025-02-12 | [바로가기](https://velog.io/@mypalebluedot29/if-else-조건문을-활용한-짝수와-홀수-판별) |
 
-📅 **Last Updated:** 2025-02-17 00:21:03 (KST)
+📅 **Last Updated:** 2025-02-18 00:23:47 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

@@ -59,7 +59,7 @@
 | **드래그 앤 드롭(Drag & Drop) 기능 학습** | 2025-02-17 | [바로가기](https://velog.io/@mypalebluedot29/드래그-앤-드롭Drag-Drop-기능-학습) |
 | **JavaScript 콜백 함수, 클로저, 이벤트 리스너 학습** | 2025-02-14 | [바로가기](https://velog.io/@mypalebluedot29/JavaScript-콜백-함수-클로저-이벤트-리스너-학습) |
 
-📅 **Last Updated:** 2025-02-19 00:25:37 (KST)
+📅 **Last Updated:** 2025-02-20 00:25:34 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

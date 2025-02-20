@@ -53,13 +53,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
-| **🖧 네트워크관리사 2급 기출문제 오답 정리 (2022년 5월 22일)** | 2025-02-18 | [바로가기](https://velog.io/@mypalebluedot29/네트워크관리사-2급-기출문제-오답-정리-2022년-5월-22일-fmkkup1h) |
-| **동적 테이블 만들기** | 2025-02-18 | [바로가기](https://velog.io/@mypalebluedot29/동적-테이블-만들기) |
-| **타자 연습 만들기(키보드 이벤트)** | 2025-02-18 | [바로가기](https://velog.io/@mypalebluedot29/타자-연습-만들기키보드-이벤트) |
-| **드래그 앤 드롭(Drag & Drop) 기능 학습** | 2025-02-17 | [바로가기](https://velog.io/@mypalebluedot29/드래그-앤-드롭Drag-Drop-기능-학습) |
-| **JavaScript 콜백 함수, 클로저, 이벤트 리스너 학습** | 2025-02-14 | [바로가기](https://velog.io/@mypalebluedot29/JavaScript-콜백-함수-클로저-이벤트-리스너-학습) |
+| **드래그 앤 드롭 (Drag & Drop) 기능 구현** | 2025-02-20 | [바로가기](https://velog.io/@mypalebluedot29/드래그-앤-드롭-Drag-Drop-기능-구현) |
+| **정규표현식(Regex) 활용** | 2025-02-20 | [바로가기](https://velog.io/@mypalebluedot29/정규표현식Regex-활용) |
+| **테이블 동적 추가 및 삭제** | 2025-02-20 | [바로가기](https://velog.io/@mypalebluedot29/테이블-동적-추가-및-삭제) |
+| **동적 리스트 생성 및 삭제 (DOM 조작)** | 2025-02-20 | [바로가기](https://velog.io/@mypalebluedot29/동적-리스트-생성-및-삭제-DOM-조작) |
+| **버튼 이벤트 및 스타일 적용** | 2025-02-20 | [바로가기](https://velog.io/@mypalebluedot29/버튼-이벤트-및-스타일-적용) |
 
-📅 **Last Updated:** 2025-02-20 00:25:34 (KST)
+📅 **Last Updated:** 2025-02-21 00:25:47 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

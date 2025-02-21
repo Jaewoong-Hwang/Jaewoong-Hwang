@@ -53,13 +53,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
-| **드래그 앤 드롭 (Drag & Drop) 기능 구현** | 2025-02-20 | [바로가기](https://velog.io/@mypalebluedot29/드래그-앤-드롭-Drag-Drop-기능-구현) |
-| **정규표현식(Regex) 활용** | 2025-02-20 | [바로가기](https://velog.io/@mypalebluedot29/정규표현식Regex-활용) |
-| **테이블 동적 추가 및 삭제** | 2025-02-20 | [바로가기](https://velog.io/@mypalebluedot29/테이블-동적-추가-및-삭제) |
-| **동적 리스트 생성 및 삭제 (DOM 조작)** | 2025-02-20 | [바로가기](https://velog.io/@mypalebluedot29/동적-리스트-생성-및-삭제-DOM-조작) |
-| **버튼 이벤트 및 스타일 적용** | 2025-02-20 | [바로가기](https://velog.io/@mypalebluedot29/버튼-이벤트-및-스타일-적용) |
+| **Bootstrap 5 주요 기능 정리** | 2025-02-21 | [바로가기](https://velog.io/@mypalebluedot29/Bootstrap-5-주요-기능-정리) |
+| **Chart.js를 활용한 JSON 데이터 기반 동적 차트 생성** | 2025-02-21 | [바로가기](https://velog.io/@mypalebluedot29/Chart.js를-활용한-JSON-데이터-기반-동적-차트-생성) |
+| **Chart.js를 활용한 스택형 막대 그래프 (Stacked Bar Chart)** | 2025-02-21 | [바로가기](https://velog.io/@mypalebluedot29/Chart.js를-활용한-스택형-막대-그래프-Stacked-Bar-Chart) |
+| **ScrollMagic을 활용한 스크롤 애니메이션** | 2025-02-21 | [바로가기](https://velog.io/@mypalebluedot29/ScrollMagic을-활용한-스크롤-애니메이션) |
+| **Chart.js를 활용한 데이터 시각화** | 2025-02-21 | [바로가기](https://velog.io/@mypalebluedot29/Chart.js를-활용한-데이터-시각화) |
 
-📅 **Last Updated:** 2025-02-21 00:25:47 (KST)
+📅 **Last Updated:** 2025-02-22 00:24:43 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

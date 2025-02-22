@@ -53,13 +53,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **🌐 네트워크 관리사 2급 오답노트 정리** | 2025-02-22 | [바로가기](https://velog.io/@mypalebluedot29/네트워크-관리사-2급-오답노트-정리) |
 | **Bootstrap 5 주요 기능 정리** | 2025-02-21 | [바로가기](https://velog.io/@mypalebluedot29/Bootstrap-5-주요-기능-정리) |
 | **Chart.js를 활용한 JSON 데이터 기반 동적 차트 생성** | 2025-02-21 | [바로가기](https://velog.io/@mypalebluedot29/Chart.js를-활용한-JSON-데이터-기반-동적-차트-생성) |
 | **Chart.js를 활용한 스택형 막대 그래프 (Stacked Bar Chart)** | 2025-02-21 | [바로가기](https://velog.io/@mypalebluedot29/Chart.js를-활용한-스택형-막대-그래프-Stacked-Bar-Chart) |
 | **ScrollMagic을 활용한 스크롤 애니메이션** | 2025-02-21 | [바로가기](https://velog.io/@mypalebluedot29/ScrollMagic을-활용한-스크롤-애니메이션) |
-| **Chart.js를 활용한 데이터 시각화** | 2025-02-21 | [바로가기](https://velog.io/@mypalebluedot29/Chart.js를-활용한-데이터-시각화) |
 
-📅 **Last Updated:** 2025-02-22 00:24:43 (KST)
+📅 **Last Updated:** 2025-02-23 00:20:46 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

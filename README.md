@@ -53,13 +53,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
-| **🚀 Java 기본 개념 총정리 | CPU, 변수, 진법 변환, 보수 개념** | 2025-02-24 | [바로가기](https://velog.io/@mypalebluedot29/Java-기본-개념-총정리-CPU-변수-진법-변환-보수-개념) |
+| **🚀 Java 기본 개념 총정리** | 2025-02-24 | [바로가기](https://velog.io/@mypalebluedot29/Java-기본-개념-총정리-CPU-변수-진법-변환-보수-개념) |
 | **🌐 네트워크 관리사 2급 오답노트 정리(2024-05-19)** | 2025-02-22 | [바로가기](https://velog.io/@mypalebluedot29/네트워크-관리사-2급-오답노트-정리2024-05-19) |
 | **🌐 네트워크 관리사 2급 오답노트 정리  2024-02-25** | 2025-02-22 | [바로가기](https://velog.io/@mypalebluedot29/네트워크-관리사-2급-오답노트-정리-2024-02-25) |
 | **🌐 네트워크 관리사 2급 오답노트 정리** | 2025-02-22 | [바로가기](https://velog.io/@mypalebluedot29/네트워크-관리사-2급-오답노트-정리) |
-| **Bootstrap 5 주요 기능 정리** | 2025-02-21 | [바로가기](https://velog.io/@mypalebluedot29/Bootstrap-5-주요-기능-정리) |
+| **Bootstrap 5 주요 기능 정리** | 2025-02-20 | [바로가기](https://velog.io/@mypalebluedot29/Bootstrap-5-주요-기능-정리) |
 
-📅 **Last Updated:** 2025-02-25 00:26:07 (KST)
+📅 **Last Updated:** 2025-02-25 08:48:20 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

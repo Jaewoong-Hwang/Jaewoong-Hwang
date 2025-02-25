@@ -1,9 +1,4 @@
 
-
-
-
-
-
 <div align="center">
   <img src="https://github.com/Jaewoong-Hwang/Jaewoong-Hwang/blob/main/Character.gif" width="400">
 <h1 align="center" font-weight="bold">Hello, I'm Jaewoong! </h1>

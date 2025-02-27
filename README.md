@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **Java - switch문과 while문 학습 정리** | 2025-02-27 | [바로가기](https://velog.io/@mypalebluedot29/Java-switch문과-while문-학습-정리) |
+| **✨ 자바 If 문 학습 기록** | 2025-02-27 | [바로가기](https://velog.io/@mypalebluedot29/자바-If-문-학습-기록) |
 | **자바 연산자 & 버퍼 개념 정리** | 2025-02-26 | [바로가기](https://velog.io/@mypalebluedot29/자바-연산자-버퍼-개념-정리) |
 | **자바 형변환 정리** | 2025-02-26 | [바로가기](https://velog.io/@mypalebluedot29/자바-형변환-정리) |
 | **자바 자료형과 상수 정리** | 2025-02-25 | [바로가기](https://velog.io/@mypalebluedot29/자바-자료형과-상수-정리) |
-| **🚀 Java 기본 개념 총정리** | 2025-02-24 | [바로가기](https://velog.io/@mypalebluedot29/Java-기본-개념-총정리-CPU-변수-진법-변환-보수-개념) |
-| **🌐 네트워크 관리사 2급 오답노트 정리(2024-05-19)** | 2025-02-22 | [바로가기](https://velog.io/@mypalebluedot29/네트워크-관리사-2급-오답노트-정리2024-05-19) |
 
-📅 **Last Updated:** 2025-02-27 00:26:29 (KST)
+📅 **Last Updated:** 2025-02-28 00:26:08 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

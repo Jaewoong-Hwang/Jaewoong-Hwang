@@ -54,7 +54,7 @@
 | **✨ 자바 If 문 학습 기록** | 2025-02-27 | [바로가기](https://velog.io/@mypalebluedot29/자바-If-문-학습-기록) |
 | **자바 연산자 & 버퍼 개념 정리** | 2025-02-26 | [바로가기](https://velog.io/@mypalebluedot29/자바-연산자-버퍼-개념-정리) |
 
-📅 **Last Updated:** 2025-03-01 00:25:13 (KST)
+📅 **Last Updated:** 2025-03-02 00:23:02 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

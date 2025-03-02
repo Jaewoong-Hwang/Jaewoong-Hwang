@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 리눅스마스터 2급 CBT 오답 노트 (2019년 6월 15일 기출)** | 2025-03-02 | [바로가기](https://velog.io/@mypalebluedot29/리눅스마스터-2급-CBT-오답-노트-2019년-6월-15일-기출) |
+| **📌 리눅스마스터 2급 CBT 오답 노트 (2019년 3월 16일 기출)** | 2025-03-02 | [바로가기](https://velog.io/@mypalebluedot29/리눅스마스터-2급-CBT-오답-노트-2019년-3월-16일-기출) |
 | **💻 Java - while문을 활용한 알고리즘 문제 풀이** | 2025-02-28 | [바로가기](https://velog.io/@mypalebluedot29/Java-while문을-활용한-알고리즘-문제-풀이-0g2e1as6) |
-| **💻 Java - while문을 활용한 알고리즘 문제 풀이** | 2025-02-28 | [바로가기](https://velog.io/@mypalebluedot29/Java-while문을-활용한-알고리즘-문제-풀이) |
+| **💻 Java - while문을 활용한 알고리즘 문제 풀이** | 2025-02-27 | [바로가기](https://velog.io/@mypalebluedot29/Java-while문을-활용한-알고리즘-문제-풀이) |
 | **Java - switch문과 while문 학습 정리** | 2025-02-27 | [바로가기](https://velog.io/@mypalebluedot29/Java-switch문과-while문-학습-정리) |
-| **✨ 자바 If 문 학습 기록** | 2025-02-27 | [바로가기](https://velog.io/@mypalebluedot29/자바-If-문-학습-기록) |
-| **자바 연산자 & 버퍼 개념 정리** | 2025-02-26 | [바로가기](https://velog.io/@mypalebluedot29/자바-연산자-버퍼-개념-정리) |
 
-📅 **Last Updated:** 2025-03-02 00:23:02 (KST)
+📅 **Last Updated:** 2025-03-03 00:22:38 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

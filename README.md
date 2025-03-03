@@ -54,7 +54,7 @@
 | **💻 Java - while문을 활용한 알고리즘 문제 풀이** | 2025-02-27 | [바로가기](https://velog.io/@mypalebluedot29/Java-while문을-활용한-알고리즘-문제-풀이) |
 | **Java - switch문과 while문 학습 정리** | 2025-02-27 | [바로가기](https://velog.io/@mypalebluedot29/Java-switch문과-while문-학습-정리) |
 
-📅 **Last Updated:** 2025-03-03 00:22:38 (KST)
+📅 **Last Updated:** 2025-03-04 00:25:45 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

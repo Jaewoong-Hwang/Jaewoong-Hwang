@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 Java - 업캐스팅, 다운캐스팅, 추상 클래스, 인터페이스** | 2025-03-07 | [바로가기](https://velog.io/@mypalebluedot29/Java-업캐스팅-다운캐스팅-추상-클래스-인터페이스) |
 | **🐧 리눅스마스터 2급 기출문제 오답 정리 (2019년 12월 14일)** | 2025-03-06 | [바로가기](https://velog.io/@mypalebluedot29/리눅스마스터-2급-기출문제-오답-정리-2019년-12월-14일) |
 | **📌 Java 상속(Inheritance) 및 메서드 오버라이딩(Method Overriding) 정리** | 2025-03-06 | [바로가기](https://velog.io/@mypalebluedot29/Java-상속Inheritance-및-메서드-오버라이딩Method-Overriding-정리) |
 | **Java Static 변수 및 Static 메서드, 싱글톤 패턴 정리** | 2025-03-06 | [바로가기](https://velog.io/@mypalebluedot29/Java-Static-변수-및-Static-메서드-싱글톤-패턴-정리) |
-| **🐧 리눅스마스터 2급 기출문제 오답 정리(2019년 09월 21일)** | 2025-03-05 | [바로가기](https://velog.io/@mypalebluedot29/리눅스마스터-2급-기출문제-오답-정리2019년-09월-21일) |
-| **🚀 자바 배열과 객체 배열 정리** | 2025-03-05 | [바로가기](https://velog.io/@mypalebluedot29/자바-배열과-객체-배열-정리) |
+| **🐧 리눅스마스터 2급 기출문제 오답 정리(2019년 09월 21일)** | 2025-03-06 | [바로가기](https://velog.io/@mypalebluedot29/리눅스마스터-2급-기출문제-오답-정리2019년-09월-21일) |
 
-📅 **Last Updated:** 2025-03-07 00:25:37 (KST)
+📅 **Last Updated:** 2025-03-08 00:24:52 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

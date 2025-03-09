@@ -54,7 +54,7 @@
 | **Java Static 변수 및 Static 메서드, 싱글톤 패턴 정리** | 2025-03-06 | [바로가기](https://velog.io/@mypalebluedot29/Java-Static-변수-및-Static-메서드-싱글톤-패턴-정리) |
 | **🐧 리눅스마스터 2급 기출문제 오답 정리(2019년 09월 21일)** | 2025-03-05 | [바로가기](https://velog.io/@mypalebluedot29/리눅스마스터-2급-기출문제-오답-정리2019년-09월-21일) |
 
-📅 **Last Updated:** 2025-03-09 00:18:45 (KST)
+📅 **Last Updated:** 2025-03-10 00:20:20 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

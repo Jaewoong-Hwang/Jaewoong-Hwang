@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 Java 객체 비교, 컬렉션 프레임워크, Properties 설정, 그리고 GUI(Swing) 활용** | 2025-03-11 | [바로가기](https://velog.io/@mypalebluedot29/Java-객체-비교-컬렉션-프레임워크-Properties-설정-그리고-GUISwing-활용) |
 | **📌Java 예외 처리 & 제네릭(Generic) 정리** | 2025-03-10 | [바로가기](https://velog.io/@mypalebluedot29/Java-예외-처리-제네릭Generic-정리) |
 | **📌Java 객체, Wrapper 클래스, 날짜 및 시간 포맷 정리** | 2025-03-10 | [바로가기](https://velog.io/@mypalebluedot29/Java-객체-Wrapper-클래스-날짜-및-시간-포맷-정리) |
 | **📌 Java - 업캐스팅, 다운캐스팅, 추상 클래스, 인터페이스** | 2025-03-07 | [바로가기](https://velog.io/@mypalebluedot29/Java-업캐스팅-다운캐스팅-추상-클래스-인터페이스) |
 | **🐧 리눅스마스터 2급 기출문제 오답 정리 (2019년 12월 14일)** | 2025-03-06 | [바로가기](https://velog.io/@mypalebluedot29/리눅스마스터-2급-기출문제-오답-정리-2019년-12월-14일) |
-| **📌 Java 상속(Inheritance) 및 메서드 오버라이딩(Method Overriding) 정리** | 2025-03-06 | [바로가기](https://velog.io/@mypalebluedot29/Java-상속Inheritance-및-메서드-오버라이딩Method-Overriding-정리) |
 
-📅 **Last Updated:** 2025-03-11 00:25:56 (KST)
+📅 **Last Updated:** 2025-03-12 00:26:42 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

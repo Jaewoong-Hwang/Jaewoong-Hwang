@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 Java Swing을 활용한 채팅 UI 구현** | 2025-03-12 | [바로가기](https://velog.io/@mypalebluedot29/Java-Swing을-활용한-채팅-UI-구현) |
 | **📌 Java 객체 비교, 컬렉션 프레임워크, Properties 설정, 그리고 GUI(Swing) 활용** | 2025-03-11 | [바로가기](https://velog.io/@mypalebluedot29/Java-객체-비교-컬렉션-프레임워크-Properties-설정-그리고-GUISwing-활용) |
 | **📌Java 예외 처리 & 제네릭(Generic) 정리** | 2025-03-10 | [바로가기](https://velog.io/@mypalebluedot29/Java-예외-처리-제네릭Generic-정리) |
-| **📌Java 객체, Wrapper 클래스, 날짜 및 시간 포맷 정리** | 2025-03-10 | [바로가기](https://velog.io/@mypalebluedot29/Java-객체-Wrapper-클래스-날짜-및-시간-포맷-정리) |
+| **📌Java 객체, Wrapper 클래스, 날짜 및 시간 포맷 정리** | 2025-03-09 | [바로가기](https://velog.io/@mypalebluedot29/Java-객체-Wrapper-클래스-날짜-및-시간-포맷-정리) |
 | **📌 Java - 업캐스팅, 다운캐스팅, 추상 클래스, 인터페이스** | 2025-03-07 | [바로가기](https://velog.io/@mypalebluedot29/Java-업캐스팅-다운캐스팅-추상-클래스-인터페이스) |
-| **🐧 리눅스마스터 2급 기출문제 오답 정리 (2019년 12월 14일)** | 2025-03-06 | [바로가기](https://velog.io/@mypalebluedot29/리눅스마스터-2급-기출문제-오답-정리-2019년-12월-14일) |
 
-📅 **Last Updated:** 2025-03-12 00:26:42 (KST)
+📅 **Last Updated:** 2025-03-13 00:27:00 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

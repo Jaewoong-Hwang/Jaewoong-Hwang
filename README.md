@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 Java 웹 크롤링 및 자동화 (Jsoup & Selenium)** | 2025-03-14 | [바로가기](https://velog.io/@mypalebluedot29/Java-웹-크롤링-및-자동화-Jsoup-Selenium) |
 | **📌 Java Swing을 활용한 채팅 프로그램 - 파일 저장 및 불러오기 기능 추가** | 2025-03-13 | [바로가기](https://velog.io/@mypalebluedot29/Java-Swing을-활용한-채팅-프로그램-파일-저장-및-불러오기-기능-추가) |
 | **📌 Java Swing을 활용한 채팅 UI 구현** | 2025-03-12 | [바로가기](https://velog.io/@mypalebluedot29/Java-Swing을-활용한-채팅-UI-구현) |
 | **📌 Java 객체 비교, 컬렉션 프레임워크, Properties 설정, 그리고 GUI(Swing) 활용** | 2025-03-11 | [바로가기](https://velog.io/@mypalebluedot29/Java-객체-비교-컬렉션-프레임워크-Properties-설정-그리고-GUISwing-활용) |
 | **📌Java 예외 처리 & 제네릭(Generic) 정리** | 2025-03-10 | [바로가기](https://velog.io/@mypalebluedot29/Java-예외-처리-제네릭Generic-정리) |
-| **📌Java 객체, Wrapper 클래스, 날짜 및 시간 포맷 정리** | 2025-03-09 | [바로가기](https://velog.io/@mypalebluedot29/Java-객체-Wrapper-클래스-날짜-및-시간-포맷-정리) |
 
-📅 **Last Updated:** 2025-03-14 00:26:42 (KST)
+📅 **Last Updated:** 2025-03-15 00:24:51 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

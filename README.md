@@ -54,7 +54,7 @@
 | **📌 Java 객체 비교, 컬렉션 프레임워크, Properties 설정, 그리고 GUI(Swing) 활용** | 2025-03-11 | [바로가기](https://velog.io/@mypalebluedot29/Java-객체-비교-컬렉션-프레임워크-Properties-설정-그리고-GUISwing-활용) |
 | **📌Java 예외 처리 & 제네릭(Generic) 정리** | 2025-03-10 | [바로가기](https://velog.io/@mypalebluedot29/Java-예외-처리-제네릭Generic-정리) |
 
-📅 **Last Updated:** 2025-03-15 00:24:51 (KST)
+📅 **Last Updated:** 2025-03-16 00:21:47 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

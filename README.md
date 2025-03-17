@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 JDBC + Swing 기반 메모 관리 프로그램** | 2025-03-17 | [바로가기](https://velog.io/@mypalebluedot29/JDBC-Swing-기반-메모-관리-프로그램) |
+| **📌 Java 파일 입출력 (I/O) 정리: 다양한 입출력 스트림 활용** | 2025-03-17 | [바로가기](https://velog.io/@mypalebluedot29/Java-파일-입출력-IO-정리-다양한-입출력-스트림-활용) |
 | **📌 Java 웹 크롤링 및 자동화 (Jsoup & Selenium)** | 2025-03-14 | [바로가기](https://velog.io/@mypalebluedot29/Java-웹-크롤링-및-자동화-Jsoup-Selenium) |
 | **📌 Java Swing을 활용한 채팅 프로그램 - 파일 저장 및 불러오기 기능 추가** | 2025-03-13 | [바로가기](https://velog.io/@mypalebluedot29/Java-Swing을-활용한-채팅-프로그램-파일-저장-및-불러오기-기능-추가) |
 | **📌 Java Swing을 활용한 채팅 UI 구현** | 2025-03-12 | [바로가기](https://velog.io/@mypalebluedot29/Java-Swing을-활용한-채팅-UI-구현) |
-| **📌 Java 객체 비교, 컬렉션 프레임워크, Properties 설정, 그리고 GUI(Swing) 활용** | 2025-03-11 | [바로가기](https://velog.io/@mypalebluedot29/Java-객체-비교-컬렉션-프레임워크-Properties-설정-그리고-GUISwing-활용) |
-| **📌Java 예외 처리 & 제네릭(Generic) 정리** | 2025-03-10 | [바로가기](https://velog.io/@mypalebluedot29/Java-예외-처리-제네릭Generic-정리) |
 
-📅 **Last Updated:** 2025-03-17 00:22:37 (KST)
+📅 **Last Updated:** 2025-03-18 00:26:24 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

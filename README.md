@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 Java Reflection (리플렉션) 개념 및 활용** | 2025-03-19 | [바로가기](https://velog.io/@mypalebluedot29/Java-Reflection-리플렉션-개념-및-활용) |
 | **📌 Java Swing GUI 프로그래밍 개념 및 활용** | 2025-03-18 | [바로가기](https://velog.io/@mypalebluedot29/Java-Swing-GUI-프로그래밍-개념-및-활용) |
 | **📌 Java 소켓(Socket) 프로그래밍 개념 및 활용** | 2025-03-18 | [바로가기](https://velog.io/@mypalebluedot29/Java-소켓Socket-프로그래밍-개념-및-활용) |
 | **📌 Java 트랜잭션(Transaction) 개념 및 활용** | 2025-03-18 | [바로가기](https://velog.io/@mypalebluedot29/Java-트랜잭션Transaction-개념-및-활용) |
 | **📌 Java 스레드(Thread) 개념 및 활용** | 2025-03-18 | [바로가기](https://velog.io/@mypalebluedot29/Java-스레드Thread-개념-및-활용) |
-| **📌 JDBC + Swing 기반 메모 관리 프로그램** | 2025-03-17 | [바로가기](https://velog.io/@mypalebluedot29/JDBC-Swing-기반-메모-관리-프로그램) |
 
-📅 **Last Updated:** 2025-03-19 00:26:40 (KST)
+📅 **Last Updated:** 2025-03-20 00:26:25 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

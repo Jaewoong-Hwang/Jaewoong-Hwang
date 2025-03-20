@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 자바 함수형 프로그래밍(Functional Programming) 정리** | 2025-03-20 | [바로가기](https://velog.io/@mypalebluedot29/자바-함수형-프로그래밍Functional-Programming-정리) |
+| **📌 자바 스트림(Stream) API 활용 정리** | 2025-03-20 | [바로가기](https://velog.io/@mypalebluedot29/자바-스트림Stream-API-활용-정리) |
+| **📌 자바 람다(Lambda) 활용 정리** | 2025-03-20 | [바로가기](https://velog.io/@mypalebluedot29/자바-람다Lambda-활용-정리) |
 | **📌 Java Reflection (리플렉션) 개념 및 활용** | 2025-03-19 | [바로가기](https://velog.io/@mypalebluedot29/Java-Reflection-리플렉션-개념-및-활용) |
 | **📌 Java Swing GUI 프로그래밍 개념 및 활용** | 2025-03-18 | [바로가기](https://velog.io/@mypalebluedot29/Java-Swing-GUI-프로그래밍-개념-및-활용) |
-| **📌 Java 소켓(Socket) 프로그래밍 개념 및 활용** | 2025-03-18 | [바로가기](https://velog.io/@mypalebluedot29/Java-소켓Socket-프로그래밍-개념-및-활용) |
-| **📌 Java 트랜잭션(Transaction) 개념 및 활용** | 2025-03-18 | [바로가기](https://velog.io/@mypalebluedot29/Java-트랜잭션Transaction-개념-및-활용) |
-| **📌 Java 스레드(Thread) 개념 및 활용** | 2025-03-18 | [바로가기](https://velog.io/@mypalebluedot29/Java-스레드Thread-개념-및-활용) |
 
-📅 **Last Updated:** 2025-03-20 00:26:25 (KST)
+📅 **Last Updated:** 2025-03-21 00:26:41 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

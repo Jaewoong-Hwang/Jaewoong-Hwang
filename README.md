@@ -54,7 +54,7 @@
 | **📌 자바 람다(Lambda) 활용 정리** | 2025-03-20 | [바로가기](https://velog.io/@mypalebluedot29/자바-람다Lambda-활용-정리) |
 | **📌 Java Reflection (리플렉션) 개념 및 활용** | 2025-03-19 | [바로가기](https://velog.io/@mypalebluedot29/Java-Reflection-리플렉션-개념-및-활용) |
 
-📅 **Last Updated:** 2025-03-23 00:22:20 (KST)
+📅 **Last Updated:** 2025-03-24 00:23:45 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

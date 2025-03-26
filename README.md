@@ -54,7 +54,7 @@
 | **📘 자바 고급 문법 완전 정리: 함수형 프로그래밍 & 어노테이션** | 2025-03-21 | [바로가기](https://velog.io/@mypalebluedot29/자바-고급-문법-완전-정리-함수형-프로그래밍-어노테이션) |
 | **📌 자바 함수형 프로그래밍(Functional Programming) 정리** | 2025-03-20 | [바로가기](https://velog.io/@mypalebluedot29/자바-함수형-프로그래밍Functional-Programming-정리) |
 
-📅 **Last Updated:** 2025-03-26 00:27:38 (KST)
+📅 **Last Updated:** 2025-03-27 00:26:41 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

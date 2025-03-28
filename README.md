@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
-| **📌 SQL JOIN - SELF JOIN (셀프 조인)** | 2025-03-27 | [바로가기](https://velog.io/@mypalebluedot29/SQL-JOIN-SELF-JOIN-셀프-조인) |
-| **📌 Oracle SQL 학습 정리 - 함수, 서브쿼리, GROUP BY, 조인까지 종합 정리** | 2025-03-25 | [바로가기](https://velog.io/@mypalebluedot29/Oracle-SQL-학습-정리-함수-서브쿼리-GROUP-BY-조인까지-종합-정리) |
-| **📌 클래스 다이어그램의 관계 총정리 + 실전 예제 분석 (StarCraft 예제로 배우는 객체 관계)** | 2025-03-24 | [바로가기](https://velog.io/@mypalebluedot29/클래스-다이어그램의-관계-총정리-실전-예제-분석-StarCraft-예제로-배우는-객체-관계) |
-| **📌 Oracle DBMS 기본 개념 및 SQL 문법 정리** | 2025-03-24 | [바로가기](https://velog.io/@mypalebluedot29/Oracle-DBMS-기본-개념-및-SQL-문법-정리) |
-| **📘 자바 고급 문법 완전 정리: 함수형 프로그래밍 & 어노테이션** | 2025-03-21 | [바로가기](https://velog.io/@mypalebluedot29/자바-고급-문법-완전-정리-함수형-프로그래밍-어노테이션) |
+| **📌 [Java 웹] MVC와 MVC 패턴이란?** | 2025-03-27 | [바로가기](https://velog.io/@mypalebluedot29/Java-웹-MVC와-MVC-패턴이란) |
+| **📌 [Java] DTO / 테스트 코드 / 유효성 검사 정리** | 2025-03-27 | [바로가기](https://velog.io/@mypalebluedot29/Java-DTO-테스트-코드-유효성-검사-정리) |
+| **📌 [Java] FrontController 기반 웹 애플리케이션 구조 정리** | 2025-03-27 | [바로가기](https://velog.io/@mypalebluedot29/Java-FrontController-기반-웹-애플리케이션-구조-정리) |
+| **📌 SQL 표준 조인 (Standard JOIN)** | 2025-03-27 | [바로가기](https://velog.io/@mypalebluedot29/SQL-표준-조인-Standard-JOIN) |
+| **SQL JOIN 심화 & 서브쿼리(Subquery) 정리** | 2025-03-27 | [바로가기](https://velog.io/@mypalebluedot29/SQL-JOIN-심화-서브쿼리Subquery-정리) |
 
-📅 **Last Updated:** 2025-03-28 00:26:58 (KST)
+📅 **Last Updated:** 2025-03-29 00:25:47 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

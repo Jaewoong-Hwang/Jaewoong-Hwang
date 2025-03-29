@@ -54,7 +54,7 @@
 | **📌 SQL 표준 조인 (Standard JOIN)** | 2025-03-27 | [바로가기](https://velog.io/@mypalebluedot29/SQL-표준-조인-Standard-JOIN) |
 | **SQL JOIN 심화 & 서브쿼리(Subquery) 정리** | 2025-03-27 | [바로가기](https://velog.io/@mypalebluedot29/SQL-JOIN-심화-서브쿼리Subquery-정리) |
 
-📅 **Last Updated:** 2025-03-29 00:25:47 (KST)
+📅 **Last Updated:** 2025-03-30 00:23:40 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

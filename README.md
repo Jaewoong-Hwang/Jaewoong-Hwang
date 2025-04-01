@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 JSP 요청 처리와 JavaScript 연동 완벽 정리 (GET, POST, Request)** | 2025-04-01 | [바로가기](https://velog.io/@mypalebluedot29/JSP-요청-처리와-JavaScript-연동-완벽-정리-GET-POST-Request) |
+| **📌 JSP의 스크립트 요소 완벽 정리 (스크립틀릿, 표현식, 선언문)** | 2025-04-01 | [바로가기](https://velog.io/@mypalebluedot29/JSP의-스크립트-요소-완벽-정리-스크립틀릿-표현식-선언문) |
+| **📌 JSP와 Servlet의 개념 및 차이점 정리** | 2025-03-31 | [바로가기](https://velog.io/@mypalebluedot29/JSP와-Servlet의-개념-및-차이점-정리) |
 | **📌 [Java 웹] MVC와 MVC 패턴이란?** | 2025-03-27 | [바로가기](https://velog.io/@mypalebluedot29/Java-웹-MVC와-MVC-패턴이란) |
 | **📌 [Java] DTO / 테스트 코드 / 유효성 검사 정리** | 2025-03-27 | [바로가기](https://velog.io/@mypalebluedot29/Java-DTO-테스트-코드-유효성-검사-정리) |
-| **📌 [Java] FrontController 기반 웹 애플리케이션 구조 정리** | 2025-03-27 | [바로가기](https://velog.io/@mypalebluedot29/Java-FrontController-기반-웹-애플리케이션-구조-정리) |
-| **📌 SQL 표준 조인 (Standard JOIN)** | 2025-03-27 | [바로가기](https://velog.io/@mypalebluedot29/SQL-표준-조인-Standard-JOIN) |
-| **SQL JOIN 심화 & 서브쿼리(Subquery) 정리** | 2025-03-27 | [바로가기](https://velog.io/@mypalebluedot29/SQL-JOIN-심화-서브쿼리Subquery-정리) |
 
-📅 **Last Updated:** 2025-04-01 00:26:28 (KST)
+📅 **Last Updated:** 2025-04-02 00:27:11 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 JSP 회원가입 기능 구현 (Oracle + 세션 + 유효성 검사 흐름 완전 정리)** | 2025-04-03 | [바로가기](https://velog.io/@mypalebluedot29/JSP-회원가입-기능-구현-Oracle-세션-유효성-검사-흐름-완전-정리) |
+| **📌 JSP 내장 객체 완전 정복 + 파일 다운로드 실습 (단일/ZIP, Scope 총정리)** | 2025-04-03 | [바로가기](https://velog.io/@mypalebluedot29/JSP-내장-객체-완전-정복-파일-다운로드-실습-단일ZIP-Scope-총정리) |
 | **📌 JSP Redirect 방식 완벽 가이드 - 흐름, 특징, Forward와 차이점 정리** | 2025-04-02 | [바로가기](https://velog.io/@mypalebluedot29/JSP-Redirect-방식-완벽-가이드-흐름-특징-Forward와-차이점-정리) |
 | **📌 JSP Forward 방식 완벽 이해 - Request 흐름 + 실습 코드 분석** | 2025-04-02 | [바로가기](https://velog.io/@mypalebluedot29/JSP-Forward-방식-완벽-이해-Request-흐름-실습-코드-분석-h6ls0gg0) |
 | **📌 JSP 실습: page 지시어 개념과 DTO 연동, 에러 처리 흐름 정리** | 2025-04-02 | [바로가기](https://velog.io/@mypalebluedot29/JSP-실습-page-지시어-개념과-DTO-연동-에러-처리-흐름-정리) |
-| **📌 JSP 요청 처리와 JavaScript 연동 완벽 정리 (GET, POST, Request)** | 2025-04-01 | [바로가기](https://velog.io/@mypalebluedot29/JSP-요청-처리와-JavaScript-연동-완벽-정리-GET-POST-Request) |
-| **📌 JSP의 스크립트 요소 완벽 정리 (스크립틀릿, 표현식, 선언문)** | 2025-04-01 | [바로가기](https://velog.io/@mypalebluedot29/JSP의-스크립트-요소-완벽-정리-스크립틀릿-표현식-선언문) |
 
-📅 **Last Updated:** 2025-04-03 00:26:54 (KST)
+📅 **Last Updated:** 2025-04-04 00:24:33 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

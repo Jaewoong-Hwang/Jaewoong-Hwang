@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **🌐 JSP - EL(Expression Language)과 Scope 실습 정리** | 2025-04-04 | [바로가기](https://velog.io/@mypalebluedot29/JSP-ELExpression-Language과-Scope-실습-정리-iqmhpivp) |
+| **🔐 JSP 로그인/로그아웃 + 세션 + 쿠키 처리 흐름 정리** | 2025-04-04 | [바로가기](https://velog.io/@mypalebluedot29/JSP-로그인로그아웃-세션-쿠키-처리-흐름-정리-v8g9rdm9) |
+| **🍪 JSP 쿠키 실습 정리 (생성 / 조회 / 삭제 흐름 완전 이해)** | 2025-04-04 | [바로가기](https://velog.io/@mypalebluedot29/JSP-쿠키-실습-정리-생성-조회-삭제-흐름-완전-이해) |
 | **📌 JSP 회원가입 기능 구현 (Oracle + 세션 + 유효성 검사 흐름 완전 정리)** | 2025-04-03 | [바로가기](https://velog.io/@mypalebluedot29/JSP-회원가입-기능-구현-Oracle-세션-유효성-검사-흐름-완전-정리) |
 | **📌 JSP 내장 객체 완전 정복 + 파일 다운로드 실습 (단일/ZIP, Scope 총정리)** | 2025-04-03 | [바로가기](https://velog.io/@mypalebluedot29/JSP-내장-객체-완전-정복-파일-다운로드-실습-단일ZIP-Scope-총정리) |
-| **📌 JSP Redirect 방식 완벽 가이드 - 흐름, 특징, Forward와 차이점 정리** | 2025-04-02 | [바로가기](https://velog.io/@mypalebluedot29/JSP-Redirect-방식-완벽-가이드-흐름-특징-Forward와-차이점-정리) |
-| **📌 JSP Forward 방식 완벽 이해 - Request 흐름 + 실습 코드 분석** | 2025-04-02 | [바로가기](https://velog.io/@mypalebluedot29/JSP-Forward-방식-완벽-이해-Request-흐름-실습-코드-분석-h6ls0gg0) |
-| **📌 JSP 실습: page 지시어 개념과 DTO 연동, 에러 처리 흐름 정리** | 2025-04-02 | [바로가기](https://velog.io/@mypalebluedot29/JSP-실습-page-지시어-개념과-DTO-연동-에러-처리-흐름-정리) |
 
-📅 **Last Updated:** 2025-04-04 00:24:33 (KST)
+📅 **Last Updated:** 2025-04-05 00:27:14 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

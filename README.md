@@ -54,7 +54,7 @@
 | **📌 JSP 회원가입 기능 구현 (Oracle + 세션 + 유효성 검사 흐름 완전 정리)** | 2025-04-03 | [바로가기](https://velog.io/@mypalebluedot29/JSP-회원가입-기능-구현-Oracle-세션-유효성-검사-흐름-완전-정리) |
 | **📌 JSP 내장 객체 완전 정복 + 파일 다운로드 실습 (단일/ZIP, Scope 총정리)** | 2025-04-02 | [바로가기](https://velog.io/@mypalebluedot29/JSP-내장-객체-완전-정복-파일-다운로드-실습-단일ZIP-Scope-총정리) |
 
-📅 **Last Updated:** 2025-04-07 00:22:37 (KST)
+📅 **Last Updated:** 2025-04-08 00:26:16 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

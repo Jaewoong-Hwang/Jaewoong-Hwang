@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 JSP 수강 등록 시스템: 동적 폼 처리 + 포맷팅 + DB Insert 완벽 정리** | 2025-04-09 | [바로가기](https://velog.io/@mypalebluedot29/JSP-수강-등록-시스템-동적-폼-처리-포맷팅-DB-Insert-완벽-정리-jf1te8xk) |
 | **📌 JSP 기반 투표 시스템 - 4: 코드 블록 + 주석 포함 전체 흐름** | 2025-04-08 | [바로가기](https://velog.io/@mypalebluedot29/JSP-기반-투표-시스템-4-코드-블록-주석-포함-전체-흐름) |
 | **📌 JSP 기반 투표 시스템 - 3:  JSP 파일별 전체 흐름 정리** | 2025-04-08 | [바로가기](https://velog.io/@mypalebluedot29/JSP-기반-투표-시스템-3-JSP-파일별-전체-흐름-정리-jbsc0ln6) |
 | **📌 JSP 기반 투표 시스템 - 2: DTO & DBUtils 구조 정리 (JSP 기반 투표 시스템)** | 2025-04-08 | [바로가기](https://velog.io/@mypalebluedot29/JSP-기반-투표-시스템-2-DTO-DBUtils-구조-정리-JSP-기반-투표-시스템) |
 | **📌 JSP 기반 투표 시스템 - 1: 프로젝트 개요 + DB 구조** | 2025-04-08 | [바로가기](https://velog.io/@mypalebluedot29/JSP-기반-투표-시스템-1-프로젝트-개요-DB-구조) |
-| **📊 JSP + Oracle 통계 출력 실습(품목별 총합 & 날짜별 평균을 JSP와 DBUtils로 구현하기)** | 2025-04-08 | [바로가기](https://velog.io/@mypalebluedot29/JSP-Oracle-통계-출력-실습품목별-총합-날짜별-평균을-JSP와-DBUtils로-구현하기) |
 
-📅 **Last Updated:** 2025-04-09 00:27:33 (KST)
+📅 **Last Updated:** 2025-04-10 00:29:35 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

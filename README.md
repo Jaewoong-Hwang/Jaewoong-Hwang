@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 Servlet + JNDI Resource 기반 DB 연동 회원가입/로그인 구현** | 2025-04-11 | [바로가기](https://velog.io/@mypalebluedot29/Servlet-JNDI-Resource-기반-DB-연동-회원가입로그인-구현-bfmutmjy) |
+| **📌 Servlet Listener 완전 정리 (애플리케이션, 세션, 요청 전 영역 실습)** | 2025-04-11 | [바로가기](https://velog.io/@mypalebluedot29/Servlet-Listener-완전-정리-애플리케이션-세션-요청-전-영역-실습) |
+| **📌 Servlet Filter 완전 정복: 인코딩, 권한 체크, 로그인 리다이렉트** | 2025-04-11 | [바로가기](https://velog.io/@mypalebluedot29/Servlet-Filter-완전-정복-인코딩-권한-체크-로그인-리다이렉트-60o1x2up) |
 | **📌 Servlet & Filter 실습 예제 완전 정리 - 개념, 흐름, 코드 해설까지** | 2025-04-10 | [바로가기](https://velog.io/@mypalebluedot29/Servlet-Filter-실습-예제-완전-정리-개념-흐름-코드-해설까지) |
 | **📌 Servlet/JSP 실습 예제 - Oracle DB 연동 회원가입 & 로그인 구현 (설명 포함)** | 2025-04-10 | [바로가기](https://velog.io/@mypalebluedot29/ServletJSP-실습-예제-Oracle-DB-연동-회원가입-로그인-구현-설명-포함-jdgk6ji8) |
-| **📌 Servlet/JSP 실습 예제 정리 - 회원가입, 로그인, 세션 기반 처리 흐름** | 2025-04-10 | [바로가기](https://velog.io/@mypalebluedot29/ServletJSP-실습-예제-정리-회원가입-로그인-세션-기반-처리-흐름-13gdnxgq) |
-| **📌 JSP 수강 등록 시스템: 동적 폼 처리 + 포맷팅 + DB Insert 완벽 정리** | 2025-04-09 | [바로가기](https://velog.io/@mypalebluedot29/JSP-수강-등록-시스템-동적-폼-처리-포맷팅-DB-Insert-완벽-정리-jf1te8xk) |
-| **📌 JSP 기반 투표 시스템 - 4: 코드 블록 + 주석 포함 전체 흐름** | 2025-04-08 | [바로가기](https://velog.io/@mypalebluedot29/JSP-기반-투표-시스템-4-코드-블록-주석-포함-전체-흐름) |
 
-📅 **Last Updated:** 2025-04-11 00:26:51 (KST)
+📅 **Last Updated:** 2025-04-12 00:26:41 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

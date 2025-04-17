@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 로그인 사용자의 도서 수정 흐름 정리 (도서 목록 → 수정)** | 2025-04-17 | [바로가기](https://velog.io/@mypalebluedot29/로그인-사용자의-도서-수정-흐름-정리-도서-목록-수정-p7u443dd) |
+| **📌 도서 관리 시스템 프로젝트 - 7편: 도서 삭제 기능 (BookDeleteController)** | 2025-04-17 | [바로가기](https://velog.io/@mypalebluedot29/도서-관리-시스템-프로젝트-7편-도서-삭제-기능-BookDeleteController-cfjl0yub) |
+| **📌 도서 관리 시스템 프로젝트 - 6편: 도서 정보 수정 기능 (BookUpdateController)** | 2025-04-17 | [바로가기](https://velog.io/@mypalebluedot29/도서-관리-시스템-프로젝트-6편-도서-정보-수정-기능-BookUpdateController-ny5bqxul) |
 | **📌 Servlet + JNDI Resource 기반 DB 연동 회원가입/로그인 구현** | 2025-04-11 | [바로가기](https://velog.io/@mypalebluedot29/Servlet-JNDI-Resource-기반-DB-연동-회원가입로그인-구현-bfmutmjy) |
 | **📌 Servlet Listener 완전 정리 (애플리케이션, 세션, 요청 전 영역 실습)** | 2025-04-11 | [바로가기](https://velog.io/@mypalebluedot29/Servlet-Listener-완전-정리-애플리케이션-세션-요청-전-영역-실습) |
-| **📌 Servlet Filter 완전 정복: 인코딩, 권한 체크, 로그인 리다이렉트** | 2025-04-11 | [바로가기](https://velog.io/@mypalebluedot29/Servlet-Filter-완전-정복-인코딩-권한-체크-로그인-리다이렉트-60o1x2up) |
-| **📌 Servlet & Filter 실습 예제 완전 정리 - 개념, 흐름, 코드 해설까지** | 2025-04-10 | [바로가기](https://velog.io/@mypalebluedot29/Servlet-Filter-실습-예제-완전-정리-개념-흐름-코드-해설까지) |
-| **📌 Servlet/JSP 실습 예제 - Oracle DB 연동 회원가입 & 로그인 구현 (설명 포함)** | 2025-04-10 | [바로가기](https://velog.io/@mypalebluedot29/ServletJSP-실습-예제-Oracle-DB-연동-회원가입-로그인-구현-설명-포함-jdgk6ji8) |
 
-📅 **Last Updated:** 2025-04-17 00:28:38 (KST)
+📅 **Last Updated:** 2025-04-18 00:26:03 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

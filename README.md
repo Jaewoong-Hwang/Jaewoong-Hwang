@@ -54,7 +54,7 @@
 | **📌 Servlet + JNDI Resource 기반 DB 연동 회원가입/로그인 구현** | 2025-04-11 | [바로가기](https://velog.io/@mypalebluedot29/Servlet-JNDI-Resource-기반-DB-연동-회원가입로그인-구현-bfmutmjy) |
 | **📌 Servlet Listener 완전 정리 (애플리케이션, 세션, 요청 전 영역 실습)** | 2025-04-11 | [바로가기](https://velog.io/@mypalebluedot29/Servlet-Listener-완전-정리-애플리케이션-세션-요청-전-영역-실습) |
 
-📅 **Last Updated:** 2025-04-20 00:23:30 (KST)
+📅 **Last Updated:** 2025-04-21 00:23:08 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

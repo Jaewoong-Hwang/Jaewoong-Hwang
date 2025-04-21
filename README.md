@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 STS3 기반 Spring Legacy 프로젝트 설치 및 설정 가이드** | 2025-04-21 | [바로가기](https://velog.io/@mypalebluedot29/STS3-기반-Spring-Legacy-프로젝트-설치-및-설정-가이드-ezi8xefe) |
+| **📌 [Java Servlet 파일 업로드 구현 - FileSystem 저장 + 목록 출력 + Drag & Drop + Axios 비동기 처리]** | 2025-04-21 | [바로가기](https://velog.io/@mypalebluedot29/Java-Servlet-파일-업로드-구현-FileSystem-저장-목록-출력-Drag-Drop-Axios-비동기-처리) |
 | **📌 로그인 사용자의 도서 수정 흐름 정리 (도서 목록 → 수정)** | 2025-04-17 | [바로가기](https://velog.io/@mypalebluedot29/로그인-사용자의-도서-수정-흐름-정리-도서-목록-수정-p7u443dd) |
 | **📌 도서 관리 시스템 프로젝트 - 7편: 도서 삭제 기능 (BookDeleteController)** | 2025-04-17 | [바로가기](https://velog.io/@mypalebluedot29/도서-관리-시스템-프로젝트-7편-도서-삭제-기능-BookDeleteController-cfjl0yub) |
 | **📌 도서 관리 시스템 프로젝트 - 6편: 도서 정보 수정 기능 (BookUpdateController)** | 2025-04-17 | [바로가기](https://velog.io/@mypalebluedot29/도서-관리-시스템-프로젝트-6편-도서-정보-수정-기능-BookUpdateController-ny5bqxul) |
-| **📌 Servlet + JNDI Resource 기반 DB 연동 회원가입/로그인 구현** | 2025-04-11 | [바로가기](https://velog.io/@mypalebluedot29/Servlet-JNDI-Resource-기반-DB-연동-회원가입로그인-구현-bfmutmjy) |
-| **📌 Servlet Listener 완전 정리 (애플리케이션, 세션, 요청 전 영역 실습)** | 2025-04-11 | [바로가기](https://velog.io/@mypalebluedot29/Servlet-Listener-완전-정리-애플리케이션-세션-요청-전-영역-실습) |
 
-📅 **Last Updated:** 2025-04-21 00:23:08 (KST)
+📅 **Last Updated:** 2025-04-22 00:25:46 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

@@ -54,7 +54,7 @@
 | **📌 도서 관리 시스템 프로젝트 - 7편: 도서 삭제 기능 (BookDeleteController)** | 2025-04-17 | [바로가기](https://velog.io/@mypalebluedot29/도서-관리-시스템-프로젝트-7편-도서-삭제-기능-BookDeleteController-cfjl0yub) |
 | **📌 도서 관리 시스템 프로젝트 - 6편: 도서 정보 수정 기능 (BookUpdateController)** | 2025-04-17 | [바로가기](https://velog.io/@mypalebluedot29/도서-관리-시스템-프로젝트-6편-도서-정보-수정-기능-BookUpdateController-ny5bqxul) |
 
-📅 **Last Updated:** 2025-04-22 00:25:46 (KST)
+📅 **Last Updated:** 2025-04-23 00:26:23 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

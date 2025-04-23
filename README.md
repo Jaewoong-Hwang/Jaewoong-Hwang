@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 스프링 Validation 심화 - 4편: 커스텀 Validator와 고급 검증 전략** | 2025-04-23 | [바로가기](https://velog.io/@mypalebluedot29/스프링-Validation-심화-4편-커스텀-Validator와-고급-검증-전략) |
+| **📌 스프링 Validation 기초 - 3편: @Valid와 BindingResult로 입력값 검증하기** | 2025-04-23 | [바로가기](https://velog.io/@mypalebluedot29/스프링-Validation-기초-3편-Valid와-BindingResult로-입력값-검증하기) |
+| **📌 스프링 파라미터 심화 - 2편: Model, Redirect, 그리고 Servlet 방식까지 완전 정복** | 2025-04-23 | [바로가기](https://velog.io/@mypalebluedot29/스프링-파라미터-심화-2편-Model-Redirect-그리고-Servlet-방식까지-완전-정복) |
+| **📌  스프링 MVC 파라미터 처리 완전 정복 | 1편: @RequestParam, @RequestBody 완벽 이해하기** | 2025-04-23 | [바로가기](https://velog.io/@mypalebluedot29/스프링-MVC-파라미터-처리-완전-정복-1편-RequestParam-RequestBody-완벽-이해하기) |
 | **📌 STS3 기반 Spring Legacy 프로젝트 설치 및 설정 가이드** | 2025-04-21 | [바로가기](https://velog.io/@mypalebluedot29/STS3-기반-Spring-Legacy-프로젝트-설치-및-설정-가이드-ezi8xefe) |
-| **📌 [Java Servlet 파일 업로드 구현 - FileSystem 저장 + 목록 출력 + Drag & Drop + Axios 비동기 처리]** | 2025-04-21 | [바로가기](https://velog.io/@mypalebluedot29/Java-Servlet-파일-업로드-구현-FileSystem-저장-목록-출력-Drag-Drop-Axios-비동기-처리) |
-| **📌 로그인 사용자의 도서 수정 흐름 정리 (도서 목록 → 수정)** | 2025-04-17 | [바로가기](https://velog.io/@mypalebluedot29/로그인-사용자의-도서-수정-흐름-정리-도서-목록-수정-p7u443dd) |
-| **📌 도서 관리 시스템 프로젝트 - 7편: 도서 삭제 기능 (BookDeleteController)** | 2025-04-17 | [바로가기](https://velog.io/@mypalebluedot29/도서-관리-시스템-프로젝트-7편-도서-삭제-기능-BookDeleteController-cfjl0yub) |
-| **📌 도서 관리 시스템 프로젝트 - 6편: 도서 정보 수정 기능 (BookUpdateController)** | 2025-04-17 | [바로가기](https://velog.io/@mypalebluedot29/도서-관리-시스템-프로젝트-6편-도서-정보-수정-기능-BookUpdateController-ny5bqxul) |
 
-📅 **Last Updated:** 2025-04-23 00:26:23 (KST)
+📅 **Last Updated:** 2025-04-24 00:27:50 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
-| **📌 스프링 Validation 심화 - 4편: 커스텀 Validator와 고급 검증 전략** | 2025-04-23 | [바로가기](https://velog.io/@mypalebluedot29/스프링-Validation-심화-4편-커스텀-Validator와-고급-검증-전략) |
-| **📌 스프링 Validation 기초 - 3편: @Valid와 BindingResult로 입력값 검증하기** | 2025-04-23 | [바로가기](https://velog.io/@mypalebluedot29/스프링-Validation-기초-3편-Valid와-BindingResult로-입력값-검증하기) |
-| **📌 스프링 파라미터 심화 - 2편: Model, Redirect, 그리고 Servlet 방식까지 완전 정복** | 2025-04-23 | [바로가기](https://velog.io/@mypalebluedot29/스프링-파라미터-심화-2편-Model-Redirect-그리고-Servlet-방식까지-완전-정복) |
-| **📌  스프링 MVC 파라미터 처리 완전 정복 | 1편: @RequestParam, @RequestBody 완벽 이해하기** | 2025-04-23 | [바로가기](https://velog.io/@mypalebluedot29/스프링-MVC-파라미터-처리-완전-정복-1편-RequestParam-RequestBody-완벽-이해하기) |
-| **📌 STS3 기반 Spring Legacy 프로젝트 설치 및 설정 가이드** | 2025-04-21 | [바로가기](https://velog.io/@mypalebluedot29/STS3-기반-Spring-Legacy-프로젝트-설치-및-설정-가이드-ezi8xefe) |
+| **📌 Spring JDBC & DataSource 완벽 정리 🚀 실습 + 트러블슈팅** | 2025-04-24 | [바로가기](https://velog.io/@mypalebluedot29/Spring-JDBC-DataSource-완벽-정리-실습-트러블슈팅) |
+| **📌 Spring 예외 처리 실습 (@ExceptionHandler & @ControllerAdvice)** | 2025-04-24 | [바로가기](https://velog.io/@mypalebluedot29/Spring-예외-처리-실습-ExceptionHandler-ControllerAdvice-lz1dwpu2) |
+| **📌Spring에서 API, @RequestBody, HTTP Body 완벽 이해하기** | 2025-04-24 | [바로가기](https://velog.io/@mypalebluedot29/Spring에서-API-RequestBody-HTTP-Body-완벽-이해하기-op05f5b6) |
+| **📌 Spring Validation + @InitBinder 활용법 | PropertyEditorSupport로 입력 데이터 포맷팅 자동화** | 2025-04-24 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Validation-InitBinder-활용법-PropertyEditorSupport로-입력-데이터-포맷팅-자동화-e3zv6wnj) |
+| **📌 Spring Validation + @InitBinder 활용법 | PropertyEditorSupport로 입력 데이터 포맷팅 자동화** | 2025-04-24 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Validation-InitBinder-활용법-PropertyEditorSupport로-입력-데이터-포맷팅-자동화-pvioklz1) |
 
-📅 **Last Updated:** 2025-04-24 00:27:50 (KST)
+📅 **Last Updated:** 2025-04-25 00:27:33 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

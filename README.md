@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 MyBatis Mapper 완전 정복 ① - 어노테이션 기반 CRUD** | 2025-04-25 | [바로가기](https://velog.io/@mypalebluedot29/MyBatis-Mapper-완전-정복-어노테이션-기반-CRUD-sz35vblo) |
+| **📌 Spring 환경에서 MyBatis 설정과 Mapper 활용법** | 2025-04-25 | [바로가기](https://velog.io/@mypalebluedot29/Spring-환경에서-MyBatis-설정과-Mapper-활용법-6e7d1sth) |
+| **📌 Spring 환경에서 MyBatis 설정과 Mapper 활용법** | 2025-04-25 | [바로가기](https://velog.io/@mypalebluedot29/Spring-환경에서-MyBatis-설정과-Mapper-활용법-r27l813k) |
 | **📌 Spring JDBC & DataSource 완벽 정리 🚀 실습 + 트러블슈팅** | 2025-04-24 | [바로가기](https://velog.io/@mypalebluedot29/Spring-JDBC-DataSource-완벽-정리-실습-트러블슈팅) |
 | **📌 Spring 예외 처리 실습 (@ExceptionHandler & @ControllerAdvice)** | 2025-04-24 | [바로가기](https://velog.io/@mypalebluedot29/Spring-예외-처리-실습-ExceptionHandler-ControllerAdvice-lz1dwpu2) |
-| **📌Spring에서 API, @RequestBody, HTTP Body 완벽 이해하기** | 2025-04-24 | [바로가기](https://velog.io/@mypalebluedot29/Spring에서-API-RequestBody-HTTP-Body-완벽-이해하기-op05f5b6) |
-| **📌 Spring Validation + @InitBinder 활용법 | PropertyEditorSupport로 입력 데이터 포맷팅 자동화** | 2025-04-24 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Validation-InitBinder-활용법-PropertyEditorSupport로-입력-데이터-포맷팅-자동화-e3zv6wnj) |
-| **📌 Spring Validation + @InitBinder 활용법 | PropertyEditorSupport로 입력 데이터 포맷팅 자동화** | 2025-04-24 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Validation-InitBinder-활용법-PropertyEditorSupport로-입력-데이터-포맷팅-자동화-pvioklz1) |
 
-📅 **Last Updated:** 2025-04-25 00:27:33 (KST)
+📅 **Last Updated:** 2025-04-25 17:02:29 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

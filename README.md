@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
-| **📌 MyBatis Mapper 완전 정복 ① - 어노테이션 기반 CRUD** | 2025-04-25 | [바로가기](https://velog.io/@mypalebluedot29/MyBatis-Mapper-완전-정복-어노테이션-기반-CRUD-sz35vblo) |
-| **📌 Spring 환경에서 MyBatis 설정과 Mapper 활용법** | 2025-04-25 | [바로가기](https://velog.io/@mypalebluedot29/Spring-환경에서-MyBatis-설정과-Mapper-활용법-6e7d1sth) |
-| **📌 Spring 환경에서 MyBatis 설정과 Mapper 활용법** | 2025-04-25 | [바로가기](https://velog.io/@mypalebluedot29/Spring-환경에서-MyBatis-설정과-Mapper-활용법-r27l813k) |
-| **📌 Spring JDBC & DataSource 완벽 정리 🚀 실습 + 트러블슈팅** | 2025-04-24 | [바로가기](https://velog.io/@mypalebluedot29/Spring-JDBC-DataSource-완벽-정리-실습-트러블슈팅) |
-| **📌 Spring 예외 처리 실습 (@ExceptionHandler & @ControllerAdvice)** | 2025-04-24 | [바로가기](https://velog.io/@mypalebluedot29/Spring-예외-처리-실습-ExceptionHandler-ControllerAdvice-lz1dwpu2) |
+| **📌 MyBatis Mapper 완전 정복 ⑥ - 테스트 코드 작성법 & 실행 결과 정리** | 2025-04-25 | [바로가기](https://velog.io/@mypalebluedot29/MyBatis-Mapper-완전-정복-테스트-코드-작성법-실행-결과-정리-c84oi900) |
+| **📌 MyBatis Mapper 완전 정복 ⑤ - 동적 SQL 완전 정복** | 2025-04-25 | [바로가기](https://velog.io/@mypalebluedot29/MyBatis-Mapper-완전-정복-동적-SQL-완전-정복-ev0kmjc4) |
+| **📌 MyBatis Mapper 완전 정복 ④ - 자주 발생하는 오류 & 실전 팁** | 2025-04-25 | [바로가기](https://velog.io/@mypalebluedot29/MyBatis-Mapper-완전-정복-자주-발생하는-오류-실전-팁-iajos87c) |
+| **📌 MyBatis Mapper 완전 정복 ③ - 키 생성 전략 완벽 가이드** | 2025-04-25 | [바로가기](https://velog.io/@mypalebluedot29/MyBatis-Mapper-완전-정복-키-생성-전략-완벽-가이드-rqteyhxp) |
+| **📌 MyBatis Mapper 완전 정복 ② - XML 매퍼 활용법** | 2025-04-25 | [바로가기](https://velog.io/@mypalebluedot29/MyBatis-Mapper-완전-정복-XML-매퍼-활용법) |
 
-📅 **Last Updated:** 2025-04-25 17:02:29 (KST)
+📅 **Last Updated:** 2025-04-26 00:25:56 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

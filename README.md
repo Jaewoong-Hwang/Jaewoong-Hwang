@@ -54,7 +54,7 @@
 | **📌 MyBatis Mapper 완전 정복 ③ - 키 생성 전략 완벽 가이드** | 2025-04-25 | [바로가기](https://velog.io/@mypalebluedot29/MyBatis-Mapper-완전-정복-키-생성-전략-완벽-가이드-rqteyhxp) |
 | **📌 MyBatis Mapper 완전 정복 ② - XML 매퍼 활용법** | 2025-04-25 | [바로가기](https://velog.io/@mypalebluedot29/MyBatis-Mapper-완전-정복-XML-매퍼-활용법) |
 
-📅 **Last Updated:** 2025-04-27 00:23:21 (KST)
+📅 **Last Updated:** 2025-04-28 00:24:20 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
-| **📌 Spring Security 기본 정리** | 2025-04-29 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-기본-정리) |
-| **📌 Spring AOP 개념 및 적용 실습** | 2025-04-29 | [바로가기](https://velog.io/@mypalebluedot29/Spring-AOP-개념-및-적용-실습) |
-| **📌 Spring 스케줄링(Scheduling) 기본 정리** | 2025-04-29 | [바로가기](https://velog.io/@mypalebluedot29/Spring-스케줄링Scheduling-기본-정리) |
-| **📌 Spring MVC - HandlerMapping 완전 정리** | 2025-04-29 | [바로가기](https://velog.io/@mypalebluedot29/Spring-MVC-HandlerMapping-완전-정리-mb5lxvl1) |
-| **📌 Spring Interceptor 정리** | 2025-04-29 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Interceptor-정리) |
+| **📌 Spring Security - Remember Me 기능 정리** | 2025-04-30 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-Remember-Me-기능-정리) |
+| **📌 Spring Security - 인증 및 권한 예외처리 핸들러 정복** | 2025-04-30 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-인증-및-권한-예외처리-핸들러-정복-rteikpxe) |
+| **📌 Spring Security 인증 정보 확인 방법 총정리 + JSP Taglib 활용** | 2025-04-30 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-인증-정보-확인-방법-총정리-JSP-Taglib-활용-59quvgb6) |
+| **📌 Spring Security - "UserDetails" & "PrincipalDetails" 완전 정복** | 2025-04-30 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-UserDetails-PrincipalDetails-완전-정복) |
+| **📌 Spring Security 회원가입 & 로그인 구현 정리** | 2025-04-30 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-회원가입-로그인-구현-정리) |
 
-📅 **Last Updated:** 2025-04-30 00:27:17 (KST)
+📅 **Last Updated:** 2025-05-01 00:27:25 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

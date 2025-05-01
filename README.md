@@ -54,7 +54,7 @@
 | **📌 Spring Security - "UserDetails" & "PrincipalDetails" 완전 정복** | 2025-04-30 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-UserDetails-PrincipalDetails-완전-정복) |
 | **📌 Spring Security 회원가입 & 로그인 구현 정리** | 2025-04-30 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-회원가입-로그인-구현-정리) |
 
-📅 **Last Updated:** 2025-05-01 00:27:25 (KST)
+📅 **Last Updated:** 2025-05-02 00:25:42 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

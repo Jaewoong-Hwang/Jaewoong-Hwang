@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 Spring Boot 환경에서 JSP, MyBatis, 예외 처리 흐름 정리** | 2025-05-02 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot-환경에서-JSP-MyBatis-예외-처리-흐름-정리-59kr3w97) |
+| **📌 Spring MVC 파라미터 전달 방식 실습 정리** | 2025-05-02 | [바로가기](https://velog.io/@mypalebluedot29/Spring-MVC-파라미터-전달-방식-실습-정리-i4qjhv9s) |
+| **📌 Spring Boot 프로젝트를 위한 Gradle 설정 및 IntelliJ 세팅 총정리** | 2025-05-02 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot-프로젝트를-위한-Gradle-설정-및-IntelliJ-세팅-총정리-fjyq4i8k) |
 | **📌 Spring Security - Remember Me 기능 정리** | 2025-04-30 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-Remember-Me-기능-정리) |
 | **📌 Spring Security - 인증 및 권한 예외처리 핸들러 정복** | 2025-04-30 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-인증-및-권한-예외처리-핸들러-정복-rteikpxe) |
-| **📌 Spring Security 인증 정보 확인 방법 총정리 + JSP Taglib 활용** | 2025-04-30 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-인증-정보-확인-방법-총정리-JSP-Taglib-활용-59quvgb6) |
-| **📌 Spring Security - "UserDetails" & "PrincipalDetails" 완전 정복** | 2025-04-30 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-UserDetails-PrincipalDetails-완전-정복) |
-| **📌 Spring Security 회원가입 & 로그인 구현 정리** | 2025-04-30 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-회원가입-로그인-구현-정리) |
 
-📅 **Last Updated:** 2025-05-02 00:25:42 (KST)
+📅 **Last Updated:** 2025-05-03 00:26:15 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

@@ -54,7 +54,7 @@
 | **📌 Spring Security - Remember Me 기능 정리** | 2025-04-30 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-Remember-Me-기능-정리) |
 | **📌 Spring Security - 인증 및 권한 예외처리 핸들러 정복** | 2025-04-30 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-인증-및-권한-예외처리-핸들러-정복-rteikpxe) |
 
-📅 **Last Updated:** 2025-05-03 00:26:15 (KST)
+📅 **Last Updated:** 2025-05-04 00:23:58 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

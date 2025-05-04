@@ -50,11 +50,11 @@
 |---------|------------------|---------|
 | **📌 Spring Boot 환경에서 JSP, MyBatis, 예외 처리 흐름 정리** | 2025-05-02 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot-환경에서-JSP-MyBatis-예외-처리-흐름-정리-59kr3w97) |
 | **📌 Spring MVC 파라미터 전달 방식 실습 정리** | 2025-05-02 | [바로가기](https://velog.io/@mypalebluedot29/Spring-MVC-파라미터-전달-방식-실습-정리-i4qjhv9s) |
-| **📌 Spring Boot 프로젝트를 위한 Gradle 설정 및 IntelliJ 세팅 총정리** | 2025-05-02 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot-프로젝트를-위한-Gradle-설정-및-IntelliJ-세팅-총정리-fjyq4i8k) |
+| **📌 Spring Boot 프로젝트를 위한 Gradle 설정 및 IntelliJ 세팅 총정리** | 2025-05-01 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot-프로젝트를-위한-Gradle-설정-및-IntelliJ-세팅-총정리-fjyq4i8k) |
 | **📌 Spring Security - Remember Me 기능 정리** | 2025-04-30 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-Remember-Me-기능-정리) |
 | **📌 Spring Security - 인증 및 권한 예외처리 핸들러 정복** | 2025-04-30 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-인증-및-권한-예외처리-핸들러-정복-rteikpxe) |
 
-📅 **Last Updated:** 2025-05-04 00:23:58 (KST)
+📅 **Last Updated:** 2025-05-05 00:24:14 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

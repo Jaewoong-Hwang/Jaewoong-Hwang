@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 Spring Boot - RestController 활용** | 2025-05-08 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot-RestController-활용) |
+| **📌 Spring Boot 트랜잭션 분리 설정 (MyBatis + JPA)** | 2025-05-08 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot-트랜잭션-분리-설정-MyBatis-JPA-dzafcd4z) |
+| **📌 JPA 연관관계 - @ManyToOne과 LAZY Fetch 전략 + JPA 설정 클래스 정리** | 2025-05-08 | [바로가기](https://velog.io/@mypalebluedot29/JPA-연관관계-ManyToOne과-LAZY-Fetch-전략-JPA-설정-클래스-정리) |
+| **📌 JPA 연관관계 매핑 실습 정리** | 2025-05-08 | [바로가기](https://velog.io/@mypalebluedot29/JPA-연관관계-매핑-실습-정리) |
 | **📌 JPQL이란?** | 2025-05-07 | [바로가기](https://velog.io/@mypalebluedot29/JPQL이란-wy1tvbkr) |
-| **📌 JPA 함수명 명명규칙 실습** | 2025-05-07 | [바로가기](https://velog.io/@mypalebluedot29/JPA-함수명-명명규칙-실습) |
-| **📌 Spring Boot JPA 기초** | 2025-05-07 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot-JPA-기초-yzwys4mf) |
-| **📌 Spring Boot 환경에서 JSP, MyBatis, 예외 처리 흐름 정리** | 2025-05-02 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot-환경에서-JSP-MyBatis-예외-처리-흐름-정리-59kr3w97) |
-| **📌 Spring MVC 파라미터 전달 방식 실습 정리** | 2025-05-02 | [바로가기](https://velog.io/@mypalebluedot29/Spring-MVC-파라미터-전달-방식-실습-정리-i4qjhv9s) |
 
-📅 **Last Updated:** 2025-05-08 00:28:41 (KST)
+📅 **Last Updated:** 2025-05-09 00:28:13 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

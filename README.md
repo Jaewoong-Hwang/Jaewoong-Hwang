@@ -54,7 +54,7 @@
 | **📌 Spring Boot 트랜잭션 분리 설정 (MyBatis + JPA)** | 2025-05-08 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot-트랜잭션-분리-설정-MyBatis-JPA-dzafcd4z) |
 | **📌 JPA 연관관계 - @ManyToOne과 LAZY Fetch 전략 + JPA 설정 클래스 정리** | 2025-05-08 | [바로가기](https://velog.io/@mypalebluedot29/JPA-연관관계-ManyToOne과-LAZY-Fetch-전략-JPA-설정-클래스-정리) |
 
-📅 **Last Updated:** 2025-05-10 00:26:27 (KST)
+📅 **Last Updated:** 2025-05-11 00:24:41 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
-| **📌 SpringBoot + 기상청 초단기실황 API 연동 (RestTemplate + Thymeleaf)** | 2025-05-09 | [바로가기](https://velog.io/@mypalebluedot29/SpringBoot-기상청-초단기실황-API-연동-RestTemplate-Thymeleaf-vsglglgi) |
-| **📌 Spring Boot - Thymeleaf 사용 정리** | 2025-05-08 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot-Thymeleaf-사용-정리-pjxozjs4) |
-| **📌 Spring Boot - RestController 활용** | 2025-05-08 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot-RestController-활용) |
-| **📌 Spring Boot 트랜잭션 분리 설정 (MyBatis + JPA)** | 2025-05-08 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot-트랜잭션-분리-설정-MyBatis-JPA-dzafcd4z) |
-| **📌 JPA 연관관계 - @ManyToOne과 LAZY Fetch 전략 + JPA 설정 클래스 정리** | 2025-05-08 | [바로가기](https://velog.io/@mypalebluedot29/JPA-연관관계-ManyToOne과-LAZY-Fetch-전략-JPA-설정-클래스-정리) |
+| **📌 Kakao 개발자 센터 사용 가이드** | 2025-05-12 | [바로가기](https://velog.io/@mypalebluedot29/Kakao-개발자-센터-사용-가이드) |
+| **📌 Leaflet와 GeoJSON으로 행정구역 지도 만들기** | 2025-05-12 | [바로가기](https://velog.io/@mypalebluedot29/Leaflet와-GeoJSON으로-행정구역-지도-만들기) |
+| **📌 Leaflet + Daum 지도 + OpenWeatherMap 연동 프로젝트** | 2025-05-12 | [바로가기](https://velog.io/@mypalebluedot29/Leaflet-Daum-지도-OpenWeatherMap-연동-프로젝트) |
+| **📌 OpenWeatherMap을 활용한 날씨 정보 조회 API 구현** | 2025-05-12 | [바로가기](https://velog.io/@mypalebluedot29/OpenWeatherMap을-활용한-날씨-정보-조회-API-구현) |
+| **📌 [SpringBoot] 공공데이터포털 XML API 연동 실습 - 실시간 버스 정보** | 2025-05-12 | [바로가기](https://velog.io/@mypalebluedot29/SpringBoot-공공데이터포털-XML-API-연동-실습-실시간-버스-정보-sb2emssa) |
 
-📅 **Last Updated:** 2025-05-12 00:23:39 (KST)
+📅 **Last Updated:** 2025-05-13 00:29:47 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

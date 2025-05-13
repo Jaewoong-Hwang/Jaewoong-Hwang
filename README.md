@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
-| **📌 Kakao 개발자 센터 사용 가이드** | 2025-05-12 | [바로가기](https://velog.io/@mypalebluedot29/Kakao-개발자-센터-사용-가이드) |
-| **📌 Leaflet와 GeoJSON으로 행정구역 지도 만들기** | 2025-05-12 | [바로가기](https://velog.io/@mypalebluedot29/Leaflet와-GeoJSON으로-행정구역-지도-만들기) |
-| **📌 Leaflet + Daum 지도 + OpenWeatherMap 연동 프로젝트** | 2025-05-12 | [바로가기](https://velog.io/@mypalebluedot29/Leaflet-Daum-지도-OpenWeatherMap-연동-프로젝트) |
-| **📌 OpenWeatherMap을 활용한 날씨 정보 조회 API 구현** | 2025-05-12 | [바로가기](https://velog.io/@mypalebluedot29/OpenWeatherMap을-활용한-날씨-정보-조회-API-구현) |
-| **📌 [SpringBoot] 공공데이터포털 XML API 연동 실습 - 실시간 버스 정보** | 2025-05-12 | [바로가기](https://velog.io/@mypalebluedot29/SpringBoot-공공데이터포털-XML-API-연동-실습-실시간-버스-정보-sb2emssa) |
+| **📌 카카오톡 채널 연결 및 간편 추가 버튼 구현** | 2025-05-13 | [바로가기](https://velog.io/@mypalebluedot29/카카오톡-채널-연결-및-간편-추가-버튼-구현) |
+| **📌 Spring Boot로 카카오톡 친구에게 메시지 보내기** | 2025-05-13 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot로-카카오톡-친구에게-메시지-보내기) |
+| **📌 카카오톡 나에게 메시지 보내기 API 연동 (Spring Boot)** | 2025-05-13 | [바로가기](https://velog.io/@mypalebluedot29/카카오톡-나에게-메시지-보내기-API-연동-Spring-Boot) |
+| **📌 카카오 로그인 API 연동 - 4단계: 로그아웃 & 연결 끊기** | 2025-05-13 | [바로가기](https://velog.io/@mypalebluedot29/카카오-로그인-API-연동-4단계-로그아웃-연결-끊기) |
+| **📌 카카오 로그인 API 연동 - 3단계: 액세스 토큰으로 사용자 정보 요청** | 2025-05-13 | [바로가기](https://velog.io/@mypalebluedot29/카카오-로그인-API-연동-3단계-액세스-토큰으로-사용자-정보-요청-gt2vsmq3) |
 
-📅 **Last Updated:** 2025-05-13 00:29:47 (KST)
+📅 **Last Updated:** 2025-05-14 00:28:27 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

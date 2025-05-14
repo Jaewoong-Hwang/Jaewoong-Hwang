@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
-| **📌 카카오톡 채널 연결 및 간편 추가 버튼 구현** | 2025-05-13 | [바로가기](https://velog.io/@mypalebluedot29/카카오톡-채널-연결-및-간편-추가-버튼-구현) |
-| **📌 Spring Boot로 카카오톡 친구에게 메시지 보내기** | 2025-05-13 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot로-카카오톡-친구에게-메시지-보내기) |
-| **📌 카카오톡 나에게 메시지 보내기 API 연동 (Spring Boot)** | 2025-05-13 | [바로가기](https://velog.io/@mypalebluedot29/카카오톡-나에게-메시지-보내기-API-연동-Spring-Boot) |
-| **📌 카카오 로그인 API 연동 - 4단계: 로그아웃 & 연결 끊기** | 2025-05-13 | [바로가기](https://velog.io/@mypalebluedot29/카카오-로그인-API-연동-4단계-로그아웃-연결-끊기) |
-| **📌 카카오 로그인 API 연동 - 3단계: 액세스 토큰으로 사용자 정보 요청** | 2025-05-13 | [바로가기](https://velog.io/@mypalebluedot29/카카오-로그인-API-연동-3단계-액세스-토큰으로-사용자-정보-요청-gt2vsmq3) |
+| **📌 FullCalendar + Google Calendar 연동** | 2025-05-14 | [바로가기](https://velog.io/@mypalebluedot29/FullCalendar-Google-Calendar-연동-dwddpzq3) |
+| **📌 Gmail SMTP 메일 발송 (Spring Boot 기반) — 앱 비밀번호 사용** | 2025-05-14 | [바로가기](https://velog.io/@mypalebluedot29/Gmail-SMTP-메일-발송-Spring-Boot-기반-앱-비밀번호-사용-wzi3adyg) |
+| **📌 네이버 검색 API로 책 정보 검색하기 (Spring Boot 활용)** | 2025-05-14 | [바로가기](https://velog.io/@mypalebluedot29/네이버-검색-API로-책-정보-검색하기-Spring-Boot-활용-b85e3fzq) |
+| **📌 네이버 로그인 연동 해제 (Token Revocation)** | 2025-05-14 | [바로가기](https://velog.io/@mypalebluedot29/네이버-로그인-연동-해제-Token-Revocation) |
+| **📌 Spring Boot 네이버 로그인 연동** | 2025-05-14 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot-네이버-로그인-연동-znebav8w) |
 
-📅 **Last Updated:** 2025-05-14 00:28:27 (KST)
+📅 **Last Updated:** 2025-05-15 00:27:53 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

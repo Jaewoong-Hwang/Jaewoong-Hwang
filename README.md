@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 Spring Security 기초 설정** | 2025-05-15 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-기초-설정-1zgg10ld) |
+| **📌 PortOne 결제 시스템 - 결제 취소 및 본인인증 확인 API 구현하기** | 2025-05-15 | [바로가기](https://velog.io/@mypalebluedot29/PortOne-결제-시스템-결제-취소-및-본인인증-확인-API-구현하기-ald2yemb) |
+| **📌 PortOne 결제 시스템 연동 (결제하기 + Access Token 발급 + 다건 조회)** | 2025-05-15 | [바로가기](https://velog.io/@mypalebluedot29/PortOne-결제-시스템-연동-결제하기-Access-Token-발급-다건-조회) |
+| **📌 FullCalendar + Google Calendar 연동 따라하기 가이드 (Spring Boot)** | 2025-05-15 | [바로가기](https://velog.io/@mypalebluedot29/FullCalendar-Google-Calendar-연동-따라하기-가이드-Spring-Boot) |
 | **📌 FullCalendar + Google Calendar 연동** | 2025-05-14 | [바로가기](https://velog.io/@mypalebluedot29/FullCalendar-Google-Calendar-연동-dwddpzq3) |
-| **📌 Gmail SMTP 메일 발송 (Spring Boot 기반) — 앱 비밀번호 사용** | 2025-05-14 | [바로가기](https://velog.io/@mypalebluedot29/Gmail-SMTP-메일-발송-Spring-Boot-기반-앱-비밀번호-사용-wzi3adyg) |
-| **📌 네이버 검색 API로 책 정보 검색하기 (Spring Boot 활용)** | 2025-05-14 | [바로가기](https://velog.io/@mypalebluedot29/네이버-검색-API로-책-정보-검색하기-Spring-Boot-활용-b85e3fzq) |
-| **📌 네이버 로그인 연동 해제 (Token Revocation)** | 2025-05-14 | [바로가기](https://velog.io/@mypalebluedot29/네이버-로그인-연동-해제-Token-Revocation) |
-| **📌 Spring Boot 네이버 로그인 연동** | 2025-05-14 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot-네이버-로그인-연동-znebav8w) |
 
-📅 **Last Updated:** 2025-05-15 00:27:53 (KST)
+📅 **Last Updated:** 2025-05-16 00:26:03 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

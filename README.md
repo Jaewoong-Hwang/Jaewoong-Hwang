@@ -54,7 +54,7 @@
 | **📌 FullCalendar + Google Calendar 연동 따라하기 가이드 (Spring Boot)** | 2025-05-14 | [바로가기](https://velog.io/@mypalebluedot29/FullCalendar-Google-Calendar-연동-따라하기-가이드-Spring-Boot) |
 | **📌 FullCalendar + Google Calendar 연동** | 2025-05-14 | [바로가기](https://velog.io/@mypalebluedot29/FullCalendar-Google-Calendar-연동-dwddpzq3) |
 
-📅 **Last Updated:** 2025-05-18 00:23:49 (KST)
+📅 **Last Updated:** 2025-05-19 00:23:32 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

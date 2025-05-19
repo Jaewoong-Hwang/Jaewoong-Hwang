@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 Spring Security - JWT 기반 인증 구현** | 2025-05-19 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-JWT-기반-인증-구현-dc55097i) |
 | **📌 Spring Security 기초 설정** | 2025-05-15 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Security-기초-설정-1zgg10ld) |
 | **📌 PortOne 결제 시스템 - 결제 취소 및 본인인증 확인 API 구현하기** | 2025-05-15 | [바로가기](https://velog.io/@mypalebluedot29/PortOne-결제-시스템-결제-취소-및-본인인증-확인-API-구현하기-ald2yemb) |
 | **📌 PortOne 결제 시스템 연동 (결제하기 + Access Token 발급 + 다건 조회)** | 2025-05-15 | [바로가기](https://velog.io/@mypalebluedot29/PortOne-결제-시스템-연동-결제하기-Access-Token-발급-다건-조회) |
 | **📌 FullCalendar + Google Calendar 연동 따라하기 가이드 (Spring Boot)** | 2025-05-14 | [바로가기](https://velog.io/@mypalebluedot29/FullCalendar-Google-Calendar-연동-따라하기-가이드-Spring-Boot) |
-| **📌 FullCalendar + Google Calendar 연동** | 2025-05-14 | [바로가기](https://velog.io/@mypalebluedot29/FullCalendar-Google-Calendar-연동-dwddpzq3) |
 
-📅 **Last Updated:** 2025-05-19 00:23:32 (KST)
+📅 **Last Updated:** 2025-05-20 00:28:09 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

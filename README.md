@@ -54,7 +54,7 @@
 | **📌 React Event 예제 모음** | 2025-05-22 | [바로가기](https://velog.io/@mypalebluedot29/React-Event-예제-모음-fn1sl33a) |
 | **📌 React JSX 기초와 이벤트 핸들링** | 2025-05-22 | [바로가기](https://velog.io/@mypalebluedot29/React-JSX-기초와-이벤트-핸들링-cbh9q67h) |
 
-📅 **Last Updated:** 2025-05-24 00:26:54 (KST)
+📅 **Last Updated:** 2025-05-25 00:23:57 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

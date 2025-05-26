@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 React Layout 컴포넌트 구조** | 2025-05-26 | [바로가기](https://velog.io/@mypalebluedot29/React-Layout-컴포넌트-구조) |
 | **📌 [React] Context API + props & callback 상태 전달 정리** | 2025-05-23 | [바로가기](https://velog.io/@mypalebluedot29/React-Context-API-props-callback-상태-전달-정리-yogzvhm6) |
 | **📌 React Router 실습 - Link, useLocation, useParams, useNavigate** | 2025-05-23 | [바로가기](https://velog.io/@mypalebluedot29/React-Router-실습-Link-useLocation-useParams-useNavigate-o5du3ziv) |
 | **📌 React 조건부 렌더링 정리** | 2025-05-22 | [바로가기](https://velog.io/@mypalebluedot29/React-조건부-렌더링-정리) |
 | **📌 React Event 예제 모음** | 2025-05-22 | [바로가기](https://velog.io/@mypalebluedot29/React-Event-예제-모음-fn1sl33a) |
-| **📌 React JSX 기초와 이벤트 핸들링** | 2025-05-22 | [바로가기](https://velog.io/@mypalebluedot29/React-JSX-기초와-이벤트-핸들링-cbh9q67h) |
 
-📅 **Last Updated:** 2025-05-26 00:24:11 (KST)
+📅 **Last Updated:** 2025-05-27 00:26:52 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

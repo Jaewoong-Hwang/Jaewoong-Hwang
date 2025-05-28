@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 Spring Boot EC2 배포 이후 실습 (MySQL 이후 단계)** | 2025-05-28 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot-EC2-배포-이후-실습-MySQL-이후-단계-sfxrx3d7) |
+| **📌 AWS EC2 실습 정리** | 2025-05-28 | [바로가기](https://velog.io/@mypalebluedot29/AWS-EC2-실습-정리) |
 | **📌 [4편] 로그아웃, 리프레시 토큰 만료, 사용자 인증 흐름** | 2025-05-27 | [바로가기](https://velog.io/@mypalebluedot29/4편-로그아웃-리프레시-토큰-만료-사용자-인증-흐름-92pf52va) |
 | **📌 [3편] JWT 로그인 처리와 토큰 저장 방식 (쿠키 & Redis)** | 2025-05-27 | [바로가기](https://velog.io/@mypalebluedot29/3편-JWT-로그인-처리와-토큰-저장-방식-쿠키-Redis-64j3bzkg) |
 | **📌 [2편] Spring Security 설정과 JWT 필터 적용** | 2025-05-27 | [바로가기](https://velog.io/@mypalebluedot29/2편-Spring-Security-설정과-JWT-필터-적용) |
-| **📌 [1편] React 인증 흐름 설계 & Axios 인터셉터 구성** | 2025-05-27 | [바로가기](https://velog.io/@mypalebluedot29/1편-React-인증-흐름-설계-Axios-인터셉터-구성) |
-| **📌 React + Spring Boot 기반 Kakao 로그인 및 메시지 전송 실습** | 2025-05-27 | [바로가기](https://velog.io/@mypalebluedot29/React-Spring-Boot-기반-Kakao-로그인-및-메시지-전송-실습-47qd414t) |
 
-📅 **Last Updated:** 2025-05-28 00:28:30 (KST)
+📅 **Last Updated:** 2025-05-29 00:27:43 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

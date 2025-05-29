@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 Jenkins + Spring Boot 자동 배포 실습 정리** | 2025-05-29 | [바로가기](https://velog.io/@mypalebluedot29/Jenkins-Spring-Boot-자동-배포-실습-정리-5iec937i) |
 | **📌 Spring Boot EC2 배포 이후 실습 (MySQL 이후 단계)** | 2025-05-28 | [바로가기](https://velog.io/@mypalebluedot29/Spring-Boot-EC2-배포-이후-실습-MySQL-이후-단계-sfxrx3d7) |
 | **📌 AWS EC2 실습 정리** | 2025-05-28 | [바로가기](https://velog.io/@mypalebluedot29/AWS-EC2-실습-정리) |
 | **📌 [4편] 로그아웃, 리프레시 토큰 만료, 사용자 인증 흐름** | 2025-05-27 | [바로가기](https://velog.io/@mypalebluedot29/4편-로그아웃-리프레시-토큰-만료-사용자-인증-흐름-92pf52va) |
 | **📌 [3편] JWT 로그인 처리와 토큰 저장 방식 (쿠키 & Redis)** | 2025-05-27 | [바로가기](https://velog.io/@mypalebluedot29/3편-JWT-로그인-처리와-토큰-저장-방식-쿠키-Redis-64j3bzkg) |
-| **📌 [2편] Spring Security 설정과 JWT 필터 적용** | 2025-05-27 | [바로가기](https://velog.io/@mypalebluedot29/2편-Spring-Security-설정과-JWT-필터-적용) |
 
-📅 **Last Updated:** 2025-05-29 00:27:43 (KST)
+📅 **Last Updated:** 2025-05-30 00:27:55 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

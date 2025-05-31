@@ -54,7 +54,7 @@
 | **📌 AWS EC2 실습 정리** | 2025-05-28 | [바로가기](https://velog.io/@mypalebluedot29/AWS-EC2-실습-정리) |
 | **📌 [4편] 로그아웃, 리프레시 토큰 만료, 사용자 인증 흐름** | 2025-05-27 | [바로가기](https://velog.io/@mypalebluedot29/4편-로그아웃-리프레시-토큰-만료-사용자-인증-흐름-92pf52va) |
 
-📅 **Last Updated:** 2025-05-31 00:27:02 (KST)
+📅 **Last Updated:** 2025-06-01 00:24:15 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

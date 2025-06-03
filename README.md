@@ -54,7 +54,7 @@
 | **📌 Docker로 풀스택 환경 완전 구축하기 – 1편: Docker란 무엇인가?** | 2025-06-02 | [바로가기](https://velog.io/@mypalebluedot29/Docker로-풀스택-환경-완전-구축하기-1편-Docker란-무엇인가-wusd4fcz) |
 | **📌 Jenkins + Spring Boot + HTTPS 자동 배포 설정** | 2025-05-30 | [바로가기](https://velog.io/@mypalebluedot29/Jenkins-Spring-Boot-HTTPS-자동-배포-설정) |
 
-📅 **Last Updated:** 2025-06-03 00:29:10 (KST)
+📅 **Last Updated:** 2025-06-04 00:30:16 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

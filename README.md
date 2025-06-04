@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 Docker Compose 완전 정복** | 2025-06-04 | [바로가기](https://velog.io/@mypalebluedot29/Docker-Compose-완전-정복-ruma3hv8) |
 | **📌 Docker로 풀스택 환경 완전 구축하기 – 4편: 이미지 빌드와 컨테이너 실행** | 2025-06-02 | [바로가기](https://velog.io/@mypalebluedot29/Docker로-풀스택-환경-완전-구축하기-4편-이미지-빌드와-컨테이너-실행-iufb0gdq) |
 | **📌 Docker로 풀스택 환경 완전 구축하기 – 3편: Spring Boot & React 프로젝트 Dockerfile 구성** | 2025-06-02 | [바로가기](https://velog.io/@mypalebluedot29/Docker로-풀스택-환경-완전-구축하기-3편-Spring-Boot-React-프로젝트-Dockerfile-구성-9cq2xyx1) |
 | **📌 Docker로 풀스택 환경 완전 구축하기 – 2편: Windows에서 Docker 사용 전 필수 설정** | 2025-06-02 | [바로가기](https://velog.io/@mypalebluedot29/Docker로-풀스택-환경-완전-구축하기-2편-Windows에서-Docker-사용-전-필수-설정) |
 | **📌 Docker로 풀스택 환경 완전 구축하기 – 1편: Docker란 무엇인가?** | 2025-06-02 | [바로가기](https://velog.io/@mypalebluedot29/Docker로-풀스택-환경-완전-구축하기-1편-Docker란-무엇인가-wusd4fcz) |
-| **📌 Jenkins + Spring Boot + HTTPS 자동 배포 설정** | 2025-05-30 | [바로가기](https://velog.io/@mypalebluedot29/Jenkins-Spring-Boot-HTTPS-자동-배포-설정) |
 
-📅 **Last Updated:** 2025-06-04 00:30:16 (KST)
+📅 **Last Updated:** 2025-06-05 00:47:47 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 

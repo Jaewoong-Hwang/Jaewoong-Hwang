@@ -48,13 +48,13 @@
 <!-- BLOG-POST-LIST:START -->
 | 📝 제목 | 📅 작성일 | 🔗 링크 |
 |---------|------------------|---------|
+| **📌 [Docker CI/CD 시리즈 3편] Jenkins로 자동 배포 파이프라인 구축하기** | 2025-06-05 | [바로가기](https://velog.io/@mypalebluedot29/Docker-CICD-시리즈-3편-Jenkins로-자동-배포-파이프라인-구축하기-856qdobv) |
+| **📌 [Docker CI/CD 시리즈 2편] docker-compose로 풀스택 서비스 통합 배포하기** | 2025-06-05 | [바로가기](https://velog.io/@mypalebluedot29/Docker-CICD-시리즈-2편-docker-compose로-풀스택-서비스-통합-배포하기) |
+| **📌 [Docker CI/CD 시리즈 1편] Docker Hub로 배포 이미지 관리 완전 정복** | 2025-06-05 | [바로가기](https://velog.io/@mypalebluedot29/Docker-CICD-시리즈-1편-Docker-Hub로-배포-이미지-관리-완전-정복-vbyc1c49) |
 | **📌 Docker Compose 완전 정복** | 2025-06-04 | [바로가기](https://velog.io/@mypalebluedot29/Docker-Compose-완전-정복-ruma3hv8) |
 | **📌 Docker로 풀스택 환경 완전 구축하기 – 4편: 이미지 빌드와 컨테이너 실행** | 2025-06-02 | [바로가기](https://velog.io/@mypalebluedot29/Docker로-풀스택-환경-완전-구축하기-4편-이미지-빌드와-컨테이너-실행-iufb0gdq) |
-| **📌 Docker로 풀스택 환경 완전 구축하기 – 3편: Spring Boot & React 프로젝트 Dockerfile 구성** | 2025-06-02 | [바로가기](https://velog.io/@mypalebluedot29/Docker로-풀스택-환경-완전-구축하기-3편-Spring-Boot-React-프로젝트-Dockerfile-구성-9cq2xyx1) |
-| **📌 Docker로 풀스택 환경 완전 구축하기 – 2편: Windows에서 Docker 사용 전 필수 설정** | 2025-06-02 | [바로가기](https://velog.io/@mypalebluedot29/Docker로-풀스택-환경-완전-구축하기-2편-Windows에서-Docker-사용-전-필수-설정) |
-| **📌 Docker로 풀스택 환경 완전 구축하기 – 1편: Docker란 무엇인가?** | 2025-06-02 | [바로가기](https://velog.io/@mypalebluedot29/Docker로-풀스택-환경-완전-구축하기-1편-Docker란-무엇인가-wusd4fcz) |
 
-📅 **Last Updated:** 2025-06-05 00:47:47 (KST)
+📅 **Last Updated:** 2025-06-06 00:28:20 (KST)
 🔗 **[📖 더 많은 글 보기](https://velog.io/@mypalebluedot29)**
 <!-- BLOG-POST-LIST:END -->
 
